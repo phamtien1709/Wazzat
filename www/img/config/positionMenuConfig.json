@@ -1,0 +1,718 @@
+{
+    "heart": {
+        "x": 155,
+        "y": 317,
+        "nameSprite": "Heart_Icon",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "diamond": {
+        "x": 302,
+        "y": 317,
+        "nameSprite": "Diamond",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "ticket": {
+        "x": 445,
+        "y": 317,
+        "nameSprite": "Ticket",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_findgame": {
+        "x": 125,
+        "y": 445,
+        "nameSprite": "Tim_Game",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_party": {
+        "x": 320,
+        "y": 445,
+        "nameSprite": "Choi_Nhom",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_practice": {
+        "x": 516,
+        "y": 445,
+        "nameSprite": "Thu_Thach",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "line_top": {
+        "x": 0,
+        "y": 0,
+        "nameSprite": "Line_Top",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "line_doc1": {
+        "x": 258,
+        "y": 305,
+        "nameAtlas": "mainMenuSprites",
+        "nameSprite": "LineDoc"
+    },
+    "line_doc2": {
+        "x": 396,
+        "y": 305,
+        "nameAtlas": "mainMenuSprites",
+        "nameSprite": "LineDoc"
+    },
+    "bot_shadow": {
+        "x": 320,
+        "y": 1040,
+        "nameSprite": "Shadow",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "menu_bg": {
+        "x": 320,
+        "y": 1075,
+        "nameSprite": "Tab_Menu",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_home": {
+        "x": -200,
+        "y": 0,
+        "nameSprite": "IconMenu_Home",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_home_active": {
+        "x": -200,
+        "y": 0,
+        "nameSprite": "IconMenu_Home_Active",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_mail": {
+        "x": -0,
+        "y": 0,
+        "nameSprite": "IconMenu_Mail",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_mail_active": {
+        "x": -0,
+        "y": 0,
+        "nameSprite": "IconMenu_Mail_Active",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_setting": {
+        "x": 200,
+        "y": 0,
+        "nameSprite": "Icon_Friend",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_setting_active": {
+        "x": 200,
+        "y": 0,
+        "nameSprite": "Icon_Friend_Active",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_shop": {
+        "x": 80,
+        "y": 0,
+        "nameSprite": "IconMenu_Shop",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_shop_active": {
+        "x": 80,
+        "y": 0,
+        "nameSprite": "IconMenu_Shop_Active",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "line_under": {
+        "x": 35,
+        "y": 100,
+        "nameSprite": "Line",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "btn_accept": {
+        "x": 553,
+        "y": 49,
+        "nameSprite": "btn-accept",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_yourTurn": {
+        "x": 35,
+        "y": 70,
+        "text": "LƯỢT CỦA BẠN",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#8a8a8a",
+            "fontSize": 20
+        }
+    },
+    "txt_btn_findgame": {
+        "x": 0,
+        "y": 60,
+        "text": "TÌM GAME",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 20
+        }
+    },
+    "txt_btn_practice": {
+        "x": 0,
+        "y": 60,
+        "text": "THỬ THÁCH",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 20
+        }
+    },
+    "txt_btn_party": {
+        "x": 0,
+        "y": 60,
+        "text": "CHƠI NHÓM",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 20
+        }
+    },
+    "txt_count_yourTurn": {
+        "x": 245,
+        "y": 70,
+        "text": "",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#8a8a8a",
+            "fontSize": 20
+        }
+    },
+    "tab_yourTurn": {
+        "x": 0,
+        "y": 0
+    },
+    "tab_theirTurn": {
+        "x": 0,
+        "y": 0
+    },
+    "txt_theirTurn": {
+        "x": 35,
+        "y": 70,
+        "text": "LƯỢT CỦA ĐỐI THỦ",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#8a8a8a",
+            "fontSize": 20
+        }
+    },
+    "txt_count_theirTurn": {
+        "x": 220,
+        "y": 70,
+        "text": "",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#8a8a8a",
+            "fontSize": 20
+        }
+    },
+    "ava_fb": {
+        "x": 320,
+        "y": 119,
+        "nameSprite": "ava_fb"
+    },
+    "frame_ava": {
+        "x": 320,
+        "y": 119,
+        "nameSprite": "Khung_Ava_Thuong",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "frame_ava_vip": {
+        "x": 320,
+        "y": 119,
+        "nameSprite": "Frame_Vip",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "frame_ava_vip_icon": {
+        "x": 2,
+        "y": 70,
+        "nameSprite": "Icon_Vip",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "frame_ava_vip_laurel": {
+        "x": 0,
+        "y": 20,
+        "nameSprite": "Laurel",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_heart": {
+        "x": 175,
+        "y": 320,
+        "text": "/20",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 20
+        }
+    },
+    "txt_diamond": {
+        "x": 324,
+        "y": 320,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 20
+        }
+    },
+    "txt_ticket": {
+        "x": 471,
+        "y": 320,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 20
+        }
+    },
+    "header_popup_practice": {
+        "x": 35,
+        "y": 347,
+        "nameSprite": "header",
+        "nameAtlas": "popupPracticeSprites"
+    },
+    "practice_square_white": {
+        "x": 0,
+        "y": 173,
+        "nameSprite": "square_white",
+        "nameAtlas": "popupPracticeSprites",
+        "name": "square",
+        "left": 10,
+        "right": 10,
+        "top": 10,
+        "bottom": 10,
+        "width": 569,
+        "height": 910
+    },
+    "practice_btn_x": {
+        "x": 569,
+        "y": 0,
+        "nameSprite": "x-button",
+        "nameAtlas": "popupPracticeSprites"
+    },
+    "practice_txt_header": {
+        "x": 480,
+        "y": 87,
+        "text": "CHỌN MỘT PLAYLIST",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 23
+        }
+    },
+    "practice_line_scroll": {
+        "x": -30,
+        "y": 620,
+        "nameSprite": "Line",
+        "nameAtlas": "popupPracticeSprites"
+    },
+    "practice_box_price": {
+        "x": 0,
+        "y": 500,
+        "nameSprite": "Tab_Gem",
+        "nameAtlas": "popupPracticeSprites"
+    },
+    "practice_gem_box_price": {
+        "x": 0,
+        "y": 20,
+        "nameSprite": "Gem",
+        "nameAtlas": "popupPracticeSprites"
+    },
+    "practice_txt_price": {
+        "x": 0,
+        "y": 18,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 22
+        }
+    },
+    "btnQAndA": {
+        "x": 80,
+        "y": 221,
+        "nameSprite": "Circle_01",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_QAndA": {
+        "x": 0,
+        "y": 66,
+        "text": "Nhiệm vụ",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#a192b5",
+            "fontSize": 19
+        }
+    },
+    "btnGift": {
+        "x": 80,
+        "y": 86,
+        "nameSprite": "Circle_01",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_gift": {
+        "x": 0,
+        "y": 66,
+        "text": "Quà tặng",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#a192b5",
+            "fontSize": 19
+        }
+    },
+    "btnShop": {
+        "x": 80,
+        "y": 86,
+        "nameSprite": "Circle_01",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_shop": {
+        "x": 0,
+        "y": 66,
+        "text": "Cửa hàng",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#a192b5",
+            "fontSize": 19
+        }
+    },
+    "btnRanking": {
+        "x": 560,
+        "y": 221,
+        "nameSprite": "Circle_01",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_rank": {
+        "x": 0,
+        "y": 66,
+        "text": "Xếp hạng",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#a192b5",
+            "fontSize": 19
+        }
+    },
+    "btnEvent": {
+        "x": 560,
+        "y": 86,
+        "nameSprite": "Circle_02",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_event": {
+        "x": 0,
+        "y": 66,
+        "text": "Sự kiện",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#a192b5",
+            "fontSize": 19
+        }
+    },
+    "notiDot": {
+        "x": 20,
+        "y": -40,
+        "nameSprite": "Notification",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txtNotiDot": {
+        "x": 17,
+        "y": 18,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 15
+        }
+    },
+    "count_unread": {
+        "x": 118,
+        "y": 0,
+        "nameSprite": "Notification",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "txt_count_unread": {
+        "x": 0,
+        "y": 1,
+        "text": "",
+        "style": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 19
+        }
+    },
+    "mail": {
+        "search_bg": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Header"
+        },
+        "line_under": {
+            "x": 35,
+            "y": 139,
+            "nameSprite": "Line",
+            "nameAtlas": "findOpponentSprites"
+        },
+        "search_tab": {
+            "x": 320,
+            "y": 51,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Search_tab"
+        },
+        "search_icon": {
+            "x": -269,
+            "y": 0,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Search_icon"
+        },
+        "ava_system": {
+            "x": 70,
+            "y": 70,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Ava_01"
+        },
+        "txt_search": {
+            "x": -237,
+            "y": 0,
+            "text": "Tìm kiếm...",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#93909d",
+                "fontSize": 22
+            }
+        },
+        "tab_active": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Header_tab_Active"
+        },
+        "tab_disactive": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Header_tab_disActive"
+        },
+        "txt_tab": {
+            "x": 0,
+            "y": 0,
+            "text": "",
+            "style": {
+                "font": "GilroyMedium",
+                "fill": "white",
+                "fontSize": 25
+            }
+        },
+        "line_gradient": {
+            "x": 0,
+            "y": 47,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Line_Gradient"
+        },
+        "ava": {
+            "x": 70,
+            "y": 70,
+            "nameSprite": "ava-default",
+            "nameAtlas": "songDetailSprites"
+        },
+        "userName": {
+            "x": 123,
+            "y": 42,
+            "text": "",
+            "configs": {
+                "font": "GilroyMedium",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "message": {
+            "x": 123,
+            "y": 77,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#93909d",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 350,
+                "maxLines": 1,
+                "fontSize": 21
+            }
+        },
+        "sentTime": {
+            "x": 566,
+            "y": 42,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#9e47f3",
+                "align": "center",
+                "fontSize": 15
+            }
+        }
+    },
+    "chat_screen": {
+        "header": {
+            "tab": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "mailSprites",
+                "nameSprite": "Header_Chat"
+            },
+            "back": {
+                "x": 27,
+                "y": 31,
+                "nameAtlas": "mailSprites",
+                "nameSprite": "Arrow"
+            },
+            "name": {
+                "x": 320,
+                "y": 31,
+                "text": "Không tên",
+                "style": {
+                    "font": "Gilroy",
+                    "fill": "#ffffff",
+                    "fontSize": 29
+                }
+            }
+        },
+        "keyboard": {
+            "bg": {
+                "x": 0,
+                "y": 1029,
+                "nameSprite": "Tab_Footer",
+                "nameAtlas": "mailSprites"
+            }
+        },
+        "white_space": {
+            "x": 35,
+            "y": 22,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Search_box",
+            "left": 10,
+            "right": 10,
+            "top": 10,
+            "bot": 10,
+            "width": 480,
+            "height": 72,
+            "name": "whiteSpace"
+        },
+        "txt_white_space": {
+            "x": 40,
+            "y": 22,
+            "text": "Nhắn tin...",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#bfbcca",
+                "fontSize": 30
+            }
+        },
+        "txt_mess": {
+            "x": 40,
+            "y": 35,
+            "text": "Nhắn tin...",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "fontSize": 20,
+                "wordWrap": true,
+                "wordWrapWidth": 325,
+                "align": "left"
+            }
+        },
+        "txt_mess_friend": {
+            "x": 24,
+            "y": 20,
+            "text": "Nhắn tin...",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#333333",
+                "fontSize": 20,
+                "wordWrap": true,
+                "wordWrapWidth": 325,
+                "align": "left"
+            }
+        },
+        "btn_send": {
+            "x": 533,
+            "y": 22,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Button_Send"
+        },
+        "your_chat": {
+            "x": 35,
+            "y": 33,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Search_box",
+            "left": 10,
+            "right": 10,
+            "top": 10,
+            "bot": 10,
+            "width": 810,
+            "height": 120,
+            "name": "whiteSpace"
+        },
+        "ava_friend": {
+            "x": 35,
+            "y": 20
+        },
+        "txt_mess_time": {
+            "x": 480,
+            "y": 26,
+            "text": "",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#7b7886",
+                "fontSize": 15,
+                "wordWrap": true,
+                "wordWrapWidth": 325,
+                "align": "left"
+            }
+        },
+        "txt_mess_time_their": {
+            "x": 118,
+            "y": 26,
+            "text": "",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#7b7886",
+                "fontSize": 15,
+                "wordWrap": true,
+                "wordWrapWidth": 325,
+                "align": "left"
+            }
+        }
+    },
+    "delete_game": {
+        "bin": {
+            "x": 580,
+            "y": 66,
+            "nameAtlas": "mainMenuSprites",
+            "nameSprite": "3cham"
+        },
+        "btn_x": {
+            "x": 580,
+            "y": 66,
+            "nameAtlas": "mainMenuSprites",
+            "nameSprite": "3cham"
+        },
+        "btn_bin_blue": {
+            "x": 580,
+            "y": 66,
+            "nameAtlas": "mainMenuSprites",
+            "nameSprite": "Bin"
+        },
+        "btn_delete": {
+            "x": 580,
+            "y": 49,
+            "nameSprite": "Tick_02",
+            "nameAtlas": "mainMenuSprites"
+        },
+        "tick_of_btn_delete": {
+            "x": 0,
+            "y": 0,
+            "nameSprite": "Tick_01",
+            "nameAtlas": "mainMenuSprites"
+        }
+    }
+}

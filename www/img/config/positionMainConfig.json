@@ -1,0 +1,210 @@
+{
+    "btn_playing": {
+        "x": 950,
+        "y": 90,
+        "nameSprite": "btn-playing",
+        "nameAtlas": "mainSprites"
+    },
+    "btn_invite": {
+        "x": 605,
+        "y": 235,
+        "nameSprite": "btn-invite",
+        "nameAtlas": "mainSprites"
+    },
+    "line_under": {
+        "x": -285,
+        "y": 126,
+        "nameSprite": "Line",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "txt_chooseCompetitor": {
+        "x": 60,
+        "y": 500,
+        "text": "CHỌN ĐỐI THỦ",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#8a8a8a",
+            "fontSize": 24
+        }
+    },
+    "tab_friend": {
+        "x": 0,
+        "y": 190,
+        "nameAtlas": "mainSprites",
+        "nameSprite": "tab-friend"
+    },
+    "ava_friend_install": {
+        "x": 120,
+        "y": 90
+    },
+    "name_friend_install": {
+        "x": 220,
+        "y": 90,
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 24
+        }
+    },
+    "txt_chonplaylist": {
+        "x": -55,
+        "y": 45,
+        "text": "CHỌN 1 PLAYLIST",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 30
+        }
+    },
+    "arrow_chonplaylist": {
+        "x": -275,
+        "y": 52,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "Arrow"
+    },
+    "tab_gem_playlist": {
+        "x": 300,
+        "y": 25,
+        "nameSprite": "Tab_Tainguyen",
+        "nameAtlas": "practiceMenuSprites"
+    },
+    "gem_playlist": {
+        "x": 0,
+        "y": 11,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "GEM_header"
+    },
+    "txt_gem_playlist": {
+        "x": 0,
+        "y": 11,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 24
+        }
+    },
+    "btn_change_playlist": {
+        "x": 320,
+        "y": 1052,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "Button_ThayDoiPlayList"
+    },
+    "txt_change_playlist": {
+        "x": 0,
+        "y": 0,
+        "text": "MUA THÊM PLAYLIST",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 31
+        }
+    },
+    "gem_change_playlist": {
+        "x": 419,
+        "y": -10,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "gem-playlist"
+    },
+    "txt_type_playlist": {
+        "x": 60,
+        "y": 1335,
+        "text": "Thể loại âm nhạc",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#93909d",
+            "fontSize": 25
+        }
+    },
+    "btn_vn_muzik": {
+        "x": 293,
+        "y": 1526,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "VietNam_Muzik"
+    },
+    "btn_w_muzik": {
+        "x": 787,
+        "y": 1526,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "Word_Muzik"
+    },
+    "tab_chonplaylist": {
+        "x": 320,
+        "y": 0,
+        "nameAtlas": "findOpponentSprites",
+        "nameSprite": "Header"
+    },
+    "tab_playlist": {
+        "x": 320,
+        "y": 510,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "Tab_Recent2"
+    },
+    "txt_playlist": {
+        "x": -155,
+        "y": 15,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 22,
+            "wordWrap": true,
+            "wordWrapWidth": 350
+        }
+    },
+    "level_playlist": {
+        "x": -155,
+        "y": 84
+    },
+    "tab_recent": {
+        "x": 0,
+        "y": 100,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "Tab_Recent"
+    },
+    "Tab_gem": {
+        "x": 470,
+        "y": 39,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "BUtton_Gem"
+    },
+    "txt_suggest_playlist": {
+        "x": 165,
+        "y": 39,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "wordWrap": true,
+            "wordWrapWidth": 245,
+            "fontSize": 22,
+            "maxLines": 2
+        }
+    },
+    "txt_price_suggest_playlist": {
+        "x": 34,
+        "y": 20,
+        "text": "",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "white",
+            "fontSize": 21
+        },
+        "gem": {
+            "x": 75,
+            "y": 20,
+            "nameAtlas": "playlistSprites",
+            "nameSprite": "GEM_header"
+        }
+    },
+    "txt_try_suggest_playlist_free": {
+        "x": 605,
+        "y": 61,
+        "text": "Try it free !",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#FF7619",
+            "fontSize": 21
+        }
+    }
+}

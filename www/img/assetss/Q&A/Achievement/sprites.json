@@ -1,0 +1,135 @@
+{
+    "frames": {
+        "Button_Nhan": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 45
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 104,
+                "h": 45
+            }
+        },
+        "Done": {
+            "frame": {
+                "x": 0,
+                "y": 45,
+                "w": 27.5,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 27.5,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 27.5,
+                "h": 20
+            }
+        },
+        "Gem_ICon": {
+            "frame": {
+                "x": 27.5,
+                "y": 45,
+                "w": 25,
+                "h": 18
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 25,
+                "h": 18
+            },
+            "sourceSize": {
+                "w": 25,
+                "h": 18
+            }
+        },
+        "Medal_Default": {
+            "frame": {
+                "x": 52.5,
+                "y": 45,
+                "w": 75.5,
+                "h": 75.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 75.5,
+                "h": 75.5
+            },
+            "sourceSize": {
+                "w": 75.5,
+                "h": 75.5
+            }
+        },
+        "Support_Icon": {
+            "frame": {
+                "x": 0,
+                "y": 120.5,
+                "w": 20,
+                "h": 28
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 28
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 28
+            }
+        },
+        "Ticket_Icon": {
+            "frame": {
+                "x": 20,
+                "y": 120.5,
+                "w": 28,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 20
+            }
+        }
+    },
+    "meta": {
+        "app": "AdobeAnimate",
+        "version": "18.0.2.126",
+        "image": "sprites",
+        "format": "RGBA8888",
+        "size": {
+            "w": 128,
+            "h": 256
+        },
+        "scale": "1"
+    }
+}

@@ -1,0 +1,95 @@
+﻿{
+	"frames": {
+		"BG_Opacity_limit_turn": {
+			"frame": {
+				"x": 2,
+				"y": 2,
+				"w": 640,
+				"h": 1136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 1136
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 1136
+			}
+		},
+		"Remove": {
+			"frame": {
+				"x": 646,
+				"y": 2,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"Vip_01": {
+			"frame": {
+				"x": 2,
+				"y": 1142,
+				"w": 216,
+				"h": 209
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 216,
+				"h": 209
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 209
+			}
+		},
+		"Vip_02": {
+			"frame": {
+				"x": 222,
+				"y": 1142,
+				"w": 216,
+				"h": 209
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 216,
+				"h": 209
+			},
+			"sourceSize": {
+				"w": 216,
+				"h": 209
+			}
+		}
+	},
+	"meta": {
+		"app": "Adobe Animate",
+		"version": "18.0.2.126",
+		"image": "limitTurn",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1024,
+			"h": 2048
+		},
+		"scale": "1"
+	}
+}

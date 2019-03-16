@@ -1,0 +1,235 @@
+﻿{
+	"frames": {
+		"Arrow": {
+			"frame": {
+				"x": 2,
+				"y": 2,
+				"w": 100,
+				"h": 100
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 100
+			},
+			"sourceSize": {
+				"w": 100,
+				"h": 100
+			}
+		},
+		"Button_Dong_Y": {
+			"frame": {
+				"x": 106,
+				"y": 2,
+				"w": 107,
+				"h": 45
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 107,
+				"h": 45
+			},
+			"sourceSize": {
+				"w": 107,
+				"h": 45
+			}
+		},
+		"Button_Tuchoi": {
+			"frame": {
+				"x": 217,
+				"y": 2,
+				"w": 107,
+				"h": 45
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 107,
+				"h": 45
+			},
+			"sourceSize": {
+				"w": 107,
+				"h": 45
+			}
+		},
+		"Chat": {
+			"frame": {
+				"x": 328,
+				"y": 2,
+				"w": 68,
+				"h": 68
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 68
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 68
+			}
+		},
+		"Header": {
+			"frame": {
+				"x": 2,
+				"y": 106,
+				"w": 640,
+				"h": 102
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 102
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 102
+			}
+		},
+		"Line": {
+			"frame": {
+				"x": 2,
+				"y": 212,
+				"w": 569,
+				"h": 1
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 569,
+				"h": 1
+			},
+			"sourceSize": {
+				"w": 569,
+				"h": 1
+			}
+		},
+		"Line_02": {
+			"frame": {
+				"x": 575,
+				"y": 212,
+				"w": 320,
+				"h": 5
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 320,
+				"h": 5
+			},
+			"sourceSize": {
+				"w": 320,
+				"h": 5
+			}
+		},
+		"Line_Gradient": {
+			"frame": {
+				"x": 2,
+				"y": 221,
+				"w": 160,
+				"h": 4
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 160,
+				"h": 4
+			},
+			"sourceSize": {
+				"w": 160,
+				"h": 4
+			}
+		},
+		"Notification": {
+			"frame": {
+				"x": 166,
+				"y": 221,
+				"w": 32,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 32
+			}
+		},
+		"Offline": {
+			"frame": {
+				"x": 202,
+				"y": 221,
+				"w": 16,
+				"h": 16
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 16
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 16
+			}
+		},
+		"Online": {
+			"frame": {
+				"x": 222,
+				"y": 221,
+				"w": 16,
+				"h": 16
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 16
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 16
+			}
+		}
+	},
+	"meta": {
+		"app": "Adobe Animate",
+		"version": "18.0.2.126",
+		"image": "friendRequest",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1024,
+			"h": 1024
+		},
+		"scale": "1"
+	}
+}

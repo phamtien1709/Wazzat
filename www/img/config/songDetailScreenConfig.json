@@ -1,0 +1,229 @@
+{
+    "header": {
+        "tab_chonplaylist": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Header"
+        },
+        "btn_back": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Arrow"
+        },
+        "border_diamond": {
+            "x": 244,
+            "y": 25,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Tab_Gem"
+        },
+        "diamond": {
+            "x": 99,
+            "y": 15,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "GEM"
+        },
+        "txt_diamond": {
+            "x": 33,
+            "y": 15,
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#e9d1e2",
+                "fontSize": 24
+            }
+        }
+    },
+    "songDetail": {
+        "ava": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "otherSprites",
+            "nameSprite": "Ava_Playlist"
+        },
+        "btn_play": {
+            "x": 32,
+            "y": 151,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Play"
+        },
+        "btn_pause": {
+            "x": 32,
+            "y": 151,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Pause"
+        },
+        "nameSong": {
+            "x": 0,
+            "y": 267,
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "nameSinger": {
+            "x": 0,
+            "y": 305,
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#695782",
+                "align": "center",
+                "fontSize": 21
+            }
+        }
+    },
+    "btn_share": {
+        "active": {
+            "btn": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Button_active"
+            },
+            "icon": {
+                "x": 53,
+                "y": 22,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Share_Active"
+            },
+            "txt": {
+                "x": 86,
+                "y": 22,
+                "text": "ĐÃ CHIA SẺ",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#85818f",
+                    "align": "center",
+                    "fontSize": 24
+                }
+            }
+        },
+        "disactive": {
+            "btn": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Button"
+            },
+            "icon": {
+                "x": 67,
+                "y": 22,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Share"
+            },
+            "txt": {
+                "x": 104,
+                "y": 22,
+                "text": "CHIA SẺ",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "fontSize": 24
+                }
+            }
+        }
+    },
+    "btn_like": {
+        "active": {
+            "btn": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Button_active"
+            },
+            "icon": {
+                "x": 53,
+                "y": 22,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Heart_Active"
+            },
+            "txt": {
+                "x": 92,
+                "y": 22,
+                "text": "ĐÃ THÍCH",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#85818f",
+                    "align": "center",
+                    "fontSize": 24
+                }
+            }
+        },
+        "disactive": {
+            "btn": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Button"
+            },
+            "icon": {
+                "x": 67,
+                "y": 22,
+                "nameAtlas": "songDetailSprites",
+                "nameSprite": "Heart"
+            },
+            "txt": {
+                "x": 113,
+                "y": 22,
+                "text": "THÍCH",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "fontSize": 24
+                }
+            }
+        }
+    },
+    "otherOnBottom": {
+        "txtListenFull": {
+            "x": 320,
+            "y": 0,
+            "text": "NGHE ĐẦY ĐỦ",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 30
+            }
+        },
+        "line": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Line_Gradient"
+        },
+        "line_long": {
+            "x": 320,
+            "y": 71,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Line"
+        },
+        "icon_zing": {
+            "x": 213,
+            "y": 178,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Zing"
+        },
+        "icon_youtube": {
+            "x": 430,
+            "y": 178,
+            "nameAtlas": "songDetailSprites",
+            "nameSprite": "Youtube"
+        }
+    },
+    "songEntity": {
+        "author": "",
+        "fileName": "Khuôn Mặt Đáng Thương",
+        "fileUrl": "https://yan.gamezoka.com/public/mp3/1/19/200/446_320.mp3",
+        "id": 200,
+        "listenLink": "https://yan.gamezoka.com/public/mp3/1/19/200/446_320.mp3",
+        "singer": "Sơn Tùng M-TP",
+        "song": "Khuôn Mặt Đáng Thương",
+        "thumb": "https://yan.gamezoka.com/public/assets/singer/19/avatar.jpg",
+        "songLink": "https://mp3.zing.vn/bai-hat/Anh-Dang-O-Dau-Day-Anh-Huong-Giang/ZW9F08EO.html"
+    }
+}

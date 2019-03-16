@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta property="fb:app_id" content="694190317632228" />
+    <meta property="og:url" content="https://wazzat.vn/game/index.php">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="So Tài Âm Nhạc">
+    <meta property="og:description" content="So Tài Âm Nhạc">
+    <meta property="og:image" content="https://cdn.gamezoka.com/storage/assets/icon.png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+
+    <meta property="al:android:package" content="com.gamezoka.wazzat" />
+    <meta property="al:android:url" content="https://play.google.com/store/apps/details?id=com.gamezoka.wazzat" />
+    <meta property="al:android:app_name" content="Wazzat" />
+    <meta property="al:web:url" content="https://wazzat.vn/game/index.php" />
+
+    <link rel="shortcut icon" href="https://wazzat.vn/home/img/01_PNG/icon_logo.png">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width viewport-fit=cover">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Music Quiz</title>
+    <script src="libs/phaser.min.js"></script>
+    <script src="libs/howler.js"></script>
+    <script src="libs/jquery-3.2.1.min.js"></script>
+    <script src="libs/nine-patch-phaser-plugin.js"></script>
+    <script type="text/javascript" src="libs/sfs2x-api-1.7.11.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <span class="get700Roboto">get700Roboto</span>
+        <span class="get500Roboto">get500Roboto</span>
+        <span class="get400Roboto">get400Roboto</span>
+        <span class="get400Gilroy">get400Gilroy</span>
+        <span class="get500Gilroy">get500Gilroy</span>
+        <span class="get300Gilroy">get300Gilroy </span>
+        <span class="get700Gilroy">get700Gilroy</span>
+    </div>
+
+    <div id="dangtai" style='position: absolute; text-align: center;width: 100%;top: 48%;color: white;'>Đang
+        tải</div>
+    <div id="game" style="display: flex; align-items: top; justify-content: center; background:#1e0e46;height: 100vh">
+
+    </div>
+    <div id="preview">
+        <!--image will be inserted here-->
+    </div>
+    <script>
+        window.ConfigIndex = {};
+        window.ConfigIndex.GAME_VERSION = "1.0.8";
+        var cacheBust = ['globalVariable.js', 'libs/facebook.js', 'libs/ajax.js', 'cordova.js', './libs/index.js'];
+        for (i = 0; i < cacheBust.length; i++) {
+            var el = document.createElement('script');
+            el.src = cacheBust[i] + "?v=" + window.ConfigIndex.GAME_VERSION;
+            document.getElementsByTagName('head')[0].appendChild(el);
+        }
+    </script>
+    <!-- <script src="./dist/bundle.js"></script> -->
+    <!-- <script src="globalVariable.js"></script> -->
+    <script src="./src/main.js" type="module"></script>
+    <!-- <script src="libs/facebook.js"></script> -->
+    <!-- <script src="libs/ajax.js"></script> -->
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
+    <!-- <script type="text/javascript" src="./src/js/index.js"></script> -->
+    <!-- <script src="./libs/index.js"></script> -->
+</body>
+
+</html>

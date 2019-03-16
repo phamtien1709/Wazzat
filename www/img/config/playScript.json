@@ -1,0 +1,422 @@
+{
+    "button": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Tab_Dapan_01"
+    },
+    "steps": {
+        "1_GO_TURNBASE_FIRST": {},
+        "2_ANSWER_FIRST_TURNBASE_NOT_RESULT": {},
+        "3_MENU_SHOW_NEW_CHALLENGE": {},
+        "4_PLAY_NEW_CHALLENGE": {}
+    },
+    "play_script_btn_skip": {
+        "x": 320,
+        "y": 1080,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Button_SKip",
+        "text": {
+            "x": 0,
+            "y": 0,
+            "text": "BỎ QUA HƯỚNG DẪN",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "fontSize": 22
+            }
+        }
+    },
+    "play_script_hand": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Hand"
+    },
+    "btnClaimReward": {
+        "x": 470,
+        "y": 410,
+        "nameAtlas": "questAndAchieveSprites",
+        "nameSprite": "Button_Nhan",
+        "txt": {
+            "x": 34,
+            "y": 16,
+            "text": "NHẬN",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "fontSize": 22
+            }
+        }
+    },
+    "btn_accept": {
+        "x": 553,
+        "y": 700,
+        "nameSprite": "btn-accept",
+        "nameAtlas": "mainMenuSprites"
+    },
+    "btn_yellow": {
+        "x": 320,
+        "y": 900,
+        "nameSprite": "btn_yellow",
+        "nameAtlas": "playSprites"
+    },
+    "btn_back": {
+        "x": 46,
+        "y": 52,
+        "nameAtlas": "questAndAchieveSprites",
+        "nameSprite": "Arrow"
+    },
+    "demoData": {
+        "opponent": {
+            "id": 214,
+            "userName": "Wazzer",
+            "avatar": "ava_bot",
+            "is_online": true
+        },
+        "questions": [
+            {
+                "songEntity": {
+                    "song_extra_info_id": 0,
+                    "song_links": [],
+                    "singerEntity": {
+                        "gender": "FEMALE",
+                        "singer": "G-Dragon",
+                        "id": 429,
+                        "avaSinger": "https://cdn.gamezoka.com/storage/assets/singer/429/avatar.jpg",
+                        "year_of_birth": 0
+                    },
+                    "author": "",
+                    "album": {
+                        "publish_year": 2017,
+                        "thumb": "https://cdn.gamezoka.com/storage/assets/album/585/thumb.jpg",
+                        "id": 585,
+                        "title": "Những Bài Hát Hay Nhất Của G-Dragon",
+                        "country_id": 1,
+                        "genre_id": 16
+                    },
+                    "song": "Crayon",
+                    "fileName": "Crayon",
+                    "genre_id": 16,
+                    "singer_id": 429,
+                    "album_id": 585,
+                    "idSong": 6708,
+                    "country_id": 3,
+                    "fileUrl": "img/sound/hongkong1.mp3"
+                },
+                "listenLink": "img/sound/hongkong1.mp3",
+                "questionType": "SONG",
+                "created": 1540518502949,
+                "correctAnswer": 1,
+                "answers": [
+                    "Hongkong1",
+                    "Sao Em Nỡ",
+                    "Tận Cùng Nỗi Nhớ",
+                    "Thằng Điên"
+                ],
+                "answer3": "Tận Cùng Nỗi Nhớ",
+                "answer2": "Sao Em Nỡ",
+                "answer4": "Thằng Điên",
+                "answer1": "Hongkong1",
+                "genre_id": 16,
+                "song_id": 6708,
+                "game_mode": "TURNBASE_MODE",
+                "id": 55474,
+                "state": "USING",
+                "updated": 1540518502949,
+                "country_id": 3,
+                "idQuestion": 4546
+            },
+            {
+                "songEntity": {
+                    "song_extra_info_id": 0,
+                    "song_links": [],
+                    "singerEntity": {
+                        "gender": "FEMALE",
+                        "singer": "G-Dragon",
+                        "id": 429,
+                        "avaSinger": "https://cdn.gamezoka.com/storage/assets/singer/429/avatar.jpg",
+                        "year_of_birth": 0
+                    },
+                    "author": "",
+                    "album": {
+                        "publish_year": 2017,
+                        "thumb": "https://cdn.gamezoka.com/storage/assets/album/585/thumb.jpg",
+                        "id": 585,
+                        "title": "Những Bài Hát Hay Nhất Của G-Dragon",
+                        "country_id": 1,
+                        "genre_id": 16
+                    },
+                    "song": "Crayon",
+                    "fileName": "Crayon",
+                    "genre_id": 16,
+                    "singer_id": 429,
+                    "album_id": 585,
+                    "idSong": 6708,
+                    "country_id": 3,
+                    "fileUrl": "img/sound/nguoilaoi.mp3"
+                },
+                "listenLink": "img/sound/nguoilaoi.mp3",
+                "questionType": "SONG",
+                "created": 1540518502949,
+                "answers": [
+                    "Màu Nước Mắt",
+                    "Người Lạ Ơi",
+                    "Thương",
+                    "Về"
+                ],
+                "answer3": "Thương",
+                "correctAnswer": 2,
+                "answer2": "Người Lạ Ơi",
+                "answer4": "Về",
+                "answer1": "Màu Nước Mắt",
+                "genre_id": 16,
+                "song_id": 6708,
+                "game_mode": "TURNBASE_MODE",
+                "id": 55474,
+                "state": "USING",
+                "updated": 1540518502949,
+                "country_id": 3,
+                "idQuestion": 4547
+            },
+            {
+                "songEntity": {
+                    "song_extra_info_id": 0,
+                    "song_links": [],
+                    "singerEntity": {
+                        "gender": "FEMALE",
+                        "singer": "G-Dragon",
+                        "id": 429,
+                        "avaSinger": "https://cdn.gamezoka.com/storage/assets/singer/429/avatar.jpg",
+                        "year_of_birth": 0
+                    },
+                    "author": "",
+                    "album": {
+                        "publish_year": 2017,
+                        "thumb": "https://cdn.gamezoka.com/storage/assets/album/585/thumb.jpg",
+                        "id": 585,
+                        "title": "Những Bài Hát Hay Nhất Của G-Dragon",
+                        "country_id": 1,
+                        "genre_id": 16
+                    },
+                    "song": "Crayon",
+                    "fileName": "Crayon",
+                    "genre_id": 16,
+                    "singer_id": 429,
+                    "album_id": 585,
+                    "idSong": 6708,
+                    "country_id": 3,
+                    "fileUrl": "img/sound/chayngaydi.mp3"
+                },
+                "listenLink": "img/sound/chayngaydi.mp3",
+                "questionType": "SINGER",
+                "created": 1540518502949,
+                "answers": [
+                    "Noo Phước Thịnh",
+                    "Erik",
+                    "Sơn Tùng M-TP",
+                    "Soobin Hoàng Sơn"
+                ],
+                "answer3": "Sơn Tùng M-TP",
+                "correctAnswer": 3,
+                "answer2": "Erik",
+                "answer4": "Soobin Hoàng Sơn",
+                "answer1": "Noo Phước Thịnh",
+                "genre_id": 16,
+                "song_id": 6708,
+                "game_mode": "TURNBASE_MODE",
+                "id": 55474,
+                "state": "USING",
+                "updated": 1540518502949,
+                "country_id": 3,
+                "idQuestion": 4548
+            },
+            {
+                "songEntity": {
+                    "song_extra_info_id": 0,
+                    "song_links": [],
+                    "singerEntity": {
+                        "gender": "FEMALE",
+                        "singer": "G-Dragon",
+                        "id": 429,
+                        "avaSinger": "https://cdn.gamezoka.com/storage/assets/singer/429/avatar.jpg",
+                        "year_of_birth": 0
+                    },
+                    "author": "",
+                    "album": {
+                        "publish_year": 2017,
+                        "thumb": "https://cdn.gamezoka.com/storage/assets/album/585/thumb.jpg",
+                        "id": 585,
+                        "title": "Những Bài Hát Hay Nhất Của G-Dragon",
+                        "country_id": 1,
+                        "genre_id": 16
+                    },
+                    "song": "Crayon",
+                    "fileName": "Crayon",
+                    "genre_id": 16,
+                    "singer_id": 429,
+                    "album_id": 585,
+                    "idSong": 6708,
+                    "country_id": 3,
+                    "fileUrl": "img/sound/emgaimua.mp3"
+                },
+                "listenLink": "img/sound/emgaimua.mp3",
+                "questionType": "SINGER",
+                "created": 1540518502949,
+                "answers": [
+                    "Hương Tràm",
+                    "Bảo Anh",
+                    "Bích Phương",
+                    "Min"
+                ],
+                "answer3": "Bích Phương",
+                "correctAnswer": 1,
+                "answer2": "Bảo Anh",
+                "answer4": "Min",
+                "answer1": "Hương Tràm",
+                "genre_id": 16,
+                "song_id": 6708,
+                "game_mode": "TURNBASE_MODE",
+                "id": 55474,
+                "state": "USING",
+                "updated": 1540518502949,
+                "country_id": 3,
+                "idQuestion": 4549
+            },
+            {
+                "songEntity": {
+                    "song_extra_info_id": 0,
+                    "song_links": [],
+                    "singerEntity": {
+                        "gender": "FEMALE",
+                        "singer": "G-Dragon",
+                        "id": 429,
+                        "avaSinger": "https://cdn.gamezoka.com/storage/assets/singer/429/avatar.jpg",
+                        "year_of_birth": 0
+                    },
+                    "author": "",
+                    "album": {
+                        "publish_year": 2017,
+                        "thumb": "https://cdn.gamezoka.com/storage/assets/album/585/thumb.jpg",
+                        "id": 585,
+                        "title": "Những Bài Hát Hay Nhất Của G-Dragon",
+                        "country_id": 1,
+                        "genre_id": 16
+                    },
+                    "song": "Crayon",
+                    "fileName": "Crayon",
+                    "genre_id": 16,
+                    "singer_id": 429,
+                    "album_id": 585,
+                    "idSong": 6708,
+                    "country_id": 3,
+                    "fileUrl": "img/sound/minhcuoinhaudi.mp3"
+                },
+                "listenLink": "img/sound/minhcuoinhaudi.mp3",
+                "questionType": "SONG",
+                "created": 1540518502949,
+                "answers": [
+                    "Ý em Sao",
+                    "Quan Trọng là Thần Thái",
+                    "Tùy Duyên",
+                    "Mình Cưới Nhau Đi"
+                ],
+                "answer3": "Tùy Duyên",
+                "correctAnswer": 4,
+                "answer2": "Quan Trọng là Thần Thái",
+                "answer4": "Mình Cưới Nhau Đi",
+                "answer1": "Ý em Sao",
+                "genre_id": 16,
+                "song_id": 6708,
+                "game_mode": "TURNBASE_MODE",
+                "id": 55474,
+                "state": "USING",
+                "updated": 1540518502949,
+                "country_id": 3,
+                "idQuestion": 4550
+            }
+        ],
+        "opponentAnswerLogs": [
+            {
+                "idQuestion": 4546,
+                "timeAnswer": 8.5,
+                "answer": 1,
+                "streak": 1,
+                "trueOrFalse": "CORRECT"
+            },
+            {
+                "idQuestion": 4547,
+                "timeAnswer": 8.5,
+                "answer": 2,
+                "streak": 2,
+                "trueOrFalse": "CORRECT"
+            },
+            {
+                "idQuestion": 4548,
+                "timeAnswer": 8.5,
+                "answer": 3,
+                "streak": 3,
+                "trueOrFalse": "CORRECT"
+            },
+            {
+                "idQuestion": 4549,
+                "timeAnswer": 8.5,
+                "answer": 1,
+                "streak": 4,
+                "trueOrFalse": "CORRECT"
+            },
+            {
+                "idQuestion": 4550,
+                "timeAnswer": 8.5,
+                "answer": 4,
+                "streak": 5,
+                "trueOrFalse": "CORRECT"
+            }
+        ],
+        "request_id": 999999,
+        "playlist": {
+            "id": 545,
+            "name": "Wazzer's Song"
+        },
+        "opponent_playlist_mapping": {
+            "active": 1,
+            "created": 1538469496000,
+            "current_level_score": 0,
+            "exp_score": 0,
+            "id": 56,
+            "level": 0,
+            "next_level_score": 50,
+            "playlist_id": 50,
+            "updated": 1539315932000,
+            "user_id": 13
+        },
+        "user_playlist_mapping": {
+            "active": 1,
+            "created": 1538469496000,
+            "current_level_score": 0,
+            "exp_score": 0,
+            "id": 56,
+            "level": 0,
+            "next_level_score": 50,
+            "playlist_id": 50,
+            "updated": 1539315932000,
+            "user_id": 13
+        },
+        "play_log_id": 0,
+        "isHasHistory": false,
+        "weeklyResult": {
+            "user_won": 0,
+            "opponent_won": 3
+        }
+    },
+    "quest": {
+        "id": 1,
+        "order": null,
+        "quest": "Hoàn thành 1 game trong thách đấu theo lượt",
+        "quest_type": 3,
+        "required": 1,
+        "reward": 2,
+        "reward_type": "SUPPORT_ITEM"
+    },
+    "quest_log_id": 99
+}

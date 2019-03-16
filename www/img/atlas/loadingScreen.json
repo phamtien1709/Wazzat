@@ -1,0 +1,135 @@
+﻿{
+	"frames": {
+		"Dance": {
+			"frame": {
+				"x": 2,
+				"y": 2,
+				"w": 640,
+				"h": 499
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 499
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 499
+			}
+		},
+		"Hoa_01": {
+			"frame": {
+				"x": 646,
+				"y": 2,
+				"w": 318,
+				"h": 215
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 318,
+				"h": 215
+			},
+			"sourceSize": {
+				"w": 318,
+				"h": 215
+			}
+		},
+		"Hoa_02": {
+			"frame": {
+				"x": 2,
+				"y": 505,
+				"w": 106,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 106,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 106,
+				"h": 136
+			}
+		},
+		"Logo": {
+			"frame": {
+				"x": 112,
+				"y": 505,
+				"w": 431,
+				"h": 147
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 431,
+				"h": 147
+			},
+			"sourceSize": {
+				"w": 431,
+				"h": 147
+			}
+		},
+		"With_Facebook": {
+			"frame": {
+				"x": 2,
+				"y": 656,
+				"w": 516,
+				"h": 110
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 516,
+				"h": 110
+			},
+			"sourceSize": {
+				"w": 516,
+				"h": 110
+			}
+		},
+		"Without_Facebook": {
+			"frame": {
+				"x": 2,
+				"y": 770,
+				"w": 516,
+				"h": 110
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 516,
+				"h": 110
+			},
+			"sourceSize": {
+				"w": 516,
+				"h": 110
+			}
+		}
+	},
+	"meta": {
+		"app": "Adobe Animate",
+		"version": "18.0.2.126",
+		"image": "loadingScreen",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1024,
+			"h": 1024
+		},
+		"scale": "1"
+	}
+}

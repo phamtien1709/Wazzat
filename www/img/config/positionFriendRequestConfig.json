@@ -1,0 +1,141 @@
+{
+    "header": {
+        "tab": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Header"
+        },
+        "btn_back": {
+            "x": 47,
+            "y": 55,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Arrow"
+        },
+        "txt_header": {
+            "x": 320,
+            "y": 31,
+            "text": "KẾT BẠN",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "fontSize": 33
+            }
+        }
+    },
+    "txt_request_add_friend": {
+        "x": 35,
+        "y": 143,
+        "text": "Lời mời kết bạn",
+        "style": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "fontSize": 24
+        }
+    },
+    "tab_active": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "mailSprites",
+        "nameSprite": "Header_tab_disActive"
+    },
+    "line_under_txt_request_add_friend": {
+        "x": 0,
+        "y": 189,
+        "nameAtlas": "friendRequestSprites",
+        "nameSprite": "Line_02"
+    },
+    "line_gradient_under_txt_request_add_friend": {
+        "x": 0,
+        "y": 189,
+        "nameAtlas": "friendRequestSprites",
+        "nameSprite": "Line_Gradient"
+    },
+    "dot_count_friend": {
+        "x": 600,
+        "y": 156,
+        "nameAtlas": "friendRequestSprites",
+        "nameSprite": "Notification"
+    },
+    "line_doc": {
+        "x": 160,
+        "y": 0,
+        "nameAtlas": "questAndAchieveSprites",
+        "nameSprite": "Line_doc"
+    },
+    "request": {
+        "ava": {
+            "x": 71,
+            "y": 56,
+            "nameSprite": "ava-default",
+            "nameAtlas": "songDetailSprites"
+        },
+        "line": {
+            "x": 35,
+            "y": 114,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Line"
+        },
+        "name": {
+            "x": 122,
+            "y": 56,
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "fontSize": 24,
+                "wordWrap": true,
+                "wordWrapWidth": 250
+            }
+        },
+        "btn_accept": {
+            "x": 433,
+            "y": 58,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Button_Dong_Y"
+        },
+        "btn_decline": {
+            "x": 551,
+            "y": 58,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Button_Tuchoi"
+        },
+        "txt_accept": {
+            "x": 0,
+            "y": 3,
+            "text": "ĐỒNG Ý",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "fontSize": 18
+            }
+        },
+        "txt_decline": {
+            "x": 0,
+            "y": 3,
+            "text": "TỪ CHỐI",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "fontSize": 18
+            }
+        },
+        "online_icon": {
+            "x": 80,
+            "y": 75,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Online"
+        },
+        "offline_icon": {
+            "x": 80,
+            "y": 75,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Offline"
+        },
+        "icon_chat": {
+            "x": 570,
+            "y": 58,
+            "nameAtlas": "friendRequestSprites",
+            "nameSprite": "Chat"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "popup": {
+        "x": 35,
+        "y": 303,
+        "nameAtlas": "disconnectSprites",
+        "nameSprite": "BOX"
+    },
+    "btn": {
+        "x": 35,
+        "y": 415,
+        "nameAtlas": "disconnectSprites",
+        "nameSprite": "Button_ThuLai"
+    },
+    "txtDis": {
+        "x": 305,
+        "y": 331,
+        "text": "Bạn đã bị mất kết nối",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#000000",
+            "fontSize": 27
+        }
+    },
+    "txtBtn": {
+        "x": 255,
+        "y": 25,
+        "text": "THỬ LẠI",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 30
+        }
+    }
+}

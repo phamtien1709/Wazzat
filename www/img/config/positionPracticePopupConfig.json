@@ -1,0 +1,487 @@
+{
+    "tabGem": {
+        "x": 120,
+        "y": 35,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Tab_Gem"
+    },
+    "header": {
+        "tab_chonplaylist": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Header_BG"
+        },
+        "btn_back": {
+            "x": 77,
+            "y": 87,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Back"
+        },
+        "txt_quest": {
+            "x": 540,
+            "y": 40,
+            "text": "NHIỆM VỤ",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 21
+            }
+        },
+        "tabGem": {
+            "x": 247,
+            "y": 29,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tabTicket": {
+            "x": 429,
+            "y": 29,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tabMic": {
+            "x": 68,
+            "y": 29,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tab_quest": {
+            "x": 0,
+            "y": 171,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Nhiemvu"
+        },
+        "gem": {
+            "x": 0,
+            "y": 13,
+            "nameSprite": "Header_Gem",
+            "nameAtlas": "dailyRewardSprites"
+        },
+        "ticket": {
+            "x": 0,
+            "y": 10,
+            "nameSprite": "Header_Ticket",
+            "nameAtlas": "dailyRewardSprites"
+        },
+        "micro": {
+            "x": 0,
+            "y": 9,
+            "nameSprite": "Header_Mic",
+            "nameAtlas": "dailyRewardSprites"
+        },
+        "txtResource": {
+            "x": 0,
+            "y": 12,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 20
+            }
+        }
+    },
+    "tabHeart": {
+        "x": 360,
+        "y": 35,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Tab_Gem"
+    },
+    "gem_reward": {
+        "x": 0,
+        "y": 14,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Gem"
+    },
+    "heart_reward": {
+        "x": 0,
+        "y": 14,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Heart_Icon"
+    },
+    "gem_reward_txt": {
+        "x": 0,
+        "y": 14,
+        "text": "500",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 24
+        }
+    },
+    "heart_reward_txt": {
+        "x": 0,
+        "y": 14,
+        "text": "500",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 24
+        }
+    },
+    "popup_confirm_top_bg": {
+        "x": 0,
+        "y": -25,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Line_Box"
+    },
+    "box_lose_practice": {
+        "x": 35,
+        "y": 245,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Box"
+    },
+    "tabGemMain": {
+        "x": 36,
+        "y": 35,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Tab_Tainguyen"
+    },
+    "tabHeartMain": {
+        "x": 471,
+        "y": 35,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Tab_Tainguyen"
+    },
+    "gem_rewardMain": {
+        "x": 0,
+        "y": 8,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Gem"
+    },
+    "txt_lose_timeout": {
+        "x": 285,
+        "y": 300,
+        "text": "SỐ CÂU ĐÚNG",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "black",
+            "fontSize": 24
+        }
+    },
+    "btn_replay_practice": {
+        "x": 35,
+        "y": 475,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Choilai"
+    },
+    "icon_heart": {
+        "x": 334,
+        "y": 30,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Heart_Icon"
+    },
+    "txt_icon_heart": {
+        "x": 147,
+        "y": 30,
+        "text": "CHƠI LẠI   -1",
+        "style": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "btn_home_practice": {
+        "x": 35,
+        "y": 265,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_home"
+    },
+    "btn_home_practice_lose": {
+        "x": 35,
+        "y": 352,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_home"
+    },
+    "btn_home_practice56": {
+        "x": 33,
+        "y": 265,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Home56"
+    },
+    "heart_rewardMain": {
+        "x": 0,
+        "y": 8,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Heart_Icon"
+    },
+    "btn_rank_practice": {
+        "x": 143,
+        "y": 265,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Xephang"
+    },
+    "btn_rank_practice_lose": {
+        "x": 143,
+        "y": 352,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Xephang"
+    },
+    "btn_rank_practice56": {
+        "x": 145,
+        "y": 265,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Xephang56"
+    },
+    "icon_rank": {
+        "x": 98,
+        "y": 29,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Icon_XepHang"
+    },
+    "txt_icon_rank": {
+        "x": 147,
+        "y": 29,
+        "text": "XẾP HẠNG",
+        "style": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "gem_reward_txtMain": {
+        "x": 0,
+        "y": 11,
+        "text": "500",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 21
+        }
+    },
+    "heart_reward_txtMain": {
+        "x": 0,
+        "y": 11,
+        "text": "500",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 21
+        }
+    },
+    "rewardPopup": {
+        "x": 0,
+        "y": 37,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Firework"
+    },
+    "lineRewardPopup": {
+        "x": 35,
+        "y": 330,
+        "nameAtlas": "popup",
+        "nameSprite": "Box_02"
+    },
+    "congrat_txt_not_reward": {
+        "x": 285,
+        "y": 80,
+        "text": "XIN CHÚC MỪNG!!!",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 39
+        }
+    },
+    "txt_detail_not_reward": {
+        "x": 285,
+        "y": 150,
+        "text1": "Bạn đã trả lời được",
+        "text2": "câu hỏi",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 25
+        }
+    },
+    "btn_continue": {
+        "x": 285,
+        "y": 258,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Choilai"
+    },
+    "txt_btn_continue": {
+        "x": 0,
+        "y": 25,
+        "text": "TIẾP TỤC",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "txt_timeout_continue": {
+        "x": 140,
+        "y": 25,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "congrat_txt_reward": {
+        "x": 285,
+        "y": 154,
+        "text": "XIN CHÚC MỪNG!!!",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 39
+        }
+    },
+    "txt_detail_reward": {
+        "x": 285,
+        "y": 207,
+        "text1": "Bạn đã trả lời được",
+        "text2": "câu hỏi",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 25
+        }
+    },
+    "btn_continue_reward": {
+        "x": 285,
+        "y": 375,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Tiep_Tuc_Long"
+    },
+    "btn_continue_reward56": {
+        "x": 419,
+        "y": 335,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Dong_Y"
+    },
+    "btn_fb_share": {
+        "x": 152,
+        "y": 265,
+        "nameAtlas": "playSprites",
+        "nameSprite": "btn_share"
+    },
+    "btn_watch_video_reward": {
+        "x": 419,
+        "y": 265,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Tiep_Tuc",
+        "camera": {
+            "x": 45,
+            "y": 50,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Video"
+        },
+        "txt1": {
+            "x": -104,
+            "y": 22,
+            "text": "X2 PHẦN THƯỞNG",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "txt2": {
+            "x": -70,
+            "y": 50,
+            "text": "Xem video",
+            "style": {
+                "font": "GilroyMedium",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 21
+            }
+        }
+    },
+    "btn_watch_video_reward56": {
+        "x": 285,
+        "y": 450,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_XemVIdeo_Long",
+        "camera": {
+            "x": 45,
+            "y": 50,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Video"
+        },
+        "txt1": {
+            "x": -104,
+            "y": 22,
+            "text": "X2 PHẦN THƯỞNG",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "txt2": {
+            "x": -70,
+            "y": 50,
+            "text": "Xem video",
+            "style": {
+                "font": "GilroyMedium",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 21
+            }
+        }
+    },
+    "icon_gem": {
+        "x": 285,
+        "y": 0,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Circle"
+    },
+    "anim_gem": {
+        "x": 285,
+        "y": 0,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "rewardSoloMode"
+    },
+    "reward_icon_gem": {
+        "x": 285,
+        "y": 50,
+        "text": "+",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 29
+        }
+    },
+    "txtNotEnoughHeart": {
+        "x": 285,
+        "y": 100,
+        "text": "KHÔNG ĐỦ TIM",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 31
+        }
+    },
+    "txtQuestNotEnoughHeart": {
+        "x": 285,
+        "y": 170,
+        "text": "Bạn có muốn mua thêm tim không?",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 25
+        }
+    }
+}

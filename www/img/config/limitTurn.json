@@ -1,0 +1,54 @@
+{
+    "txt_limit": {
+        "x": 320,
+        "y": 260,
+        "text": "Bạn chỉ có tối đa 30 lượt thách đấu",
+        "style": {
+            "fontSize": 25,
+            "font": "GilroyMedium",
+            "align": "center"
+        }
+    },
+    "txt_want": {
+        "x": 0,
+        "y": 75,
+        "text": "BẠN CÓ MUỐN",
+        "style": {
+            "fontSize": 55,
+            "font": "GilroyBold",
+            "align": "center"
+        }
+    },
+    "btn_delete": {
+        "x": 173,
+        "y": 604,
+        "nameAtlas": "limitTurn",
+        "nameSprite": "Remove",
+        "txt": {
+            "x": 0,
+            "y": 150,
+            "text": "XÓA LƯỢT\nTHÁCH ĐẤU",
+            "style": {
+                "fontSize": 22,
+                "font": "GilroyMedium",
+                "align": "center"
+            }
+        }
+    },
+    "btn_vip": {
+        "x": 456,
+        "y": 604,
+        "nameAtlas": "limitTurn",
+        "nameSprite": "Vip_02",
+        "txt": {
+            "x": 0,
+            "y": 150,
+            "text": "TRỞ THÀNH VIP",
+            "style": {
+                "fontSize": 22,
+                "font": "GilroyMedium",
+                "align": "center"
+            }
+        }
+    }
+}

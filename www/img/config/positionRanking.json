@@ -1,0 +1,260 @@
+{
+    "header_bg": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_header"
+    },
+    "header_button_back": {
+        "x": 10,
+        "y": 20,
+        "nameAtlas": "ranking",
+        "nameSprite": "button_back"
+    },
+    "header_button_help": {
+        "x": 563,
+        "y": 20,
+        "nameAtlas": "ranking",
+        "nameSprite": "button_help"
+    },
+    "header_text_title": {
+        "x": 0,
+        "y": 38,
+        "style": {
+            "fontSize": 32,
+            "font": "GilroyBold"
+        }
+    },
+    "menu_item_text_content": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 23
+        }
+    },
+    "menu_item_active": {
+        "x": 0,
+        "y": 98,
+        "nameAtlas": "ranking",
+        "nameSprite": "Line_Menu_Vodich"
+    },
+    "menu_item_line_doc": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "ranking",
+        "nameSprite": "line_doc"
+    },
+    "menu_bg_all": {
+        "x": 0,
+        "y": 100,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_menu_tab",
+        "left": 10,
+        "right": 10,
+        "top": 10,
+        "bot": 10,
+        "width": 640,
+        "height": 100,
+        "name": "menu_bg_all"
+    },
+    "item_ranking_bg_top1": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "ranking",
+        "nameSprite": "Tab_Top3_01"
+    },
+    "item_ranking_bg_top2": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "ranking",
+        "nameSprite": "Tab_Top3_02"
+    },
+    "item_ranking_bg_top3": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "ranking",
+        "nameSprite": "Tab_Top3_03"
+    },
+    "item_ranking_avatar_top1": {
+        "x": 36,
+        "y": 11,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_top_1"
+    },
+    "item_ranking_avatar_top2": {
+        "x": 36,
+        "y": 11,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_top_2"
+    },
+    "item_ranking_avatar_top3": {
+        "x": 36,
+        "y": 11,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_top_3"
+    },
+    "item_ranking_avatar_top4": {
+        "x": 32,
+        "y": 22,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_top_4"
+    },
+    "item_ranking_text_top4": {
+        "x": 80,
+        "y": 47,
+        "style": {
+            "fontSize": 23
+        }
+    },
+    "item_ranking_text_top123": {
+        "x": 105,
+        "y": 54,
+        "style": {
+            "fontSize": 20,
+            "font": "GilroyBold"
+        }
+    },
+    "item_ranking_text_user_name123": {
+        "x": 237,
+        "y": 35,
+        "style": {
+            "fontSize": 23,
+            "font": "GilroyBold",
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle"
+        }
+    },
+    "item_ranking_text_user_name4": {
+        "x": 216,
+        "y": 29,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle"
+        }
+    },
+    "item_ranking_btn_diamond_top1": {
+        "x": 435,
+        "y": 34,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_diamond_top",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "font": "GilroyBold"
+            },
+            "paddingTop": 15,
+            "paddingLeft": 5
+        },
+        "icon": {
+            "x": 0,
+            "y": 19,
+            "nameAtlas": "ranking",
+            "nameSprite": "GEM",
+            "align": "right"
+        },
+        "alignAll": "center"
+    },
+    "item_ranking_btn_diamond_top4": {
+        "x": 435,
+        "y": 32,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_diamond_top4",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23
+            },
+            "paddingTop": 15,
+            "paddingLeft": 5
+        },
+        "icon": {
+            "x": 0,
+            "y": 19,
+            "nameAtlas": "ranking",
+            "nameSprite": "GEM",
+            "align": "right"
+        },
+        "alignAll": "center"
+    },
+    "item_ranking_btn_level_top": {
+        "x": 526,
+        "y": 29,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_level_top1",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "font": "GilroyBold"
+            },
+            "paddingTop": 5,
+            "width": 77
+        }
+    },
+    "item_ranking_btn_level_top4": {
+        "x": 526,
+        "y": 29,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_level_top4",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23
+            },
+            "paddingTop": 5,
+            "width": 64
+        }
+    },
+    "item_ranking_txt_error": {
+        "x": 0,
+        "y": 1060,
+        "style": {
+            "fontSize": 30
+        }
+    },
+    "item_ranking_bg_rank_me": {
+        "x": 0,
+        "y": 1028,
+        "nameAtlas": "ranking",
+        "nameSprite": "bg_rank_me"
+    },
+    "item_ranking_line_space": {
+        "x": 35,
+        "y": 126,
+        "nameAtlas": "ranking",
+        "nameSprite": "line_space_item"
+    },
+    "ranking_bg_help": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "ranking",
+        "nameSprite": "Box_Popup",
+        "left": 47,
+        "right": 56,
+        "top": 44.4,
+        "bot": 48.5,
+        "width": 108,
+        "height": 93,
+        "name": "ranking_bg_help"
+    },
+    "ranking_text_help": {
+        "x": 0,
+        "y": 26,
+        "style": {
+            "fontSize": 30,
+            "font": "GilroyMedium",
+            "fill": "#000000",
+            "align": "left",
+            "wordWrap": true,
+            "wordWrapWidth": 500
+        }
+    }
+}

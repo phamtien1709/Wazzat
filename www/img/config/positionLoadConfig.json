@@ -1,0 +1,242 @@
+{
+    "mail_system": {
+        "bg": {
+            "x": 0,
+            "y": 0,
+            "nameSprite": "bg-playlist"
+        },
+        "header": {
+            "tab": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "mailSprites",
+                "nameSprite": "Header"
+            },
+            "btn_back": {
+                "x": 47,
+                "y": 50,
+                "nameAtlas": "mailSprites",
+                "nameSprite": "Arrow"
+            },
+            "txt_email": {
+                "x": 320,
+                "y": 54,
+                "text": "EMAIL",
+                "style": {
+                    "font": "GilroyBold",
+                    "fill": "white",
+                    "fontSize": 31
+                }
+            }
+        },
+        "title": {
+            "x": 35,
+            "y": 140,
+            "text": "EMAIL",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "white",
+                "fontSize": 30,
+                "wordWrap": true,
+                "wordWrapWidth": 570,
+                "maxLines": 4,
+                "align": "left"
+            }
+        },
+        "line_under": {
+            "x": 35,
+            "y": 40,
+            "nameSprite": "Line_Ngang",
+            "nameAtlas": "mailSprites"
+        },
+        "mailDetail": {
+            "ava": {
+                "x": 35,
+                "y": 35,
+                "nameAtlas": "mailSprites",
+                "nameSprite": "Ava_01"
+            },
+            "name": {
+                "x": 123,
+                "y": 42,
+                "text": "Hệ thống",
+                "style": {
+                    "font": "GilroyBold",
+                    "fill": "white",
+                    "fontSize": 25
+                }
+            },
+            "from": {
+                "x": 123,
+                "y": 78,
+                "text": "Gửi tới bạn từ hệ thống",
+                "style": {
+                    "font": "GilroyMedium",
+                    "fill": "#93909d",
+                    "fontSize": 21
+                }
+            },
+            "time": {
+                "x": 360,
+                "y": 78,
+                "text": "",
+                "style": {
+                    "font": "GilroyMedium",
+                    "fill": "#9e47f3",
+                    "fontSize": 20
+                }
+            }
+        },
+        "detailMessage": {
+            "x": 35,
+            "y": 60,
+            "text": "EMAIL",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#93909d",
+                "fontSize": 22,
+                "wordWrap": true,
+                "wordWrapWidth": 570,
+                "align": "left"
+            }
+        }
+    },
+    "demoMessengerSystem": {
+        "code": "ok",
+        "data": [
+            {
+                "id": 16,
+                "to": 0,
+                "message_content_id": 12,
+                "is_read": 0,
+                "state": "USING",
+                "created": "2018-09-14 01:48:36",
+                "updated": "2018-09-14 01:48:36",
+                "system_message_content": {
+                    "id": 12,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            },
+            {
+                "id": 2,
+                "to": 1,
+                "message_content_id": 7,
+                "is_read": 1,
+                "state": "USING",
+                "created": "2018-09-13 14:15:11",
+                "updated": "2018-09-13 07:15:11",
+                "system_message_content": {
+                    "id": 7,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            },
+            {
+                "id": 15,
+                "to": 0,
+                "message_content_id": 11,
+                "is_read": 0,
+                "state": "USING",
+                "created": "2018-09-13 08:06:02",
+                "updated": "2018-09-13 08:06:02",
+                "system_message_content": {
+                    "id": 11,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            },
+            {
+                "id": 14,
+                "to": 0,
+                "message_content_id": 10,
+                "is_read": 0,
+                "state": "USING",
+                "created": "2018-09-13 07:52:29",
+                "updated": "2018-09-13 07:52:29",
+                "system_message_content": {
+                    "id": 10,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            },
+            {
+                "id": 14,
+                "to": 0,
+                "message_content_id": 10,
+                "is_read": 0,
+                "state": "USING",
+                "created": "2018-09-13 07:52:29",
+                "updated": "2018-09-13 07:52:29",
+                "system_message_content": {
+                    "id": 10,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            },
+            {
+                "id": 14,
+                "to": 0,
+                "message_content_id": 10,
+                "is_read": 0,
+                "state": "USING",
+                "created": "2018-09-13 07:52:29",
+                "updated": "2018-09-13 07:52:29",
+                "system_message_content": {
+                    "id": 10,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            },
+            {
+                "id": 14,
+                "to": 0,
+                "message_content_id": 10,
+                "is_read": 0,
+                "state": "USING",
+                "created": "2018-09-13 07:52:29",
+                "updated": "2018-09-13 07:52:29",
+                "system_message_content": {
+                    "id": 10,
+                    "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới"
+                }
+            }
+        ]
+    },
+    "system_mess_detail": {
+        "code": "ok",
+        "data": {
+            "id": 7,
+            "title": "Dua Lipa hé lộ lý do chọn BlackPink cùng hợp tác trong ca khúc sắp tới",
+            "message": "Nếu nữ ca sĩ người anh Dua Lipa là một cái tên đình đám tại thị trường US - UK thì BlackPink cũng là một trong những girlgroup có sức ảnh hưởng lớn tại châu Á. \nNgay khi thông tin Dua Lipa chuẩn bị kết hợp cùng nhóm BlackPink trong sản phẩm mới mang tên 'Kiss And Make Up' được tiết lộ đã khiến rất nhiều người hâm mộ háo hức mong chờ.",
+            "type": "TEXT",
+            "state": "USING",
+            "created": "2018-09-13 03:51:50",
+            "updated": "2018-09-13 03:51:50"
+        }
+    },
+    "system_btn_link": {
+        "x": 35,
+        "y": 88,
+        "nameAtlas": "mailSprites",
+        "nameSprite": "Button",
+        "text": {
+            "x": 35,
+            "y": 40,
+            "text": "EMAIL",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "fontSize": 22,
+                "wordWrap": true,
+                "wordWrapWidth": 570,
+                "align": "left"
+            }
+        },
+        "text_btn": {
+            "x": 77,
+            "y": 30,
+            "text": "EMAIL",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#bfbec4",
+                "fontSize": 24,
+                "align": "center"
+            }
+        }
+    }
+}

@@ -1,0 +1,1276 @@
+{
+    "bg_header": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Header"
+    },
+    "button_back": {
+        "x": 5,
+        "y": 13,
+        "nameAtlas": "createroom",
+        "nameSprite": "Back_Icon"
+    },
+    "button_search": {
+        "x": 568,
+        "y": 33,
+        "nameAtlas": "createroom",
+        "nameSprite": "btn_search"
+    },
+    "txt_title_header": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 32,
+            "font": "GilroyBold",
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "btn_diamond_header": {
+        "x": 237,
+        "y": 26,
+        "nameAtlas": "createroom",
+        "nameSprite": "bg_gem_header",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 28,
+                "align": "right",
+                "boundsAlignH": "right",
+                "boundsAlignV": "middle",
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 12
+        },
+        "icon": {
+            "x": 0,
+            "y": 12,
+            "nameAtlas": "createroom",
+            "nameSprite": "Gem_Header"
+        },
+        "alignAll": "center"
+    },
+    "choose_game_text_timphong": {
+        "x": 34,
+        "y": 305,
+        "style": {
+            "fontSize": 28,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "font": "GilroyMedium"
+        }
+    },
+    "choose_game_bg_input_text": {
+        "x": 35,
+        "y": 356,
+        "nameAtlas": "createroom",
+        "nameSprite": "bg_nhaptext",
+        "left": 30,
+        "right": 30,
+        "top": 30,
+        "bot": 30,
+        "width": 570,
+        "height": 89,
+        "name": "choose_game_bg_input_text",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle",
+                "fill": "#9a9a9a"
+            },
+            "width": 552,
+            "paddingLeft": 5
+        }
+    },
+    "choose_game_btn_thamgia": {
+        "x": 35,
+        "y": 463,
+        "nameAtlas": "createroom",
+        "nameSprite": "btn_thamgia",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 539
+        }
+    },
+    "choose_game_bg_line": {
+        "x": 35,
+        "y": 622,
+        "nameAtlas": "createroom",
+        "nameSprite": "Line"
+    },
+    "choose_game_btn_choingay": {
+        "x": 36,
+        "y": 683,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Choingay",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 39,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 352
+        }
+    },
+    "choose_game_btn_taophong": {
+        "x": 425,
+        "y": 683,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_TaoPhong",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold",
+                "wordWrap": true,
+                "wordWrapWidth": 140
+            },
+            "width": 160
+        }
+    },
+    "choose_bet_btn_chonmucuoc": {
+        "x": 0,
+        "y": 173,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Chon_Muc_Cuoc",
+        "left": 30,
+        "right": 30,
+        "top": 30,
+        "bot": 30,
+        "width": 1080,
+        "height": 170,
+        "name": "choose_bet_btn_chonmucuoc",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 54,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 1062
+        }
+    },
+    "choose_bet_label_chonmucuoc": {
+        "x": 0,
+        "y": 150,
+        "style": {
+            "fontSize": 32,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "font": "GilroyBold"
+        }
+    },
+    "choose_bet_bg_item_bet": {
+        "x": 31,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "bg_choose_bet"
+    },
+    "choose_bet_icon_gem_item_bet": {
+        "x": 364,
+        "y": 46,
+        "nameAtlas": "createroom",
+        "nameSprite": "Gem"
+    },
+    "choose_bet_txtmoney_item_bet": {
+        "x": 253,
+        "y": 42,
+        "style": {
+            "fontSize": 23,
+            "align": "right",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle"
+        }
+    },
+    "choose_bet_label_mucuoc_item_bet": {
+        "x": 70,
+        "y": 38,
+        "style": {
+            "fontSize": 25,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "font": "GilroyBold"
+        }
+    },
+    "choose_bet_btnchon_item_bet": {
+        "x": 430,
+        "y": 28,
+        "nameAtlas": "createroom",
+        "nameSprite": "button_choose_bet",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 10
+        }
+    },
+    "choose_playlist_itemplaylist_txtname": {
+        "x": 155,
+        "y": 15,
+        "style": {
+            "fontSize": 25,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 305,
+            "maxLines": 2
+        }
+    },
+    "choose_playlist_itemplaylist_vip": {
+        "x": 155,
+        "y": 85,
+        "style": {
+            "fontSize": 20,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#93909d"
+        }
+    },
+    "choose_playlist_itemplaylist_bg": {
+        "x": 0,
+        "y": 100,
+        "nameAtlas": "createroom",
+        "nameSprite": "bg_header_playlist_suggest",
+        "left": 30,
+        "right": 30,
+        "top": 30,
+        "bot": 30,
+        "width": 640,
+        "height": 140,
+        "name": "choose_playlist_itemplaylist_bg"
+    },
+    "choose_playlist_itemplaylist_btnBuy": {
+        "x": 470,
+        "y": 38,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_DaChon",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 25,
+                "align": "right",
+                "boundsAlignH": "right",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 16
+        },
+        "icon": {
+            "x": 0,
+            "y": 20,
+            "nameAtlas": "createroom",
+            "nameSprite": "Gem"
+        },
+        "alignAll": "center"
+    },
+    "choose_playlist_itemplaylist_select": {
+        "x": 470,
+        "y": 38,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Moi",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 25,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 102
+        }
+    },
+    "choose_playlist_itemplaylist_line": {
+        "x": 35,
+        "y": 140,
+        "nameAtlas": "createroom",
+        "nameSprite": "Line"
+    },
+    "choose_playlist_btn_muathemplaylist": {
+        "x": 35,
+        "y": 1050,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Muathem",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 552
+        }
+    },
+    "waitting_txt_idphong": {
+        "x": 0,
+        "y": 19,
+        "style": {
+            "fontSize": 32,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "font": "GilroyBold"
+        }
+    },
+    "waitting_txt_nguoitao": {
+        "x": 0,
+        "y": 60,
+        "style": {
+            "fontSize": 20,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "waitting_txt_name": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 42,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "waitting_user_txt_name": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 25,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "waitting_user_txt_sansang": {
+        "x": 0,
+        "y": 220,
+        "style": {
+            "fontSize": 21,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#7B7788"
+        }
+    },
+    "waitting_user_khungava": {
+        "x": 0,
+        "y": 49,
+        "nameAtlas": "createroom",
+        "nameSprite": "Khung_Ava"
+    },
+    "waitting_user_loading_ava": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Ava_Loading"
+    },
+    "waitting_user_bg_player_waiting": {
+        "x": 0,
+        "y": 49,
+        "nameAtlas": "createroom",
+        "nameSprite": "PlayerWating"
+    },
+    "waitting_user_btn_kick_trai": {
+        "x": 0,
+        "y": 100,
+        "nameAtlas": "createroom",
+        "nameSprite": "user_kick",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 5,
+            "width": 102
+        }
+    },
+    "waitting_user_btn_kick_phai": {
+        "x": 0,
+        "y": 100,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Kick_Phai",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 5,
+            "width": 102
+        }
+    },
+    "waitting_btn_moiban": {
+        "x": 35,
+        "y": 1013,
+        "nameAtlas": "createroom",
+        "nameSprite": "bg_btn_moiban",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 5,
+            "width": 247
+        }
+    },
+    "waitting_btn_choi": {
+        "x": 329,
+        "y": 1013,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Choi",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 5,
+            "width": 247
+        }
+    },
+    "waitting_txt_countdown": {
+        "x": 0,
+        "y": 180,
+        "style": {
+            "fontSize": 140,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "font": "GilroyLight"
+        }
+    },
+    "waitting_txt_trick": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 22,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 360
+        }
+    },
+    "listfriend_txt_name": {
+        "x": 117,
+        "y": 48,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "font": "GilroyMedium"
+        }
+    },
+    "listfriend_icon_online": {
+        "x": 87,
+        "y": 75,
+        "nameAtlas": "createroom",
+        "nameSprite": "Online"
+    },
+    "listfriend_icon_offline": {
+        "x": 87,
+        "y": 75,
+        "nameAtlas": "createroom",
+        "nameSprite": "Offline"
+    },
+    "listfriend_txt_online": {
+        "x": 245,
+        "y": 140,
+        "style": {
+            "fontSize": 36,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#00cf42"
+        }
+    },
+    "listfriend_btn_invite": {
+        "x": 485,
+        "y": 33,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Moi",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 102
+        }
+    },
+    "listfriend_bg_line": {
+        "x": 35,
+        "y": 107,
+        "nameAtlas": "createroom",
+        "nameSprite": "Line"
+    },
+    "listfriend_btn_random": {
+        "x": 35,
+        "y": 1000,
+        "nameAtlas": "createroom",
+        "nameSprite": "bg_btn_moiban",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 552
+        }
+    },
+    "listfriend_btnXong": {
+        "x": 329,
+        "y": 1000,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Choi",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 552
+        }
+    },
+    "listfriend_txt_current_search": {
+        "x": 35,
+        "y": 156,
+        "style": {
+            "fontSize": 25,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#ffffff",
+            "font": "GilroyMedium"
+        }
+    },
+    "listfriend_btn_close_search": {
+        "x": 600,
+        "y": 191,
+        "nameAtlas": "createroom",
+        "nameSprite": "Exit"
+    },
+    "result_btn_money_ava_result": {
+        "x": -46,
+        "y": 234,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Phanthuong",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 10
+        },
+        "alignAll": "center",
+        "icon": {
+            "x": 0,
+            "y": 12,
+            "nameAtlas": "createroom",
+            "nameSprite": "Gem",
+            "align": "right"
+        }
+    },
+    "result_btn_exp_ava_result_win": {
+        "x": 94,
+        "y": 234,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Phanthuong",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 10
+        },
+        "alignAll": "center",
+        "icon": {
+            "x": 0,
+            "y": 12,
+            "nameAtlas": "createroom",
+            "nameSprite": "Xp_Icon",
+            "align": "right"
+        }
+    },
+    "result_btn_exp_ava_result_lose": {
+        "x": 20,
+        "y": 234,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Phanthuong",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 10
+        },
+        "alignAll": "center",
+        "icon": {
+            "x": 0,
+            "y": 12,
+            "nameAtlas": "createroom",
+            "nameSprite": "Xp_Icon",
+            "align": "right"
+        }
+    },
+    "result_btn_money_ava_result_lose": {
+        "x": 25.5,
+        "y": 222,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Phanthuong_lose",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 24,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "fill": "red"
+            },
+            "paddingTop": 10,
+            "width": 98
+        }
+    },
+    "light_rotation_list_result": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Light_Rotation"
+    },
+    "friend_invite_done": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Done"
+    },
+    "quickplay_tab_btn_default": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_chon-playlist",
+        "left": 2,
+        "right": 2,
+        "top": 49,
+        "bot": 49,
+        "width": 320,
+        "height": 100,
+        "name": "quickplay_tab_btn_default"
+    },
+    "quickplay_tab_btn_active": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_chon-playlist_Active",
+        "left": 2,
+        "right": 2,
+        "top": 49,
+        "bot": 49,
+        "width": 320,
+        "height": 100,
+        "name": "quickplay_tab_btn_active"
+    },
+    "quickplay_tab_line": {
+        "x": 0,
+        "y": 94,
+        "nameAtlas": "createroom",
+        "nameSprite": "Line_chon_playlist"
+    },
+    "quickplay_tab_btn_label": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 23,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#ffffff"
+        }
+    },
+    "quickplay_bg_count_player": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_User",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 24,
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 3,
+            "paddingLeft": 37,
+            "width": 75
+        }
+    },
+    "quickplay_arrow_back_menu": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Arrow_Small"
+    },
+    "quickplay_txt_button_back_menu_visilbe": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 20,
+            "fill": "#A7A5AD"
+        }
+    },
+    "quickplay_txt_button_back_menu": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 20,
+            "fill": "white"
+        }
+    },
+    "quickplay_text_player_waitting": {
+        "x": 0,
+        "y": 310,
+        "style": {
+            "fontSize": 27,
+            "fill":"#7B7788"
+        }
+    },
+    "text_question_playroom": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 23,
+            "align": "center",
+            "wordWrap": true,
+            "wordWrapWidth": 1080,
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "question_button_bodapan_bg": {
+        "x": 35,
+        "y": 575,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Bodapan"
+    },
+    "question_button_bodapan_mic": {
+        "x": 335,
+        "y": 26,
+        "nameAtlas": "createroom",
+        "nameSprite": "Mic"
+    },
+    "question_button_bodapan_count_mic": {
+        "x": 380,
+        "y": 31,
+        "nameAtlas": "createroom",
+        "nameSprite": "Mic_Soluong",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "font": "GilroyBold",
+                "paddingTop": 12
+            }
+        }
+    },
+    "question_button_bodapan_txt_money": {
+        "x": 230,
+        "y": 28,
+        "style": {
+            "fontSize": 29,
+            "font": "GilroyBold",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle",
+            "align": "right"
+        }
+    },
+    "question_button_bodapan_txt_bo2dapan": {
+        "x": 24,
+        "y": 29,
+        "style": {
+            "fontSize": 34,
+            "font": "GilroyBold"
+        }
+    },
+    "question_button_chat": {
+        "x": 505,
+        "y": 575,
+        "nameAtlas": "createroom",
+        "nameSprite": "Icon_Chat"
+    },
+    "chat_me_right": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Box_Chat_01",
+        "left": 36,
+        "right": 36,
+        "top": 25.5,
+        "bot": 25.5,
+        "width": 75,
+        "height": 51,
+        "name": "chat_me_right"
+    },
+    "chat_me_left": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Box_Chat_02",
+        "left": 36,
+        "right": 36,
+        "top": 25.5,
+        "bot": 25.5,
+        "width": 75,
+        "height": 51,
+        "name": "chat_me_left"
+    },
+    "chat_user_left": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Box_Chat_01-1",
+        "left": 36,
+        "right": 36,
+        "top": 25.5,
+        "bot": 25.5,
+        "width": 75,
+        "height": 51,
+        "name": "chat_user_left"
+    },
+    "chat_user_right": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Box_Chat_01-2",
+        "left": 36,
+        "right": 36,
+        "top": 25.5,
+        "bot": 25.5,
+        "width": 75,
+        "height": 51,
+        "name": "chat_user_right"
+    },
+    "result_line_win": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "linewin"
+    },
+    "result_txtWin_win": {
+        "x": 0,
+        "y": 46,
+        "style": {
+            "fontSize": 36,
+            "font": "GilroyBold"
+        }
+    },
+    "bg_loading_answer_me": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Circle_01_answer"
+    },
+    "bg_sansang_answer_me": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Circle_02_answer"
+    },
+    "bg_me_answer1": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Circle_02"
+    },
+    "bg_win_me_answer1": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Circle_01"
+    },
+    "bg_me_fail": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Wrong_icon"
+    },
+    "bg_me_txt_time": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 16,
+            "fill": "black",
+            "font": "GilroyBold"
+        }
+    },
+    "bg_answer_question": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Cautraloi",
+        "left": 14.5,
+        "right": 14.5,
+        "top": 50,
+        "bot": 50,
+        "width": 570,
+        "height": 103,
+        "name": "Tab_Cautraloi"
+    },
+    "bg_answer_question_nochoose": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_CautraLoi_noChoose",
+        "left": 14.5,
+        "right": 14.5,
+        "top": 50,
+        "bot": 50,
+        "width": 570,
+        "height": 103,
+        "name": "Tab_CautraLoi_noChoose"
+    },
+    "text_answer_question": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 28,
+            "fill": "black",
+            "wordWrap": true,
+            "wordWrapWidth": 560,
+            "font": "GilroyMedium"
+        }
+    },
+    "bg_player_list_result": {
+        "x": 60,
+        "y": 1045,
+        "nameAtlas": "createroom",
+        "nameSprite": "Box_Ketqua",
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bot": 8,
+        "width": 570,
+        "height": 425,
+        "name": "onlineModeBgPlayerListResult"
+    },
+    "icon_true_result": {
+        "x": 37,
+        "y": 44,
+        "nameAtlas": "createroom",
+        "nameSprite": "Done"
+    },
+    "icon_fail_result": {
+        "x": 38,
+        "y": 44,
+        "nameAtlas": "createroom",
+        "nameSprite": "Wrong_icon"
+    },
+    "text_time_player_list_result": {
+        "x": 0,
+        "y": 62,
+        "style": {
+            "fontSize": 18,
+            "fill": "green"
+        }
+    },
+    "button_play_sound_player_list_result": {
+        "x": 137,
+        "y": 73,
+        "nameAtlas": "createroom",
+        "nameSprite": "button_play_sound"
+    },
+    "button_pause_sound_player_list_result": {
+        "x": 137,
+        "y": 73,
+        "nameAtlas": "createroom",
+        "nameSprite": "button_pause_sound"
+    },
+    "text_name_song_player_list_result": {
+        "x": 185,
+        "y": 39,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left"
+        }
+    },
+    "text_name_casi_player_list_result": {
+        "x": 185,
+        "y": 71,
+        "style": {
+            "fontSize": 21,
+            "fill": "#8C8996"
+        }
+    },
+    "line_item_player_list": {
+        "x": 0,
+        "y": 132,
+        "nameAtlas": "createroom",
+        "nameSprite": "Line"
+    },
+    "button_reset_bg_player_list_result": {
+        "x": 140,
+        "y": 1012,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Choilai",
+        "button_reset_icon_KimCuong_player_list_result": {
+            "x": 320,
+            "y": 32,
+            "nameAtlas": "createroom",
+            "nameSprite": "Gem_Header"
+        },
+        "button_reset_lb_choilai_player_list_result": {
+            "x": 100,
+            "y": 29,
+            "style": {
+                "fontSize": 30,
+                "font": "GilroyBold"
+            }
+        },
+        "button_reset_lb_money_player_list_result": {
+            "x": 0,
+            "y": 30,
+            "style": {
+                "fontSize": 28,
+                "fill": "#CCCCCC",
+                "font": "GilroyMedium"
+            }
+        }
+    },
+    "button_home_player_list_result": {
+        "x": 60,
+        "y": 1012,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Home"
+    },
+    "text_action_phase_true_answer": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 28,
+            "fill": "#CCCCCC",
+            "font": "GilroyBold",
+            "wordWrap": true,
+            "wordWrapWidth": 350
+        }
+    },
+    "button_muccuoc_room": {
+        "x": 247,
+        "y": 216,
+        "nameAtlas": "createroom",
+        "nameSprite": "Button_Muc_Cuoc",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 26,               
+                "font": "GilroyBold"
+            },
+            "paddingTop": 16
+        },
+        "icon": {
+            "x": 0,
+            "y": 16,
+            "nameAtlas": "createroom",
+            "nameSprite": "Gem_Header"
+        },
+        "alignAll": "center"
+    },
+    "text_muccuoc_room": {
+        "x": 0,
+        "y": 168,
+        "style": {
+            "fontSize": 30,           
+            "font": "GilroyBold"
+        }
+    },
+    "chat_icon_bg":{
+        "x": 0,
+        "y" : 0,        
+        "nameAtlas" : "IconChatOnlineMode",
+        "nameSprite" : "BG_Icon"
+    },
+    "chat_icon_btn_close":{
+        "x": 468,
+        "y" : 320,        
+        "nameAtlas" : "IconChatOnlineMode",
+        "nameSprite" : "X"
+    },
+    "friend_detail_room_bg":{
+        "x": 0,
+        "y" : 0,        
+        "nameAtlas" : "createroom",
+        "nameSprite" : "Tab_Phong_Choi"
+    },
+    "friend_detail_room_icon_count":{
+        "x": 527,
+        "y" : 21,        
+        "nameAtlas" : "createroom",
+        "nameSprite" : "Icon_Users"
+    },
+    "friend_detail_room_id": {
+        "x": 40,
+        "y": 23,
+        "style": {
+            "fontSize": 23
+        }
+    },
+    "friend_detail_room_count_player": {
+        "x": 570,
+        "y": 23,
+        "style": {
+            "fontSize": 23
+        }
+    },
+    "chat_waitting_icon_chat": {
+        "x": 524,
+        "y": 913,           
+        "nameAtlas" : "createroom",
+        "nameSprite" : "Chat_Icon"
+    },
+    "chat_waitting_text_chat": {
+        "x": 9,
+        "y": 9,
+        "style": {
+            "fontSize": 22,
+            "wordWrapWidth": 240,
+            "wordWrap":true,
+            "maxLines": 3,
+            "fill":"#333333",
+            "align":"left"
+        }
+    },
+    "chat_waitting_bg_chat": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Bubble_Chat",
+        "left": 32,
+        "right": 32,
+        "top": 26,
+        "bot": 26,
+        "width": 240,
+        "height": 67,
+        "name": "chat_waitting_bg_chat"
+    },
+    "chat_waitting_icon_arrow": {
+        "x": 0,
+        "y": 0,           
+        "nameAtlas" : "createroom",
+        "nameSprite" : "Arrow"
+    },
+    "chat_waitting_friend_chat_bg": {
+        "x": 0,
+        "y": 0,           
+        "nameAtlas" : "createroom",
+        "nameSprite" : "Chat_Noti"
+    },
+    "chat_waitting_friend_chat_close": {
+        "x": 595,
+        "y": 37,           
+        "nameAtlas" : "createroom",
+        "nameSprite" : "X"
+    },
+    "chat_waitting_friend_chat_text": {
+        "x": 100,
+        "y": 0,
+        "style": {
+            "fontSize": 22,
+            "wordWrapWidth": 415,
+            "wordWrap":true,
+            "maxLines": 3,
+            "fill":"#333333",
+            "align":"left"
+        }
+    }
+    ,
+    "button_share": {
+        "x": 454,
+        "y": 200,
+        "nameAtlas": "createroom",
+        "nameSprite": "Share"
+    }
+}

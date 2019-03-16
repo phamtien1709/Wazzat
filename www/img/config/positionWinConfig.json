@@ -1,0 +1,250 @@
+{
+    "txt_play_your_turn": {
+        "x": 0,
+        "y": -84,
+        "text": "LƯỢT CỦA BẠN",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "txt_challenge_your_turn": {
+        "x": 0,
+        "y": -84,
+        "text": "THÁCH ĐẤU LẠI",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "txt_rank_this_week": {
+        "x": 190,
+        "y": 50,
+        "text": "Tuần này",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 19.5
+        }
+    },
+    "txt_rank_last_week": {
+        "x": 174,
+        "y": 70,
+        "text": "Tuần trước",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 19.5
+        }
+    },
+    "button_ranking_this_week": {
+        "x": 60,
+        "y": 200
+    },
+    "button_ranking_last_week": {
+        "x": 1020,
+        "y": 200
+    },
+    "songDetail_btn_play": {
+        "x": 15,
+        "y": 15,
+        "nameAtlas": "songDetailSprites",
+        "nameSprite": "Play"
+    },
+    "songDetail_btn_pause": {
+        "x": 15,
+        "y": 15,
+        "nameAtlas": "songDetailSprites",
+        "nameSprite": "Pause"
+    },
+    "clock": {
+        "x": 174,
+        "y": 103,
+        "nameAtlas": "rankingSprites",
+        "nameSprite": "Clock"
+    },
+    "ava_fb": {
+        "x": 560,
+        "y": 246
+    },
+    "frame_ava_right": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Khung_Ava_Thuong",
+        "nameAtlas": "playSprites"
+    },
+    "frame_ava_left": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Khung_Ava_Thuong",
+        "nameAtlas": "playSprites"
+    },
+    "nameFB": {
+        "x": 500,
+        "y": 217,
+        "text": "You",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 21
+        }
+    },
+    "scoreText": {
+        "x": 500,
+        "y": 247,
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 33
+        }
+    },
+    "avaOpp": {
+        "x": 80,
+        "y": 246
+    },
+    "nameFBOpp": {
+        "x": 140,
+        "y": 217,
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 19.5
+        }
+    },
+    "scoreTextOpp": {
+        "x": 140,
+        "y": 247,
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 33
+        }
+    },
+    "txt_btn_next_game": {
+        "x": 0,
+        "y": 0,
+        "text": "ĐỐI THỦ TIẾP THEO",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "txt_btn_find_game": {
+        "x": 0,
+        "y": 0,
+        "text": "TÌM ĐỐI THỦ KHÁC",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "txt_btn_play_yourTurn": {
+        "x": 0,
+        "y": 0,
+        "text": "CHỌN PLAYLIST CỦA BẠN",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "align": "center",
+            "fontSize": 30
+        }
+    },
+    "dot_online_right": {
+        "x": 575,
+        "y": 269,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Online"
+    },
+    "dot_online_left": {
+        "x": 95,
+        "y": 269,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Online"
+    },
+    "dot_offline_left": {
+        "x": 95,
+        "y": 269,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Offline"
+    },
+    "dot_online_right_challen": {
+        "x": 575,
+        "y": 185,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Online"
+    },
+    "dot_online_left_challen": {
+        "x": 90,
+        "y": 185,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Online"
+    },
+    "dot_offline_left_challen": {
+        "x": 90,
+        "y": 185,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Offline"
+    },
+    "shadow": {
+        "x": 0,
+        "y": 800,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Shadow"
+    },
+    "share": {
+        "x": 320,
+        "y": 422,
+        "nameAtlas": "playSprites",
+        "nameSprite": "btn_share_curve"
+    },
+    "btn_gem_exp": {
+        "tab": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "playSprites",
+            "nameSprite": "Win_Phanthuong"
+        },
+        "gem": {
+            "x": 0,
+            "y": -9,
+            "nameAtlas": "playSprites",
+            "nameSprite": "GEM"
+        },
+        "exp": {
+            "x": 0,
+            "y": -10,
+            "nameAtlas": "playSprites",
+            "nameSprite": "XP"
+        },
+        "txt1": {
+            "x": 0,
+            "y": -10,
+            "text": "CHỌN PLAYLIST CỦA BẠN",
+            "style": {
+                "font": "Gilroy",
+                "fill": "white",
+                "align": "center",
+                "fontSize": 17
+            }
+        },
+        "txt2": {
+            "x": 0,
+            "y": -10,
+            "text": "CHỌN PLAYLIST CỦA BẠN",
+            "style": {
+                "font": "Gilroy",
+                "fill": "white",
+                "align": "center",
+                "fontSize": 17
+            }
+        }
+    }
+}

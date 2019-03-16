@@ -1,0 +1,469 @@
+{
+    "header": {
+        "tab_chonplaylist": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Header"
+        },
+        "btn_back": {
+            "x": 46,
+            "y": 52,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Arrow_01"
+        },
+        "txt_setting": {
+            "x": 320,
+            "y": 34,
+            "text": "CÀI ĐẶT",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "txt_setting_game": {
+            "x": 320,
+            "y": 34,
+            "text": "TRÒ CHƠI",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "txt_setting_account": {
+            "x": 320,
+            "y": 34,
+            "text": "TÀI KHOẢN",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "txt_setting_account_username": {
+            "x": 320,
+            "y": 34,
+            "text": "TÊN NGƯỜI DÙNG",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "txt_setting_profile": {
+            "x": 320,
+            "y": 34,
+            "text": "HỒ SƠ",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "txt_giftcode": {
+            "x": 320,
+            "y": 34,
+            "text": "GIFTCODE",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "tab_resource": {
+            "x": 247,
+            "y": 30,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "icon_resource": {
+            "x": 0,
+            "y": 10,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Gem"
+        },
+        "txt_resource": {
+            "x": 0,
+            "y": 10,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 20
+            }
+        }
+    },
+    "setting_item": {
+        "name": {
+            "x": 35,
+            "y": 42,
+            "text": "aa",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "button_right": {
+            "x": 598,
+            "y": 56,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Arrow_02"
+        },
+        "button_top": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Arrow_04"
+        },
+        "button_on": {
+            "x": 508,
+            "y": 36,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "ON"
+        },
+        "txt_button_on": {
+            "x": 528,
+            "y": 46,
+            "text": "ON",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 20
+            }
+        },
+        "txt_button_off": {
+            "x": 552,
+            "y": 46,
+            "text": "OFF",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 20
+            }
+        },
+        "txt_on_right": {
+            "x": 563,
+            "y": 46,
+            "text": "OFF",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#787289",
+                "align": "center",
+                "fontSize": 20
+            }
+        },
+        "button_off": {
+            "x": 605,
+            "y": 36,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "OFF"
+        },
+        "button_bottom": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Arrow_03"
+        },
+        "line": {
+            "x": 35,
+            "y": 100,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Line"
+        },
+        "config_language": {
+            "x": 466,
+            "y": 42,
+            "text": "Tiếng Việt",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#625d71",
+                "align": "center",
+                "fontSize": 21
+            }
+        },
+        "config_version": {
+            "x": 600,
+            "y": 42,
+            "text": "version",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#625d71",
+                "align": "center",
+                "fontSize": 21
+            }
+        },
+        "fb_icon": {
+            "x": 466,
+            "y": 22,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Icon_FB"
+        },
+        "insta_icon": {
+            "x": 545,
+            "y": 22,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Icon_insta"
+        }
+    },
+    "setting_account": {
+        "txt_setting_head": {
+            "x": 320,
+            "y": 165,
+            "text": "Thay đổi tên người dùng",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "box_text": {
+            "x": 320,
+            "y": 245,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Box_tennguoidung"
+        },
+        "txt_box_text": {
+            "x": 0,
+            "y": 0,
+            "text": "Tên",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#615d74",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "btn_save": {
+            "x": 320,
+            "y": 345,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Box_luuthaydoi"
+        },
+        "txt_btn_save": {
+            "x": 0,
+            "y": 0,
+            "text": "LƯU THAY ĐỔI",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 30
+            }
+        },
+        "tick": {
+            "x": 223,
+            "y": -12,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Tick"
+        },
+        "tick_ava": {
+            "x": 223,
+            "y": 100,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Tick"
+        }
+    },
+    "setting_giftcode": {
+        "txt_setting_head": {
+            "x": 320,
+            "y": 165,
+            "text": "Nhập Giftcode",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "box_text": {
+            "x": 320,
+            "y": 245,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Box_tennguoidung"
+        },
+        "txt_box_text": {
+            "x": 0,
+            "y": 0,
+            "text": "Tên",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#615d74",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "btn_save": {
+            "x": 320,
+            "y": 345,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Box_luuthaydoi"
+        },
+        "txt_btn_save": {
+            "x": 0,
+            "y": 0,
+            "text": "NHẬN",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 30
+            }
+        },
+        "tick": {
+            "x": 223,
+            "y": -12,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Tick"
+        }
+    },
+    "setting_profile": {
+        "frame_ava": {
+            "x": 128,
+            "y": 238,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Hoso_KHung_ava"
+        },
+        "ava": {
+            "x": 128,
+            "y": 238
+        },
+        "btn_camera": {
+            "x": 71,
+            "y": 307,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Icon_Picture"
+        },
+        "btn_save": {
+            "x": 320,
+            "y": 1000,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Box_luuthaydoi"
+        },
+        "txt_btn_save": {
+            "x": 0,
+            "y": 0,
+            "text": "LƯU THAY ĐỔI",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 30
+            }
+        },
+        "lbl_box": {
+            "x": 20,
+            "y": 15,
+            "name": "Tên:",
+            "location": "Vị trí:",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#c3c3c3",
+                "align": "left",
+                "fontSize": 23
+            }
+        },
+        "value_box": {
+            "x": 80,
+            "y": 15,
+            "style": {
+                "font": "Gilroy",
+                "fill": "#333333",
+                "align": "left",
+                "fontSize": 23
+            }
+        },
+        "lbl_des": {
+            "x": 39,
+            "y": 390,
+            "text": "Mô tả",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#7c7888",
+                "align": "left",
+                "fontSize": 23
+            }
+        },
+        "box_des": {
+            "x": 35,
+            "y": 431,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Hoso_Box_Mota"
+        },
+        "icon_edit": {
+            "x": 515,
+            "y": 15,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Icon_Edit"
+        },
+        "txt_des": {
+            "x": 20,
+            "y": 15,
+            "text": "",
+            "style": {
+                "font": "Gilroy",
+                "fill": "#333333",
+                "align": "left",
+                "fontSize": 23,
+                "wordWrap": true,
+                "wordWrapWidth": 470
+            }
+        },
+        "tick_des": {
+            "x": 515,
+            "y": 80,
+            "nameAtlas": "settingSprites",
+            "nameSprite": "Tick"
+        }
+    },
+    "bg_tab_menu_select_item": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "shop",
+        "nameSprite": "bg_tab_menu_select_item",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 19,
+                "paddingTop": 8
+            }
+        }
+    },
+    "sort_play_list_bg_search_menu": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "shop",
+        "nameSprite": "Search_tab"
+    },
+    "btn_logout": {
+        "x": 320,
+        "y": 1054,
+        "nameAtlas": "settingSprites",
+        "nameSprite": "Button_Dangxuat"
+    },
+    "txt_logout": {
+        "x": 0,
+        "y": 58,
+        "text": "ĐĂNG XUẤT",
+        "style": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 31
+        }
+    }
+}

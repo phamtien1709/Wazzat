@@ -1,0 +1,698 @@
+{
+    "nameAtlas":"onlineMode",
+    "icon_back": {
+        "x": 59,
+        "y" : 59,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Back_Icon"
+    },
+    "tab_header": {
+    	"x": 0,
+        "y" : 0,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_header"
+    },
+    "tab_gem":
+    {
+    	"x": 412,
+        "y" : 41,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_Gem",
+        "name":"onlineModeTabGem"
+    },
+    "label_gem":
+    {
+    	"x": 0,
+        "y" : 0,        
+        "style":{
+        	"align":"left",
+        	"fontSize":48,
+        	"fontWeight":500
+        }
+    },
+    "icon_gem":
+    {
+    	"x": 568,
+        "y" : 61,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Diamond"
+    },
+    "tab_btn_default":
+    {
+    	"x": 0,
+        "y" : 0,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_chon playlist",
+        "name":"onlineModeTabBgDefault"
+    },
+    "tab_btn_active":
+    {
+    	"x": 0,
+        "y" : 0,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_chon playlist _Active",
+        "name":"onlineModeTabBgActive"
+    },
+    "tab_btn_line": {
+        "x": 0,
+        "y" : 163,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Line_chon playlist"
+    },
+    "tab_btn_label": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":48
+        }
+    },
+    "top_item_default_genres":
+    {
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "01"
+    },
+    "bg_item_default_genres": {
+    	"x": 0,
+        "y" : 16,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "03_Nhac_remix"
+    },
+    "bg_item_user_genres": {
+    	"x": 0,
+        "y" : 47,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_User"
+    },
+    "bg_item_icon_genres": {
+    	"x": 16,
+        "y" : 61,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "User_Icon"
+    },
+    "lb_item_genes": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":54,
+        	"fontWeight":500
+        }
+    },
+    "lb_item_genes_count": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":33
+        }
+    },
+    "bg_item_bet":
+    {
+    	"x": 0,
+        "y" : 0,
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_ChiPhi_Big",
+        "name":"onlineModeBgItemBet"
+    },
+    "line_item_bet": {
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_ChiPhi"
+    },
+    "lbTextThuong_item_bet": {
+    	"x": 45,
+        "y" : 30,        
+        "style":{
+        	"fontSize":39
+        },
+        "text":"Thưởng"
+    },
+    "lbTextChiPhi_item_bet": {
+    	"x": 45,
+        "y" : 80,        
+        "style":{
+        	"fontSize":39
+        },
+        "text":"Chi Phí"
+    },
+    "lbCurrentThuong_item_bet": {
+    	"x": 0,
+        "y" : 0,        
+        "style":{
+        	"fontSize":39,
+        	"fontWeight":500
+        },
+        "text":"0"
+    },
+    "lbCurrentChiPhi_item_bet": {
+    	"x": 0,
+        "y" : 0,        
+        "style":{
+        	"fontSize":39,
+        	"fontWeight":500
+        },
+        "text":"0"
+    },
+    "iconThuong_item_bet": {
+    	"x": 553,
+        "y" : 37,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Diamond",
+        "width":55,
+        "height":40
+    },
+    "iconChiPhi_item_bet": {
+    	"x": 553,
+        "y" : 88,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Diamond",
+        "width":55,
+        "height":40
+    },
+    "btnChon_item_bet":{
+    	"x":666,
+    	"y":53,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Button_Chon",
+	   	"configText": {
+	    	"x": 0,
+	        "y" : 0,
+	        "style":{
+	        	"fontSize":48,
+	        	"fontWeight":500,
+	        	"align":"center",
+	        	"boundsAlignH":"center",
+        		"boundsAlignV":"middle"
+	        }
+	    }
+    },
+    "btnKhoa_item_bet":{
+    	"x":666,
+    	"y":53,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Button_Unlock",
+        "left":8.5,
+        "right":8.5,
+        "top":50,
+        "bot":50,
+        "width":234,
+        "height":100,
+        "name":"onlineModeBtnKhoaItem",
+	   	"configText": {
+	    	"x": 0,
+	        "y" : 0,
+	        "style":{
+	        	"fontSize":42
+	        }
+	    },
+	    "icon":{
+	    	"x":35,
+	    	"y":25,
+	    	"nameAtlas" : "onlineMode",
+	        "nameSprite" : "Unlock_Icon",
+	        "align":"left"
+    	}	        
+    },
+    "btnChon_item_player_list":{
+    	"x":732,
+    	"y":37,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Button_Chon",
+	   	"configText": {
+	    	"x": 0,
+	        "y" : 0,
+	        "style":{
+	        	"fontSize":48,
+	        	"fontWeight":500,
+	        	"align":"center",
+	        	"boundsAlignH":"center",
+        		"boundsAlignV":"middle"
+	        }
+	    }
+    },
+    "lb_name_item_player_list": {
+    	"x": 200,
+        "y" : 0,        
+        "style":{
+        	"fontSize":45,
+        	"wordWrap":true,
+        	"wordWrapWidth":500
+        },
+        "text":"0"
+    },
+    "btnKhoa_item_player_list":{
+    	"x":732,
+    	"y":37,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Button_Unlock",
+        "left":8.5,
+        "right":8.5,
+        "top":50,
+        "bot":50,
+        "width":234,
+        "height":100,
+        "name":"onlineModeBtnKhoaItem",
+	   	"configText": {
+	    	"x": 0,
+	        "y" : 0,
+	        "style":{
+	        	"fontSize":42,
+	        	"fontWeight":500,
+	        	"align":"right",
+	        	"boundsAlignH":"right",
+        		"boundsAlignV":"middle"
+	        },
+	        "width":105
+	    },
+	    "icon":{
+	    	"x":135,
+	    	"y":30,
+	    	"nameAtlas" : "onlineMode",
+	        "nameSprite" : "Diamond",
+	        "align":"right",
+	        "width":55,
+        	"height":40
+    	}	        
+    },
+    "line_item_player_list": {
+    	"x": 0,
+        "y" : 265,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Line"
+    },
+    "bg_loading_ava":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Khung_Ava_Loading"
+    },
+    "bg_loading_answer_me":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Circle_01_answer"
+    },
+    "bg_sansang_ava":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Khung_Ava_Sansang"
+    },
+    "bg_sansang_answer_me":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Circle_02_answer"
+    },
+    "linetop_waitting":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Line_Top"
+    },
+    "wating_bg_disconnect":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Disconnect_BG"
+    },
+    "wating_icon_disconnect":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Disconnect_Icon"
+    },
+    "text_loading_ava":{
+    	"x": 0,
+        "y" : 350,
+        "style":{
+        	"fontSize":42
+        }
+    },
+	"text_user_name_ava": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":42
+        }
+    },
+	"text_user_name_ava_playRoom": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":33
+        }
+    },
+	"text_score_ava_playRoom": {
+    	"x": 0,
+        "y" : 205,
+        "style":{
+        	"fontSize":40
+        }
+    },
+	"text_tieude_waitting": {
+    	"x": 0,
+        "y" : 120,
+        "style":{
+        	"fontSize":66
+        }
+    },
+	"text_player_waitting": {
+    	"x": 0,
+        "y" : 425,
+        "style":{
+        	"fontSize":46
+        }
+    },
+	"text_countime_waitting": {
+    	"x": 0,
+        "y" : 330,
+        "style":{
+        	"fontSize":200,
+        	"align":"center",
+        	"boundsAlignH":"center",
+            "boundsAlignV":"middle",
+            "fontWeight":700
+        }
+    },
+    "text_question_playroom":{
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":36,
+        	"align":"center",
+            "wordWrap":true,
+            "wordWrapWidth":1080,
+            "boundsAlignH":"center",
+            "boundsAlignV":"middle"
+        }
+    },
+    "bg_me_answer1":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Circle_02"
+    },
+    "bg_win_me_answer1":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Circle_01"
+    },
+    "bg_me_fail":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Wrong_icon"
+    },
+	"bg_me_txt_time": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":26,
+        	"fill":"black",
+        	"fontWeight":700
+        }
+    },
+    "bg_answer_question":{
+    	"x":0,
+    	"y":0,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_Cautraloi",
+        "left":14,
+        "right":14,
+        "top":50,
+        "bot":50,
+        "width":960,
+        "height":175,
+        "name":"Tab_Cautraloi"	   
+    },
+    "bg_answer_question_nochoose":{
+    	"x":0,
+    	"y":0,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_CautraLoi_noChoose",
+        "left":14,
+        "right":14,
+        "top":50,
+        "bot":50,
+        "width":960,
+        "height":175,
+        "name":"Tab_CautraLoi_noChoose"	   
+    },
+	"text_answer_question": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":50,
+        	"fill":"black",
+        	"wordWrap":true,
+        	"wordWrapWidth":950,        	
+        	"font":"GilroyMedium"
+        }
+    },
+    "bg_chart_light_you":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Light_You"
+    },
+    "bg_chart_light_other":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Light_Other"
+    },
+	"text_user_name_ava_result": {
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":36,
+        	"fill":"#A7A5AD"
+        }
+    },
+	"text_score_ava_result": {
+    	"x": 0,
+        "y" : 45,
+        "style":{
+        	"fontSize":49,
+        	"fill":"white",
+        	"fontWeight":700
+        }
+    },
+    "txt_button_back_menu_visilbe":{
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":36,
+        	"fill":"#A7A5AD"        	
+        }
+    },
+    "arrow_back_menu":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Arrow_Small"
+    },    
+    "txt_button_back_menu":{
+    	"x": 0,
+        "y" : 0,
+        "style":{
+        	"fontSize":36,
+        	"fill":"white"        	
+        }
+    },
+    "btn_money_ava_result":{
+    	"x":18,
+    	"y":350,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Tab_Phanthuong",            
+	   	"configText": {
+	    	"x": 0,
+	        "y" : 0,
+	        "style":{
+	        	"fontSize":31,
+	        	"fontWeight":500,
+	        	"align":"right",
+	        	"boundsAlignH":"right",
+	            "boundsAlignV":"middle"
+	        },
+	        "width":85,
+	        "paddingTop":5
+	    },
+	    "icon":{
+	    	"x":108,
+	    	"y":20,
+	    	"nameAtlas" : "onlineMode",
+	        "nameSprite" : "Diamond",
+	        "align":"right",
+	        "width":45,
+	        "height":32
+    	}	        
+    },
+    "btn_money_lose_text_ava_result":{
+    	"x":0,
+    	"y":270,
+    	"nameAtlas" : null,
+        "nameSprite" : null,            
+	   	"configText": {
+	    	"x": 0,
+	        "y" : 0,
+	        "style":{
+	        	"fontSize":31,
+	        	"fontWeight":500,
+	        	"align":"center",
+	        	"boundsAlignH":"center",
+	            "boundsAlignV":"middle",
+	            "fill":"red"
+	        },
+	        "width":120,
+	        "height":35
+	    }    
+    },
+    "btn_money_lose_ava_result":{
+    	"x":18,
+    	"y":270,
+    	"nameAtlas" : null,
+        "nameSprite" : null,            
+	   	"configText": {
+	    	"x": 15,
+	        "y" : 15,
+	        "style":{
+	        	"fontSize":31,
+	        	"fontWeight":500,
+	        	"align":"right",
+	        	"boundsAlignH":"right",
+	            "boundsAlignV":"bot"
+	        },
+	        "width":75,
+	        "height":42
+	    },
+	    "icon":{
+	    	"x":95,
+	    	"y":18,
+	    	"nameAtlas" : "onlineMode",
+	        "nameSprite" : "Diamond",
+	        "align":"right",
+	        "width":40,
+	        "height":29
+    	}	        
+    },
+	"txt_title_win_result": {
+    	"x": 0,
+        "y" : 70,
+        "style":{
+        	"fontSize":60,
+        	"fontWeight":500
+        }
+    },
+    "bg_player_list_result":{
+    	"x":60,
+    	"y":1045,
+    	"nameAtlas" : "onlineMode",
+        "nameSprite" : "Box_Ketqua",
+        "left":480,
+        "right":480,
+        "top":8.3,
+        "bot":8.3,
+        "width":960,
+        "height":820,
+        "name":"onlineModeBgPlayerListResult"
+    },
+    "icon_true_result":{
+    	"x": 60,
+        "y" : 43,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "icon_dung"
+    },
+    "icon_fail_result":{
+    	"x": 64,
+        "y" : 42,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "icon_sai"
+    },
+	"text_time_player_list_result": {
+    	"x": 0,
+        "y" : 78,
+        "style":{
+        	"fontSize":30,
+        	"fill":"green"
+        }
+    },
+    "bg_ava_player_list_result":{
+    	"x": 150,
+        "y" : 11,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Khungava_Playlist"
+    },
+    "button_play_sound_player_list_result":{
+    	"x": 230,
+        "y" : 91,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "button_play_sound"
+    },
+    "button_pause_sound_player_list_result":{
+    	"x": 230,
+        "y" : 91,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "button_pause_sound"
+    },
+    "text_name_song_player_list_result": {
+    	"x": 315,
+        "y" : 30,
+        "style":{
+        	"fontSize":39,
+            "align":"left",
+            "boundsAlignH":"left"
+        }
+    },
+    "text_name_casi_player_list_result": {
+    	"x": 315,
+        "y" : 85,
+        "style":{
+        	"fontSize":36,
+        	"fill":"#8C8996"
+        }
+    },
+    "button_home_player_list_result":{
+    	"x": 60,
+        "y" : 1710,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Button_Home"
+    },
+    "button_reset_bg_player_list_result": {
+    	"x": 238,
+        "y" : 1710,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Button_Choilai",
+        "button_reset_icon_KimCuong_player_list_result":{
+	    	"x": 580,
+	        "y" : 50,        
+	        "nameAtlas" : "onlineMode",
+	        "nameSprite" : "Diamond"
+	    },
+	    "button_reset_lb_choilai_player_list_result": {
+	    	"x": 150,
+	        "y" : 40,
+	        "style":{
+	        	"fontSize":60,
+	        	"fontWeight":700
+	        }
+	    },
+	    "button_reset_lb_money_player_list_result": {
+	    	"x": 0,
+	        "y" : 50,
+	        "style":{
+	        	"fontSize":48,
+	        	"fill":"#CCCCCC"
+	        }
+	    }
+    },
+    "light_rotation_list_result":{
+    	"x": 0,
+        "y" : 0,        
+        "nameAtlas" : "onlineMode",
+        "nameSprite" : "Light_Rotation"
+    }
+}

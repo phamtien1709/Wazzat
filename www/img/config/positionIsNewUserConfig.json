@@ -1,0 +1,226 @@
+{
+    "chooseMain": {
+        "bg": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "",
+            "nameSprite": "bg_create_room"
+        },
+        "line_top": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "isNewUserSprites",
+            "nameSprite": "Line_Top"
+        },
+        "txt_choose": {
+            "x": 320,
+            "y": 90,
+            "userChooseGenresLeft": "Hãy chọn",
+            "userChooseGenresRight": "thể loại nhạc mà bạn yêu thích",
+            "configs": {
+                "font": "GilroyMedium",
+                "fill": "#ffffff",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 350,
+                "fontSize": 30
+            }
+        },
+        "genres": {
+            "nhac_tre": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Nhac_tre"
+            },
+            "nhac_tru_tinh": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "TruTinh"
+            },
+            "au_my": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "AuMy"
+            },
+            "kpop": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "K-Pop1"
+            },
+            "rock_viet": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "RockViet"
+            },
+            "nhac_remix": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Remix"
+            },
+            "china": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "China"
+            },
+            "nhac_cach_mang": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Nhac_Cach_Mang"
+            },
+            "rap_hiphop": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Rap_HIpHop"
+            },
+            "nhac_thieu_nhi": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Thieu_Nhi"
+            },
+            "nhac_trinh": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Nhac_tre"
+            },
+            "au_my/pop": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Pop1"
+            },
+            "au_my/rock": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Rock1"
+            },
+            "au_my/rap_hiphop": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Rap_Hiphop1"
+            },
+            "au_my/country": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Country1"
+            },
+            "au_my/electronic_dance": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Electronic_Dance"
+            },
+            "au_my/r_and_b_soul": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "R_B_Soul1"
+            }
+        }
+    },
+    "chooseUS_UK": {
+        "btn_back": {
+            "x": 43,
+            "y": 57,
+            "nameAtlas": "isNewUserSprites",
+            "nameSprite": "Arrow"
+        },
+        "txt_parent": {
+            "x": 320,
+            "y": 41,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 350,
+                "fontSize": 33
+            }
+        },
+        "genres": {
+            "au_my/pop": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Pop1"
+            },
+            "au_my/rock": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Rock1"
+            },
+            "au_my/rap_hiphop": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Rap_Hiphop1"
+            },
+            "au_my/country": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Country1"
+            },
+            "au_my/electronic_dance": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Electronic_Dance"
+            },
+            "au_my/r_and_b_soul": {
+                "x": 0,
+                "y": 0,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "R_B_Soul1"
+            }
+        }
+    },
+    "received": {
+        "txt_playlist": {
+            "x": 0,
+            "y": 187,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "wordWrap": true,
+                "wordWrapWidth": 160,
+                "maxLines": 3,
+                "fontSize": 21
+            }
+        },
+        "btn_receive": {
+            "btn": {
+                "x": 35,
+                "y": 1001,
+                "nameAtlas": "isNewUserSprites",
+                "nameSprite": "Button_Nhan"
+            },
+            "txt_receive": {
+                "x": 0,
+                "y": 0,
+                "text": "NHẬN",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "fontSize": 34
+                }
+            }
+        }
+    }
+}

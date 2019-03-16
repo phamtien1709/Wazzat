@@ -1,0 +1,55 @@
+﻿{
+	"frames": {
+		"BOX": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 570,
+				"h": 537
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 570,
+				"h": 537
+			},
+			"sourceSize": {
+				"w": 570,
+				"h": 537
+			}
+		},
+		"Button_ThuLai": {
+			"frame": {
+				"x": 0,
+				"y": 541,
+				"w": 499,
+				"h": 89
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 499,
+				"h": 89
+			},
+			"sourceSize": {
+				"w": 499,
+				"h": 89
+			}
+		}
+	},
+	"meta": {
+		"app": "Adobe Animate",
+		"version": "18.0.2.126",
+		"image": "disconnect",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1024,
+			"h": 1024
+		},
+		"scale": "1"
+	}
+}

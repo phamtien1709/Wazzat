@@ -1,0 +1,91 @@
+﻿{"frames": {
+
+"Symbol 10000":
+{
+	"frame": {"x":0,"y":0,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10001":
+{
+	"frame": {"x":29,"y":0,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10002":
+{
+	"frame": {"x":58,"y":0,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10003":
+{
+	"frame": {"x":87,"y":0,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10004":
+{
+	"frame": {"x":0,"y":30,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10005":
+{
+	"frame": {"x":29,"y":30,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10006":
+{
+	"frame": {"x":58,"y":30,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10007":
+{
+	"frame": {"x":87,"y":30,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10008":
+{
+	"frame": {"x":0,"y":60,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+},
+"Symbol 10009":
+{
+	"frame": {"x":29,"y":60,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":30},
+	"sourceSize": {"w":29,"h":30}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "18.0.2.126",
+	"image": "Star.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":128},
+	"scale": "1"
+}
+}

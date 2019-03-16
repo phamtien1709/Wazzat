@@ -1,0 +1,26 @@
+{
+	"gennes_current_level_deactive":{
+    	"x":0,
+    	"y":0,
+    	"nameAtlas" : "defaultSource",
+        "nameSprite" : "CurrentLevelDeactive"
+    },
+    "gennes_current_level_active":{
+    	"x":0,
+    	"y":0,
+    	"nameAtlas" : "defaultSource",
+        "nameSprite" : "CurrentLevelActive"
+    },
+    "gennes_current_level_deactive1":{
+    	"x":0,
+    	"y":0,
+    	"nameAtlas" : "defaultSource",
+        "nameSprite" : "CurrentLevelDeactive1"
+    },
+    "gennes_current_level_active1":{
+    	"x":0,
+    	"y":0,
+    	"nameAtlas" : "defaultSource",
+        "nameSprite" : "CurrentLevelActive1"
+    }
+}

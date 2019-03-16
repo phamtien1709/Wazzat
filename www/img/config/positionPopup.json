@@ -1,0 +1,655 @@
+{
+    "popup_confirm_top_bg": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Box_02"
+    },
+    "popup_confirm_bg_text": {
+        "x": 0,
+        "y": 20,
+        "nameAtlas": "popup",
+        "nameSprite": "Box_01",
+        "left": 20,
+        "right": 20,
+        "top": 5,
+        "bot": 5,
+        "width": 570,
+        "height": 447,
+        "name": "popup_bg_text"
+    },
+    "popup_confirm_button_ok": {
+        "x": 295,
+        "y": 344,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Dong_Y",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 210,
+            "paddingTop": 5
+        }
+    },
+    "popup_confirm_button_ok_full": {
+        "x": 27,
+        "y": 344,
+        "nameAtlas": "popup",
+        "nameSprite": "ButtonFullPopup",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 492,
+            "paddingTop": 5
+        }
+    },
+    "popup_confirm_button_cancle": {
+        "x": 37,
+        "y": 344,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Thoat",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 210,
+            "paddingTop": 5
+        }
+    },
+    "popup_confirm_button_share": {
+        "x": 295,
+        "y": 610,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Dong_Y",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "align": "center",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "paddingTop": 28
+        },
+        "icon":{
+            "x": 0,
+            "y": 25,
+            "nameAtlas": "popup",
+            "nameSprite": "Icon_Fb"
+        },
+        "alignAll":"center"
+    },
+    "popup_confirm_text_content": {
+        "x": 12,
+        "y": 50,
+        "style": {
+            "fontSize": 32,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "font": "GilroyMedium",
+            "wordWrap": true,
+            "wordWrapWidth": 545,
+            "fill": "#333333"
+        }
+    },
+    "popup_buy_playlist_text_name": {
+        "x": 10,
+        "y": 216,
+        "style": {
+            "fontSize": 36,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "font": "GilroyMedium",
+            "fill": "#333333"
+        }
+    },
+    "popup_buy_playlist_text_content": {
+        "x": 6,
+        "y": 320,
+        "style": {
+            "fontSize": 24,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#333333",
+            "wordWrap": true,
+            "wordWrapWidth": 555,
+            "maxLines": 2
+        }
+    },
+    "popup_close_btn_exit": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Exit"
+    },
+    "popup_invite_friend_ok_txt_title": {
+        "x": 0,
+        "y": 74,
+        "style": {
+            "fontSize": 26,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#333333"
+        }
+    },
+    "popup_invite_friend_ok_txt_name": {
+        "x": 0,
+        "y": 112,
+        "style": {
+            "fontSize": 35,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#FEAC4F",
+            "font": "GilroyBold"
+        }
+    },
+    "popup_invite_friend_txt_name": {
+        "x": 0,
+        "y": 207,
+        "style": {
+            "fontSize": 35,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#333333",
+            "font": "GilroyMedium"
+        }
+    },
+    "popup_invite_friend_txt_des": {
+        "x": 0,
+        "y": 266,
+        "style": {
+            "fontSize": 26,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#333333",
+            "wordWrap": true,
+            "wordWrapWidth": 444
+        }
+    },
+    "popup_invite_friend_txt_muccuoc": {
+        "x": 0,
+        "y": 367,
+        "style": {
+            "fontSize": 26,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fill": "#333333",
+            "font": "GilroyBold"
+        }
+    },
+    "popup_invite_friend_btn_muccuoc": {
+        "x": 198,
+        "y": 416,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Muc_Cuoc",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 26,
+                "align": "right",
+                "boundsAlignH": "right",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 86
+        },
+        "icon": {
+            "x": 100,
+            "y": 18,
+            "nameAtlas": "popup",
+            "nameSprite": "Gem",
+            "align": "right",
+            "width": 34,
+            "height": 24
+        },
+        "alignAll":"center"
+    },
+    "popup_chat_onlinemode_line": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Line"
+    },
+    "popup_bg_item_money": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "bg_item_money"
+    },
+    "popup_icon_ticket": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Ticket"
+    },
+    "popup_icon_emo_win": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Emo"
+    },
+    "popup_icon_emo_done": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Icon_Badao"
+    },
+    "popup_win_event_text_chucmung": {
+        "x": 0,
+        "y": 192,
+        "style": {
+            "fontSize": 44,
+            "font": "GilroyBold",
+            "fill": "#000000"
+        }
+    },
+    "popup_win_event_text_count_question": {
+        "x": 0,
+        "y": 247,
+        "style": {
+            "fontSize": 26,
+            "fill": "#000000"
+        }
+    },
+    "popup_win_event_text_done": {
+        "x": 47,
+        "y": 259,
+        "style": {
+            "fontSize": 26,
+            "fill": "#000000",
+            "wordWrap": true,
+            "wordWrapWidth": 480
+        }
+    },
+    "popup_win_event_button_exit": {
+        "x": 38,
+        "y": 342,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Thoat_win_event",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "font": "GilroyBold"
+            },
+            "width": 135,
+            "paddingTop": 2
+        }
+    },
+    "popup_done_event_button_exit": {
+        "x": 38,
+        "y": 342,
+        "nameAtlas": "popup",
+        "nameSprite": "ButtonFullPopup",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "font": "GilroyBold"
+            },
+            "paddingTop": 2
+        }
+    },
+    "popup_win_event_button_continute": {
+        "x": 207,
+        "y": 342,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Choitiep_win_event",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,
+                "font": "GilroyBold",
+                "align": "right",
+                "boundsAlignH": "right",
+                "boundsAlignV": "middle"
+            },
+            "paddingTop": 3
+        },
+        "icon": {
+            "x": 245,
+            "y": 28,
+            "nameAtlas": "popup",
+            "nameSprite": "Ticket",
+            "align": "right"
+        }
+    },
+    "tn_header_item_gem": {
+        "x": 68,
+        "y": 30,
+        "nameAtlas": "popup",
+        "nameSprite": "tn_bg_item_count_money",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 8
+        },
+        "icon": {
+            "x": 0,
+            "y": 10,
+            "nameAtlas": "popup",
+            "nameSprite": "diamon",
+            "align": "right",
+            "width": 32,
+            "height": 23
+        },
+        "alignAll": "center"
+    },
+    "tn_header_item_ticket": {
+        "x": 246,
+        "y": 30,
+        "nameAtlas": "popup",
+        "nameSprite": "tn_bg_item_count_money",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 8
+        },
+        "icon": {
+            "x": 0,
+            "y": 10,
+            "nameAtlas": "popup",
+            "nameSprite": "ticket1",
+            "align": "right"
+        },
+        "alignAll": "center"
+    },
+    "tn_header_item_mic": {
+        "x": 428,
+        "y": 30,
+        "nameAtlas": "popup",
+        "nameSprite": "tn_bg_item_count_money",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 8
+        },
+        "icon": {
+            "x": 0,
+            "y": 6,
+            "nameAtlas": "popup",
+            "nameSprite": "Mic",
+            "align": "right"
+        },
+        "alignAll": "center"
+    },
+    "popup_win_event_count_ticket": {
+        "x": 237,
+        "y": 35,
+        "nameAtlas": "popup",
+        "nameSprite": "bg_item_money",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 28,
+                "font": "GilroyMedium"
+            },
+            "paddingTop": 13
+        },
+        "icon": {
+            "x": 0,
+            "y": 12,
+            "nameAtlas": "popup",
+            "nameSprite": "Ticket",
+            "align": "right"
+        },
+        "alignAll": "center"
+    },
+    "claim_solo_mode_ranking": {
+        "popup_win_icon_trophy": {
+            "x": 284,
+            "y": -195,
+            "nameAtlas": "eventmode",
+            "nameSprite": "Trophy_win"
+        },
+        "popup_close_btn_exit": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "popup",
+            "nameSprite": "Button_Exit"
+        },
+        "popup_confirm_button_ok": {
+            "x": 261,
+            "y": 415,
+            "nameAtlas": "popup",
+            "nameSprite": "Button_Dong_Y",
+            "text": "NHẬN THƯỞNG",
+            "configText": {
+                "x": 0,
+                "y": 0,
+                "style": {
+                    "fontSize": 32,
+                    "align": "center",
+                    "boundsAlignH": "center",
+                    "boundsAlignV": "middle",
+                    "font": "GilroyBold"
+                },
+                "width": 221,
+                "paddingTop": 5
+            }
+        },
+        "popup_confirm_button_cancle": {
+            "x": 70,
+            "y": 415,
+            "nameAtlas": "popup",
+            "nameSprite": "Button_Thoat",
+            "text": "XẾP HẠNG",
+            "configText": {
+                "x": 0,
+                "y": 0,
+                "style": {
+                    "fontSize": 32,
+                    "align": "center",
+                    "boundsAlignH": "center",
+                    "boundsAlignV": "middle",
+                    "font": "GilroyBold"
+                },
+                "width": 221,
+                "paddingTop": 5
+            }
+        },
+        "popup_win_text_chucmung": {
+            "x": 284,
+            "y": 177,
+            "text": "Chúc mừng bạn đã đạt thứ hạng",
+            "style": {
+                "fontSize": 23,
+                "fill": "#000000"
+            }
+        },
+        "popup_win_text_phanthuong": {
+            "x": 284,
+            "y": 296,
+            "text": "PHẦN THƯỞNG",
+            "style": {
+                "fontSize": 23,
+                "fill": "#000000"
+            }
+        },
+        "popup_win_text_stt": {
+            "x": 284,
+            "y": 207,
+            "style": {
+                "fontSize": 35,
+                "font": "GilroyBold",
+                "fill": "#ffab4f"
+            }
+        }
+    },
+    "bad_connection_label_thongbao":{
+        "x": 0,
+        "y": 350,       
+        "style": {
+            "fontSize": 28,
+            "fill": "#000000",
+            "font":"GilroyBold"
+        }
+    },
+    "bad_connection_label_confirm":{
+        "x": 0,
+        "y": 390,       
+        "style": {
+            "fontSize": 22,
+            "fill": "#333333",
+            "font":"GilroyBold",
+            "wordWrap":true,
+            "wordWrapWidth": 550
+        }
+    },
+    "popup_suggets_rating_bg": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Box"
+    },
+    "popup_suggets_rating_btn_votesau": {
+        "x": 25,
+        "y": 575,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Vote_sau",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,               
+                "font": "GilroyBold"
+            },
+            "paddingTop": 12
+        }
+    },
+    "popup_suggets_rating_btn_votengay": {
+        "x": 292,
+        "y": 575,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Vote_ngay",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 32,               
+                "font": "GilroyBold"
+            },
+            "paddingTop": 12
+        }
+    },
+    "popup_suggets_rating_btn_close": {
+        "x": 540,
+        "y": -30,
+        "nameAtlas": "popup",
+        "nameSprite": "Button_Exit"
+    },
+    "popup_suggets_rating_lb1": {
+        "x": 0,
+        "y": 510,
+        "style": {
+            "fontSize": 28,               
+            "font": "GilroyMedium",
+            "fill":"#333333"
+        }
+    },
+    "popup_suggets_rating_lb2": {
+        "x": 0,
+        "y": 35,
+        "style": {
+            "fontSize": 42,               
+            "font": "GilroyBold",
+            "wordWrap":true,
+            "wordWrapWidth":400,
+            "align":"center"
+        }
+    },
+    "popup_bg_lixi": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "CMNM"
+    },
+    "popup_button_nhan_lixi": {
+        "x": 0,
+        "y": 610,
+        "nameAtlas": "popup",
+        "nameSprite": "BUtton_Nhan_Lixi"
+    },
+    "popup_textgold_lixi": {
+        "x": 65,
+        "y": 540,
+        "style": {
+            "fontSize": 36,               
+            "font": "GilroyBold",
+            "fill":"#fadbc6",
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "popup_textsup_lixi": {
+        "x": 217,
+        "y": 540,
+        "style": {
+            "fontSize": 36,               
+            "font": "GilroyBold",
+            "fill":"#fadbc6",
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    },
+    "popup_textticket_lixi": {
+        "x": 370,
+        "y": 540,
+        "style": {
+            "fontSize": 36,               
+            "font": "GilroyBold",
+            "fill":"#fadbc6",
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle"
+        }
+    }
+}

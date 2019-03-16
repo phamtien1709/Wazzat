@@ -1,0 +1,789 @@
+{
+	"gennes_lb_title": {
+		"x": 34,
+		"y": 34,
+		"style": {
+			"fontSize": 24,
+			"fill": "#93909d"
+		}
+	},
+	"gennes_lb_viewall": {
+		"x": 326,
+		"y": 34,
+		"style": {
+			"fontSize": 20,
+			"align": "right",
+			"boundsAlignH": "right",
+			"boundsAlignV": "middle",
+			"fill": "#93909d"
+		}
+	},
+	"gennes_bg_item": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "shop_bg_gennes",
+		"left": 35,
+		"right": 35,
+		"top": 32,
+		"bot": 32,
+		"width": 148,
+		"height": 65,
+		"name": "shop_bg_gennes"
+	},
+	"gennes_bg_item_active": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "shop_bg_gennes_active",
+		"left": 35,
+		"right": 35,
+		"top": 32,
+		"bot": 32,
+		"width": 148,
+		"height": 65,
+		"name": "shop_bg_gennes_active"
+	},
+	"gennes_text_item": {
+		"x": 0,
+		"y": 0,
+		"style": {
+			"fontSize": 24,
+			"font": "GilroyBold"
+		}
+	},
+	"gennes_current_level_deactive": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "CurrentLevelDeactive"
+	},
+	"gennes_current_level_active": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "CurrentLevelActive"
+	},
+	"gennes_current_level_deactive1": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "CurrentLevelDeactive1"
+	},
+	"gennes_current_level_active1": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "CurrentLevelActive1"
+	},
+	"playlist_lb_title": {
+		"x": 34,
+		"y": 53,
+		"style": {
+			"fontSize": 24,
+			"fill": "#93909d"
+		}
+	},
+	"playlist_lb_viewall": {
+		"x": 370,
+		"y": 53,
+		"style": {
+			"fontSize": 20,
+			"align": "right",
+			"boundsAlignH": "right",
+			"boundsAlignV": "middle",
+			"fill": "#93909d"
+		}
+	},
+	"gennes_text_name_playlist": {
+		"x": 0,
+		"y": 178,
+		"style": {
+			"fontSize": 21,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "top",
+			"wordWrap": true,
+			"wordWrapWidth": 166,
+			"maxLines": 2
+		}
+	},
+	"playlist_button_buy": {
+		"x": 3,
+		"y": 255,
+		"nameAtlas": "shop",
+		"nameSprite": "shop_bg_price_playlist",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 25,
+				"font": "GilroyBold"
+			},
+			"paddingTop": 12
+		},
+		"icon": {
+			"x": 124,
+			"y": 15,
+			"nameAtlas": "shop",
+			"nameSprite": "diamon",
+			"align": "right",
+			"width": 34,
+			"height": 24
+		},
+		"alignAll": "center"
+	},
+	"playlist_text_warning": {
+		"x": 0,
+		"y": 260,
+		"style": {
+			"fontSize": 20,
+			"font": "GilroyMedium",
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "middle",
+			"fill": "#ffa33a"
+		}
+	},
+	"playlist_bg_menu": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "Tb_02"
+	},
+	"bg_tab_menu_select": {
+		"x": 465,
+		"y": 22,
+		"nameAtlas": "shop",
+		"nameSprite": "bg_tab_menu_select",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 19,
+				"boundsAlignH": "center"
+			},
+			"paddingTop": 7,
+			"paddingRight": 20
+		}
+	},
+	"bg_tab_menu_select_item": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "bg_tab_menu_select_item",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 19
+			},
+			"paddingTop": 7
+		}
+	},
+	"playlist_menu_linengang": {
+		"x": 0,
+		"y": 87,
+		"nameAtlas": "shop",
+		"nameSprite": "Line_02"
+	},
+	"playlist_menu_linedoc": {
+		"x": 224,
+		"y": 27,
+		"nameAtlas": "shop",
+		"nameSprite": "Line_03"
+	},
+	"playlist_menu_textcontent": {
+		"x": 0,
+		"y": 0,
+		"style": {
+			"fontSize": 23,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle",
+			"fill": "#ffffff"
+		}
+	},
+	"playlist_menu_search_icon": {
+		"x": 590,
+		"y": 30,
+		"nameAtlas": "shop",
+		"nameSprite": "Search_Icon"
+	},
+	"sort_play_list_bg_top_menu": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "sort_play_list_bg_top_menu"
+	},
+	"sort_play_list_bg_diamond_top_menu": {
+		"x": 221,
+		"y": 23,
+		"nameAtlas": "shop",
+		"nameSprite": "sort_play_list_bg_diamon",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 28,
+				"align": "center",
+				"boundsAlignH": "center",
+				"boundsAlignV": "middle",
+				"font": "GilroyBold"
+			},
+			"width": 130,
+			"paddingLeft": 12,
+			"paddingTop": 3
+		}
+	},
+	"sort_play_list_bg_back_top_menu": {
+		"x": 15,
+		"y": 17,
+		"nameAtlas": "shop",
+		"nameSprite": "sort_play_list_bg_icon_back"
+	},
+	"sort_play_list_bg_search_icon_top_menu": {
+		"x": 566,
+		"y": 17,
+		"nameAtlas": "shop",
+		"nameSprite": "sort_play_list_searchicon_top_menu"
+	},
+	"sort_play_list_bg_search_menu": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "Search_tab"
+	},
+	"sort_play_list_icon_active_search_menu": {
+		"x": 0,
+		"y": 96,
+		"nameAtlas": "shop",
+		"nameSprite": "sort_play_list_active_top_menu"
+	},
+	"sort_play_list_linedoc_search_menu": {
+		"x": 212,
+		"y": 32,
+		"nameAtlas": "shop",
+		"nameSprite": "Line_03"
+	},
+	"sort_play_list_text_search_menu": {
+		"x": 0,
+		"y": 0,
+		"style": {
+			"fontSize": 23,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle",
+			"fill": "#ffffff"
+		}
+	},
+	"sort_play_list_text_current_search": {
+		"x": 35,
+		"y": 278,
+		"style": {
+			"fontSize": 24,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "middle",
+			"fill": "#ffffff"
+		}
+	},
+	"sort_play_list_btn_close_search": {
+		"x": 592,
+		"y": 292,
+		"nameAtlas": "shop",
+		"nameSprite": "Exit"
+	},
+	"detail_playlist_name": {
+		"x": 24,
+		"y": 326,
+		"style": {
+			"fontSize": 28,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle"
+		}
+	},
+	"detail_playlist_detail": {
+		"x": 59,
+		"y": 410,
+		"style": {
+			"fontSize": 26,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle",
+			"wordWrap": true,
+			"wordWrapWidth": 533,
+			"fill": "#93909d"
+		}
+	},
+	"detail_button_buy": {
+		"x": 238,
+		"y": 539,
+		"nameAtlas": "shop",
+		"nameSprite": "detail_buy_button",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 23,
+				"align": "right",
+				"boundsAlignH": "right",
+				"boundsAlignV": "middle",
+				"font": "GilroyBold"
+			},
+			"paddingRight": 6,
+			"paddingTop": 3,
+			"width": 92
+		}
+	},
+	"detail_button_kichhoat": {
+		"x": 238,
+		"y": 539,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Kichhoat",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 21,
+				"align": "center",
+				"boundsAlignH": "center",
+				"boundsAlignV": "middle",
+				"font": "GilroyBold"
+			},
+			"width": 154,
+			"paddingTop": 3
+		}
+	},
+	"detail_playlist_lb_baihat": {
+		"x": 35,
+		"y": 657,
+		"style": {
+			"fontSize": 32,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "middle",
+			"font": "GilroyMedium"
+		}
+	},
+	"detail_playlist_lb_count_baihat": {
+		"x": 415,
+		"y": 660,
+		"style": {
+			"fontSize": 27,
+			"align": "right",
+			"boundsAlignH": "right",
+			"boundsAlignV": "middle",
+			"fill": "#93909d"
+		}
+	},
+	"detail_playlist_active_baihat": {
+		"x": 35,
+		"y": 706,
+		"nameAtlas": "shop",
+		"nameSprite": "sort_play_list_active_top_menu"
+	},
+	"detail_playlist_item_name_song": {
+		"x": 0,
+		"y": 7,
+		"style": {
+			"fontSize": 23,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "bottom",
+			"wordWrap": true,
+			"wordWrapWidth": 551
+		}
+	},
+	"detail_playlist_item_name_casi": {
+		"x": 0,
+		"y": 65,
+		"style": {
+			"fontSize": 18,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "middle",
+			"fill": "#695782"
+		}
+	},
+	"detail_playlist_item_line": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "line_space"
+	},
+	"detail_playlist_btn_detail_song": {
+		"x": 537,
+		"y": 45,
+		"nameAtlas": "shop",
+		"nameSprite": "detail_select_song"
+	},
+	"shop_line": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "line_space",
+		"left": 4,
+		"right": 4,
+		"top": 0.95,
+		"bot": 0.95,
+		"width": 960,
+		"height": 3,
+		"name": "shop_line"
+	},
+	"bot_menu_bg_button": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "bg_button_bot"
+	},
+	"bot_menu_line_top": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "line_bot_menu"
+	},
+	"bot_menu_text_button": {
+		"x": 0,
+		"y": 72,
+		"style": {
+			"fontSize": 20,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle"
+		}
+	},
+	"tn_header_item_gem": {
+		"x": 98,
+		"y": 30,
+		"nameAtlas": "shop",
+		"nameSprite": "tn_bg_item_count_money",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 23,
+				"font": "GilroyMedium"
+			},
+			"paddingTop": 8
+		},
+		"icon": {
+			"x": 0,
+			"y": 10,
+			"nameAtlas": "shop",
+			"nameSprite": "diamon",
+			"align": "right",
+			"width": 32,
+			"height": 23
+		},
+		"alignAll": "center"
+	},
+	"tn_header_item_ticket": {
+		"x": 276,
+		"y": 30,
+		"nameAtlas": "shop",
+		"nameSprite": "tn_bg_item_count_money",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 23,
+				"font": "GilroyMedium"
+			},
+			"paddingTop": 8
+		},
+		"icon": {
+			"x": 0,
+			"y": 10,
+			"nameAtlas": "shop",
+			"nameSprite": "ticket",
+			"align": "right"
+		},
+		"alignAll": "center"
+	},
+	"tn_header_item_heart": {
+		"x": 458,
+		"y": 30,
+		"nameAtlas": "shop",
+		"nameSprite": "tn_bg_item_count_money",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 23,
+				"font": "GilroyMedium"
+			},
+			"paddingTop": 8
+		},
+		"icon": {
+			"x": 0,
+			"y": 10,
+			"nameAtlas": "shop",
+			"nameSprite": "heart",
+			"align": "right"
+		},
+		"alignAll": "center"
+	},
+	"tn_header_item_mic": {
+		"x": 248,
+		"y": 30,
+		"nameAtlas": "shop",
+		"nameSprite": "tn_bg_item_count_money",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 23,
+				"font": "GilroyMedium"
+			},
+			"paddingTop": 8
+		},
+		"icon": {
+			"x": 0,
+			"y": 7,
+			"nameAtlas": "shop",
+			"nameSprite": "Mic",
+			"align": "right"
+		},
+		"alignAll": "center"
+	},
+	"tn_tab_icon_gem": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNGem"
+	},
+	"tn_tab_icon_gem_active": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNGem_Active"
+	},
+	"tn_tab_icon_ticket": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNTicket"
+	},
+	"tn_tab_icon_ticket_active": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNTicket_Active"
+	},
+	"tn_tab_icon_heart": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNHeart"
+	},
+	"tn_tab_icon_heart_active": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNHeart_Active"
+	},
+	"tn_tab_icon_heart_active": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "TNHeart_Active"
+	},
+	"tn_item_bg": {
+		"x": 0,
+		"y": 20,
+		"nameAtlas": "shop",
+		"nameSprite": "Box"
+	},
+	"tn_item_package_name": {
+		"x": 31,
+		"y": 0,
+		"nameAtlas": "shop",
+		"nameSprite": "Tab_Ten_Goi",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 21,
+				"font": "GilroyBold",
+				"paddingTop": 5
+			},
+			"width": 132
+		}
+	},
+	"tn_item_price": {
+		"x": 7,
+		"y": 190,
+		"style": {
+			"fontSize": 35,
+			"font": "GilroyBold"
+		}
+	},
+	"tn_item_total_money": {
+		"x": 26,
+		"y": 243,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Gia",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 25,
+				"font": "GilroyBold"
+			},
+			"width": 142,
+			"paddingTop": 10
+		}
+	},
+	"tn_item_total_video": {
+		"x": 26,
+		"y": 243,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Gia",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 25,
+				"font": "GilroyBold"
+			},
+			"width": 142,
+			"paddingTop": 14
+		},
+		"icon": {
+			"x": 0,
+			"y": 18,
+			"nameAtlas": "shop",
+			"nameSprite": "tn_camera",
+			"align": "right"
+		},
+		"alignAll": "center"
+	},
+	"tn_item_total_video_wait": {
+		"x": 26,
+		"y": 243,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Gia",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 25,
+				"font": "GilroyBold"
+			},
+			"paddingTop": 10,
+			"width": 142
+		}
+	},
+	"tn_item_total_support": {
+		"x": 26,
+		"y": 243,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Gia",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 25,
+				"font": "GilroyBold"
+			},
+			"paddingTop": 15,
+			"width": 142
+		},
+		"icon": {
+			"x": 0,
+			"y": 20,
+			"nameAtlas": "shop",
+			"nameSprite": "diamon",
+			"align": "right"
+		},
+		"alignAll": "center"
+	},
+	"popup_confirm_txt_name": {
+		"x": 0,
+		"y": 210,
+		"style": {
+			"fontSize": 48,
+			"fill": "#222222",
+			"font": "GilroyBold"
+		}
+	},
+	"popup_confirm_txt_price": {
+		"x": 0,
+		"y": 265,
+		"style": {
+			"fontSize": 36,
+			"fill": "#ffa33a",
+			"font": "GilroyBold"
+		}
+	},
+	"popup_confirm_txt_des": {
+		"x": 0,
+		"y": 320,
+		"style": {
+			"fontSize": 23,
+			"fill": "#333333",
+			"wordWrap": true,
+			"wordWrapWidth": 400,
+			"boundsAlignV": "top"
+		}
+	},
+	"popup_confirm_button_thoat": {
+		"x": 40,
+		"y": 440,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Thoat",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 32,
+				"font": "GilroyBold",
+				"paddingTop": 5
+			},
+			"width": 222
+		}
+	},
+	"popup_confirm_button_mua_diamond": {
+		"x": 295,
+		"y": 440,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Tien",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 32,
+				"font": "GilroyBold",
+				"paddingTop": 5
+			}
+		},
+		"icon": {
+			"x": 0,
+			"y": 25,
+			"nameAtlas": "shop",
+			"nameSprite": "diamon",
+			"align": "right",
+			"width": 50,
+			"height": 37
+		},
+		"alignAll": "center"
+	},
+	"popup_confirm_button_mua": {
+		"x": 295,
+		"y": 440,
+		"nameAtlas": "shop",
+		"nameSprite": "Button_Tien",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 32,
+				"font": "GilroyBold",
+				"paddingTop": 5
+			},
+			"width": 222
+		}
+	}
+}

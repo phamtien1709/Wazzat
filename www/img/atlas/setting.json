@@ -1,0 +1,575 @@
+﻿{
+	"frames": {
+		"Arrow_01": {
+			"frame": {
+				"x": 2,
+				"y": 2,
+				"w": 101,
+				"h": 113
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 101,
+				"h": 113
+			},
+			"sourceSize": {
+				"w": 101,
+				"h": 113
+			}
+		},
+		"Arrow_02": {
+			"frame": {
+				"x": 107,
+				"y": 2,
+				"w": 97,
+				"h": 106
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 97,
+				"h": 106
+			},
+			"sourceSize": {
+				"w": 97,
+				"h": 106
+			}
+		},
+		"Arrow_03": {
+			"frame": {
+				"x": 208,
+				"y": 2,
+				"w": 80,
+				"h": 80
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 80,
+				"h": 80
+			},
+			"sourceSize": {
+				"w": 80,
+				"h": 80
+			}
+		},
+		"Arrow_04": {
+			"frame": {
+				"x": 292,
+				"y": 2,
+				"w": 80,
+				"h": 80
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 80,
+				"h": 80
+			},
+			"sourceSize": {
+				"w": 80,
+				"h": 80
+			}
+		},
+		"Ava_Block": {
+			"frame": {
+				"x": 376,
+				"y": 2,
+				"w": 68,
+				"h": 68
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 68,
+				"h": 68
+			},
+			"sourceSize": {
+				"w": 68,
+				"h": 68
+			}
+		},
+		"Box_luuthaydoi": {
+			"frame": {
+				"x": 448,
+				"y": 2,
+				"w": 569,
+				"h": 80
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 569,
+				"h": 80
+			},
+			"sourceSize": {
+				"w": 569,
+				"h": 80
+			}
+		},
+		"Box_tennguoidung": {
+			"frame": {
+				"x": 2,
+				"y": 119,
+				"w": 569,
+				"h": 80
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 569,
+				"h": 80
+			},
+			"sourceSize": {
+				"w": 569,
+				"h": 80
+			}
+		},
+		"Button_Dangxuat": {
+			"frame": {
+				"x": 2,
+				"y": 203,
+				"w": 569,
+				"h": 102
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 569,
+				"h": 102
+			},
+			"sourceSize": {
+				"w": 569,
+				"h": 102
+			}
+		},
+		"Gem": {
+			"frame": {
+				"x": 575,
+				"y": 203,
+				"w": 32,
+				"h": 23
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 23
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 23
+			}
+		},
+		"Header": {
+			"frame": {
+				"x": 2,
+				"y": 309,
+				"w": 640,
+				"h": 102
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 102
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 102
+			}
+		},
+		"Heart": {
+			"frame": {
+				"x": 646,
+				"y": 309,
+				"w": 32,
+				"h": 27
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 27
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 27
+			}
+		},
+		"Hoso_Box_Mota": {
+			"frame": {
+				"x": 2,
+				"y": 415,
+				"w": 570,
+				"h": 206
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 570,
+				"h": 206
+			},
+			"sourceSize": {
+				"w": 570,
+				"h": 206
+			}
+		},
+		"Hoso_Box_Ten": {
+			"frame": {
+				"x": 576,
+				"y": 415,
+				"w": 350,
+				"h": 62
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 350,
+				"h": 62
+			},
+			"sourceSize": {
+				"w": 350,
+				"h": 62
+			}
+		},
+		"Hoso_Box_Vitri": {
+			"frame": {
+				"x": 2,
+				"y": 625,
+				"w": 570,
+				"h": 81
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 570,
+				"h": 81
+			},
+			"sourceSize": {
+				"w": 570,
+				"h": 81
+			}
+		},
+		"Hoso_KHung_ava": {
+			"frame": {
+				"x": 576,
+				"y": 625,
+				"w": 184,
+				"h": 184
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 184,
+				"h": 184
+			},
+			"sourceSize": {
+				"w": 184,
+				"h": 184
+			}
+		},
+		"Icon_Edit": {
+			"frame": {
+				"x": 764,
+				"y": 625,
+				"w": 33,
+				"h": 33
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 33,
+				"h": 33
+			},
+			"sourceSize": {
+				"w": 33,
+				"h": 33
+			}
+		},
+		"Icon_FB": {
+			"frame": {
+				"x": 801,
+				"y": 625,
+				"w": 61,
+				"h": 61
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 61,
+				"h": 61
+			},
+			"sourceSize": {
+				"w": 61,
+				"h": 61
+			}
+		},
+		"Icon_Picture": {
+			"frame": {
+				"x": 866,
+				"y": 625,
+				"w": 44,
+				"h": 44
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 44,
+				"h": 44
+			},
+			"sourceSize": {
+				"w": 44,
+				"h": 44
+			}
+		},
+		"Icon_insta": {
+			"frame": {
+				"x": 914,
+				"y": 625,
+				"w": 61,
+				"h": 61
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 61,
+				"h": 61
+			},
+			"sourceSize": {
+				"w": 61,
+				"h": 61
+			}
+		},
+		"Line": {
+			"frame": {
+				"x": 2,
+				"y": 813,
+				"w": 569,
+				"h": 1
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 569,
+				"h": 1
+			},
+			"sourceSize": {
+				"w": 569,
+				"h": 1
+			}
+		},
+		"Line_Gradient": {
+			"frame": {
+				"x": 575,
+				"y": 813,
+				"w": 160,
+				"h": 4
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 160,
+				"h": 4
+			},
+			"sourceSize": {
+				"w": 160,
+				"h": 4
+			}
+		},
+		"Mic": {
+			"frame": {
+				"x": 739,
+				"y": 813,
+				"w": 23,
+				"h": 31
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 23,
+				"h": 31
+			},
+			"sourceSize": {
+				"w": 23,
+				"h": 31
+			}
+		},
+		"OFF": {
+			"frame": {
+				"x": 766,
+				"y": 813,
+				"w": 96,
+				"h": 38
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 96,
+				"h": 38
+			},
+			"sourceSize": {
+				"w": 96,
+				"h": 38
+			}
+		},
+		"ON": {
+			"frame": {
+				"x": 866,
+				"y": 813,
+				"w": 96,
+				"h": 38
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 96,
+				"h": 38
+			},
+			"sourceSize": {
+				"w": 96,
+				"h": 38
+			}
+		},
+		"Tab_Tainguyen": {
+			"frame": {
+				"x": 2,
+				"y": 855,
+				"w": 145,
+				"h": 43
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 145,
+				"h": 43
+			},
+			"sourceSize": {
+				"w": 145,
+				"h": 43
+			}
+		},
+		"Tab_chon playlist": {
+			"frame": {
+				"x": 151,
+				"y": 855,
+				"w": 640,
+				"h": 102
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 102
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 102
+			}
+		},
+		"Tick": {
+			"frame": {
+				"x": 795,
+				"y": 855,
+				"w": 33,
+				"h": 23
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 33,
+				"h": 23
+			},
+			"sourceSize": {
+				"w": 33,
+				"h": 23
+			}
+		},
+		"Ticket": {
+			"frame": {
+				"x": 832,
+				"y": 855,
+				"w": 33,
+				"h": 24
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 33,
+				"h": 24
+			},
+			"sourceSize": {
+				"w": 33,
+				"h": 24
+			}
+		}
+	},
+	"meta": {
+		"app": "Adobe Animate",
+		"version": "18.0.2.126",
+		"image": "setting",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1024,
+			"h": 1024
+		},
+		"scale": "1"
+	}
+}

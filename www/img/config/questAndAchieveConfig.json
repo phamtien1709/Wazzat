@@ -1,0 +1,733 @@
+{
+    "header": {
+        "tab_chonplaylist": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Header"
+        },
+        "btn_back": {
+            "x": 46,
+            "y": 52,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Arrow"
+        },
+        "txt_quest": {
+            "x": 328,
+            "y": 22,
+            "text": "NHIỆM VỤ",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "tabGem": {
+            "x": 276,
+            "y": 30,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tabTicket": {
+            "x": 459,
+            "y": 30,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tabMic": {
+            "x": 98,
+            "y": 30,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tab_quest": {
+            "x": 0,
+            "y": 100,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Nhiemvu"
+        },
+        "gem": {
+            "x": 0,
+            "y": 12,
+            "nameSprite": "Gem",
+            "nameAtlas": "questAndAchieveSprites"
+        },
+        "ticket": {
+            "x": 0,
+            "y": 10,
+            "nameSprite": "Ticket",
+            "nameAtlas": "questAndAchieveSprites"
+        },
+        "micro": {
+            "x": 0,
+            "y": 8,
+            "nameSprite": "Mic",
+            "nameAtlas": "questAndAchieveSprites"
+        },
+        "txtResource": {
+            "x": 0,
+            "y": 10,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 19
+            }
+        }
+    },
+    "tabUnderHeader": {
+        "daily": {
+            "active": {
+                "icon": {
+                    "x": 35,
+                    "y": 44,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Icon_Hangngay_Active"
+                },
+                "txt": {
+                    "x": 70,
+                    "y": 44,
+                    "text": "Hằng ngày",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#ffffff",
+                        "fontSize": 21
+                    }
+                },
+                "line": {
+                    "x": 2,
+                    "y": 97,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_01"
+                }
+            },
+            "disactive": {
+                "icon": {
+                    "x": 35,
+                    "y": 44,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Icon_Hangngay"
+                },
+                "txt": {
+                    "x": 70,
+                    "y": 44,
+                    "text": "Hằng ngày",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#695782",
+                        "fontSize": 21
+                    }
+                }
+            }
+        },
+        "main": {
+            "active": {
+                "icon": {
+                    "x": 65,
+                    "y": 44,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Icon_Chinh_Active"
+                },
+                "txt": {
+                    "x": 92,
+                    "y": 44,
+                    "text": "Chính",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#ffffff",
+                        "fontSize": 21
+                    }
+                },
+                "line": {
+                    "x": 2,
+                    "y": 97,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_01"
+                }
+            },
+            "disactive": {
+                "icon": {
+                    "x": 65,
+                    "y": 44,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Icon_Chinh"
+                },
+                "txt": {
+                    "x": 92,
+                    "y": 44,
+                    "text": "Chính",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#695782",
+                        "fontSize": 21
+                    }
+                }
+            }
+        },
+        "achievement": {
+            "active": {
+                "icon": {
+                    "x": 55,
+                    "y": 44,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Icon_Thanhtuu_Active"
+                },
+                "txt": {
+                    "x": 87,
+                    "y": 44,
+                    "text": "Thành tựu",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#ffffff",
+                        "fontSize": 21
+                    }
+                },
+                "line": {
+                    "x": 2,
+                    "y": 97,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_01"
+                }
+            },
+            "disactive": {
+                "icon": {
+                    "x": 55,
+                    "y": 44,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Icon_Thanhtuu"
+                },
+                "txt": {
+                    "x": 87,
+                    "y": 44,
+                    "text": "Thành tựu",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#695782",
+                        "fontSize": 21
+                    }
+                }
+            }
+        },
+        "line_doc": {
+            "x": 214,
+            "y": 40,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Line_doc"
+        }
+    },
+    "scroll": {
+        "daily": {
+            "header": {
+                "txt_request": {
+                    "x": 35,
+                    "y": 44,
+                    "text": "YÊU CẦU",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "txt_reward": {
+                    "x": 605,
+                    "y": 44,
+                    "text": "Phần thưởng",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "line": {
+                    "x": 35,
+                    "y": 93,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_Gradient"
+                }
+            }
+        },
+        "main": {
+            "header": {
+                "txt_request": {
+                    "x": 35,
+                    "y": 44,
+                    "text": "YÊU CẦU",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "txt_reward": {
+                    "x": 605,
+                    "y": 44,
+                    "text": "Phần thưởng",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "line": {
+                    "x": 35,
+                    "y": 93,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_Gradient"
+                }
+            }
+        },
+        "achievement": {
+            "header": {
+                "txt_achieved": {
+                    "x": 35,
+                    "y": 44,
+                    "text": "Thành tựu",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "txt_request": {
+                    "x": 577,
+                    "y": 44,
+                    "text": "YÊU CẦU",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "txt_reward": {
+                    "x": 605,
+                    "y": 44,
+                    "text": "Phần thưởng",
+                    "configs": {
+                        "font": "Gilroy",
+                        "fill": "#93909d",
+                        "fontSize": 22
+                    }
+                },
+                "line": {
+                    "x": 35,
+                    "y": 93,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_Gradient_02"
+                },
+                "line_doc1": {
+                    "x": 213,
+                    "y": 38,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_doc"
+                },
+                "line_doc2": {
+                    "x": 427,
+                    "y": 38,
+                    "nameAtlas": "questAndAchieveSprites",
+                    "nameSprite": "Line_doc"
+                }
+            }
+        },
+        "line": {
+            "x": 35,
+            "y": 122,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Line_Gradient_02"
+        },
+        "require": {
+            "x": 35,
+            "y": 62,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#545061",
+                "wordWrap": true,
+                "wordWrapWidth": 335,
+                "fontSize": 22
+            }
+        },
+        "require_done": {
+            "x": 35,
+            "y": 62,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "wordWrap": true,
+                "wordWrapWidth": 335,
+                "fontSize": 22
+            }
+        },
+        "btnReward": {
+            "x": 605,
+            "y": 44,
+            "diamond": {
+                "x": -39,
+                "y": 2,
+                "nameAtlas": "questAndAchieveSprites",
+                "nameSprite": "Gem"
+            },
+            "txtDiamond": {
+                "x": -92,
+                "y": 0,
+                "text": "",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#545061",
+                    "fontSize": 22
+                }
+            }
+        },
+        "requireInit": {
+            "x": 35,
+            "y": 66,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "wordWrap": true,
+                "wordWrapWidth": 330,
+                "fontSize": 22
+            }
+        },
+        "requireInitDaily": {
+            "x": 35,
+            "y": 62,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#545061",
+                "wordWrap": true,
+                "wordWrapWidth": 370,
+                "fontSize": 22
+            }
+        },
+        "btnRewardInit": {
+            "x": 355,
+            "y": 39,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Phan_Thuong_02",
+            "diamond": {
+                "x": 73,
+                "y": 17,
+                "nameAtlas": "questAndAchieveSprites",
+                "nameSprite": "Gem"
+            },
+            "txtDiamond": {
+                "x": 30,
+                "y": 17,
+                "text": "",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "fontSize": 22
+                }
+            }
+        },
+        "btnRewardDoing": {
+            "x": 470,
+            "y": 25,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Phan_Thuong_02",
+            "diamond": {
+                "x": 95,
+                "y": 29,
+                "nameAtlas": "questAndAchieveSprites",
+                "nameSprite": "Gem"
+            },
+            "txtDiamond": {
+                "x": 42,
+                "y": 26,
+                "text": "",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "fontSize": 22
+                }
+            }
+        },
+        "btnRewardDoingDaily": {
+            "x": 470,
+            "y": 37,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Phan_Thuong",
+            "diamond": {
+                "x": 87,
+                "y": 0,
+                "nameAtlas": "questAndAchieveSprites",
+                "nameSprite": "Gem"
+            },
+            "txtDiamond": {
+                "x": 45,
+                "y": 0,
+                "text": "",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#545061",
+                    "fontSize": 22
+                }
+            }
+        },
+        "btnClaimReward": {
+            "x": 470,
+            "y": 39,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Button_Nhan",
+            "txt": {
+                "x": 34,
+                "y": 16,
+                "text": "NHẬN",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "fontSize": 22
+                }
+            }
+        },
+        "btnDoingQuest": {
+            "x": 811,
+            "y": 50,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Button_Percent",
+            "txt": {
+                "x": 104,
+                "y": 45,
+                "text": "86%",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "fontSize": 22
+                }
+            }
+        },
+        "doneIcon": {
+            "x": 560,
+            "y": 50,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tick"
+        },
+        "Line_percent_gradient": {
+            "x": 35,
+            "y": 125,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Line_01"
+        },
+        "Line_percent_white": {
+            "x": 35,
+            "y": 125,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Line"
+        }
+    },
+    "txtPopupClaim": {
+        "x": 285,
+        "y": 70,
+        "text": "Bạn đã hoàn thành nhiệm vụ",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 23
+        }
+    },
+    "gemClaim": {
+        "x": 285,
+        "y": 237,
+        "nameAtlas": "questAndAchieveSprites",
+        "nameSprite": "Gem"
+    },
+    "ticketClaim": {
+        "x": 285,
+        "y": 237,
+        "nameAtlas": "questAndAchieveSprites",
+        "nameSprite": "Ticket"
+    },
+    "sptItemClaim": {
+        "x": 285,
+        "y": 232,
+        "nameAtlas": "questAndAchieveSprites",
+        "nameSprite": "Mic"
+    },
+    "rewardClaimed": {
+        "x": 285,
+        "y": 231,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffab4f",
+            "align": "center",
+            "fontSize": 31.5
+        }
+    },
+    "questReward": {
+        "x": 285,
+        "y": 116,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#333333",
+            "align": "center",
+            "wordWrap": true,
+            "wordWrapWidth": 450,
+            "fontSize": 29
+        }
+    },
+    "questDemo": {
+        "reward": 250,
+        "id": 12,
+        "quest": "Share game resuft on facebook i don't like it",
+        "required": 1,
+        "quest_type": 11,
+        "order": 12
+    },
+    "achievement": {
+        "medal": {
+            "x": 35,
+            "y": 35,
+            "nameAtlas": "achievementSprites",
+            "nameSprite": "Medal_Default"
+        },
+        "title": {
+            "x": 143,
+            "y": 65,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "wordWrap": true,
+                "wordWrapWidth": 300,
+                "fontSize": 22
+            }
+        },
+        "condition": {
+            "x": 143,
+            "y": 94,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#a8a7ad",
+                "wordWrap": true,
+                "wordWrapWidth": 300,
+                "fontSize": 21
+            }
+        },
+        "tick": {
+            "x": 535,
+            "y": 90,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tick"
+        },
+        "box": {
+            "x": 535,
+            "y": 90,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Tab_Phan_Thuong_02"
+        },
+        "box_claim": {
+            "x": 535,
+            "y": 90,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Btn_Nhan_Achievement",
+            "txt": {
+                "x": 0,
+                "y": -25,
+                "text": "NHẬN",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "fontSize": 23
+                }
+            }
+        },
+        "achievement_title": {
+            "x": 285,
+            "y": 225,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#f9ad4e",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 400,
+                "fontSize": 30
+            }
+        },
+        "gemClaim": {
+            "x": 285,
+            "y": 331,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Gem"
+        },
+        "ticketClaim": {
+            "x": 285,
+            "y": 331,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Ticket"
+        },
+        "sptItemClaim": {
+            "x": 285,
+            "y": 331,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Mic"
+        },
+        "rewardClaimed": {
+            "x": 285,
+            "y": 331,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffab4f",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "txtPopupClaim": {
+            "x": 285,
+            "y": 184,
+            "text": "Bạn đã đạt được thành tựu",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#333333",
+                "align": "center",
+                "fontSize": 25
+            }
+        },
+        "congrat_txt_reward": {
+            "x": 285,
+            "y": 126,
+            "text": "XIN CHÚC MỪNG!!!",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#333333",
+                "align": "center",
+                "fontSize": 42
+            }
+        },
+        "medal_popup": {
+            "x": 285,
+            "y": 0,
+            "nameAtlas": "achievemenNewtSprites",
+            "nameSprite": "medal_default"
+        },
+        "txt_phan_thuonng": {
+            "x": 285,
+            "y": 281,
+            "text": "Phần thưởng",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#333333",
+                "align": "center",
+                "fontSize": 30
+            }
+        }
+    },
+    "line_under": {
+        "x": 35,
+        "y": 105,
+        "nameSprite": "Line",
+        "nameAtlas": "findOpponentSprites"
+    }
+}

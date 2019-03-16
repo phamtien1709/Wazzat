@@ -1,0 +1,371 @@
+{
+    "bg_play": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "playSprites",
+        "nameSprite": "BG_GamePlay"
+    },
+    "btn_remove_answer": {
+        "x": 320,
+        "y": 1080,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Tab_Bodapan"
+    },
+    "txt_remove_answer": {
+        "x": -35,
+        "y": 0,
+        "text": "BỎ 2 ĐÁP ÁN",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 35
+        }
+    },
+    "txt_dis_one": {
+        "x": 130,
+        "y": 0,
+        "text": "-1",
+        "style": {
+            "font": "Gilroy",
+            "fill": "#eeeeee",
+            "fontSize": 30
+        }
+    },
+    "diamond_remove_answer": {
+        "x": 200,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Mic"
+    },
+    "mic_so_luong": {
+        "x": 250,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Mic_Soluong"
+    },
+    "number_mic_so_luong": {
+        "x": 0,
+        "y": 0,
+        "text": "N/A",
+        "style": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 19
+        }
+    },
+    "lock_answer": {
+        "x": 480,
+        "y": 0,
+        "nameAtlas": "playSprites",
+        "nameSprite": "lock-answer"
+    },
+    "nameOfPlaylist": {
+        "x": 320,
+        "y": 682,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 30
+        }
+    },
+    "txt_ready": {
+        "x": 0,
+        "y": 150,
+        "text": "Sẵn sàng",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#7b7886",
+            "fontSize": 22.5
+        }
+    },
+    "countdownNumber": {
+        "x": 320,
+        "y": 785,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 210
+        }
+    },
+    "answer_tab": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Tab_01"
+    },
+    "circleNormal": {
+        "x": 197,
+        "y": 428,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Circle_Gradient"
+    },
+    "circleWhite": {
+        "x": 197,
+        "y": 428,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Circle_White"
+    },
+    "wrongMini": {
+        "x": 197,
+        "y": 428,
+        "nameAtlas": "playSprites",
+        "nameSprite": "X"
+    },
+    "arrow_go": {
+        "x": 1000,
+        "y": 80,
+        "nameAtlas": "playlistSprites",
+        "nameSprite": "Arrow-go"
+    },
+    "ava_fb": {
+        "x": 485,
+        "y": 136
+    },
+    "nameFB": {
+        "x": 485,
+        "y": 248,
+        "text": "You",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 22
+        }
+    },
+    "scoreText": {
+        "x": 485,
+        "y": 285,
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 35
+        }
+    },
+    "avaOpp": {
+        "x": 153,
+        "y": 136
+    },
+    "nameFBOpp": {
+        "x": 153,
+        "y": 248,
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 22
+        }
+    },
+    "scoreTextOpp": {
+        "x": 153,
+        "y": 284,
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 35
+        }
+    },
+    "avaPractice": {
+        "x": 320,
+        "y": 182
+    },
+    "nameFBPractice": {
+        "x": 320,
+        "y": 340,
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 17.5
+        }
+    },
+    "c_inPractice": {
+        "x": 320,
+        "y": 860,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Circle"
+    },
+    "c_strokePractice": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Circle_Stroke"
+    },
+    "diamond_reward": {
+        "x": 0,
+        "y": -50,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Diamond"
+    },
+    "star_all": {
+        "x": 0,
+        "y": -50,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "star_all"
+    },
+    "congrat_reward": {
+        "x": 0,
+        "y": 350,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Chucmung"
+    },
+    "txt_congrat": {
+        "x": 0,
+        "y": 20,
+        "text": "Bạn đã vượt qua",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 18
+        }
+    },
+    "txt_congrat2": {
+        "x": 0,
+        "y": 60,
+        "text": "câu hỏi",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 18
+        }
+    },
+    "txt_bonus": {
+        "x": 0,
+        "y": 100,
+        "text": "",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 40
+        }
+    },
+    "box_lose_practice": {
+        "x": 60,
+        "y": 400,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Box"
+    },
+    "btn_replay_practice": {
+        "x": 60,
+        "y": 830,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Choilai"
+    },
+    "btn_home_practice": {
+        "x": 60,
+        "y": 650,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_home"
+    },
+    "btn_rank_practice": {
+        "x": 240,
+        "y": 650,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_Xephang"
+    },
+    "txt_lose_practice": {
+        "x": 0,
+        "y": -29,
+        "text": "SỐ CÂU ĐÚNG",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "black",
+            "fontSize": 24
+        }
+    },
+    "congrat_reward_notReward": {
+        "x": 320,
+        "y": 960,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Chucmung"
+    },
+    "txt_lose_timeout": {
+        "x": 480,
+        "y": 500,
+        "text": "SỐ CÂU ĐÚNG",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "black",
+            "fontSize": 24
+        }
+    },
+    "lr": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Light_Rotation"
+    },
+    "line_top": {
+        "x": 0,
+        "y": 0,
+        "nameSprite": "Line_Top",
+        "nameAtlas": "playSprites"
+    },
+    "versus": {
+        "x": 320,
+        "y": 140,
+        "nameSprite": "VS_Circle",
+        "nameAtlas": "playSprites"
+    },
+    "txt_versus": {
+        "x": 0,
+        "y": 3,
+        "text": "VS",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 21
+        }
+    },
+    "frame_ava_left": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Khung_Ava_Thuong",
+        "nameAtlas": "playSprites"
+    },
+    "frame_ava_right": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Khung_Ava_Thuong",
+        "nameAtlas": "playSprites"
+    },
+    "namePlaylist": {
+        "x": 320,
+        "y": 480,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "wordWrap": true,
+            "wordWrapWidth": 450,
+            "align": "center",
+            "fontSize": 37
+        }
+    },
+    "txtLoading": {
+        "x": 320,
+        "y": -200,
+        "text": "Đang tải",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#7b7886",
+            "fontSize": 23
+        }
+    },
+    "dot_online_right": {
+        "x": 400,
+        "y": 133,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Online"
+    },
+    "dot_online_left": {
+        "x": 215,
+        "y": 133,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Online"
+    },
+    "dot_offline_left": {
+        "x": 215,
+        "y": 133,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Offline"
+    }
+}

@@ -1,0 +1,725 @@
+{
+    "header_bg": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_header"
+    },
+    "header_queue_text_title": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 20
+        }
+    },
+    "header_text_title": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 40,
+            "font": "GilroyBold"
+        }
+    },
+    "header_bg_queue": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_header_queue"
+    },
+    "header_buttom_back": {
+        "x": 22,
+        "y": 20,
+        "nameAtlas": "eventmode",
+        "nameSprite": "button_back"
+    },
+    "header_icon_trophy": {
+        "x": 580,
+        "y": 22,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Trophy"
+    },
+    "header_buttom_ticket": {
+        "x": 230,
+        "y": 24,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_sount_ticket",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 28,
+                "font": "GilroyBold"
+            },
+            "paddingTop": 12
+        },
+        "icon": {
+            "x": 0,
+            "y": 12,
+            "nameAtlas": "eventmode",
+            "nameSprite": "Ticket",
+            "align": "right"
+        },
+        "alignAll": "center"
+    },
+    "selectroom_icon_clock": {
+        "x": 0,
+        "y": 4,
+        "nameAtlas": "eventmode",
+        "nameSprite": "icon_clock"
+    },
+    "selectroom_bg_default": {
+        "x": 0,
+        "y": 2,
+        "nameAtlas": "eventmode",
+        "nameSprite": "default"
+    },
+    "selectroom_text_time_clock": {
+        "x": 23,
+        "y": 4,
+        "style": {
+            "fontSize": 18,
+            "font": "GilroyMedium",
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle"
+        }
+    },
+    "selectroom_buttom_live": {
+        "x": 18,
+        "y": 18,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Live",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 16,
+                "font": "GilroyBold",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle"
+            },
+            "paddingLeft": 19,
+            "paddingTop": 3
+        }
+    },
+    "selectroom_icon_rank": {
+        "x": 500,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Rank",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 16
+            },
+            "paddingTop": 12
+        }
+    },
+    "selectroom_text_event_name": {
+        "x": 18,
+        "y": 56,
+        "style": {
+            "fontSize": 23,
+            "font": "GilroyBold",
+            "wordWrap": true,
+            "wordWrapWidth": 280,
+            "maxLines": 2,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "bottom"
+        }
+    },
+    "selectroom_icon_vip": {
+        "x": 483,
+        "y": 18,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Vip"
+    },
+    "selectroom_button_sapdienra": {
+        "x": 18,
+        "y": 18,
+        "nameAtlas": "eventmode",
+        "nameSprite": "button_sapdienra",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 14,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "selectroom_text_event_name_waitting": {
+        "x": 136,
+        "y": 12,
+        "style": {
+            "fontSize": 28,
+            "font": "GilroyBold",
+            "wordWrap": true,
+            "wordWrapWidth": 343,
+            "maxLines": 2,
+            "boundsAlignV": "bottom"
+        }
+    },
+    "selectroom_text_time": {
+        "x": 25,
+        "y": 2,
+        "style": {
+            "fontSize": 18,
+            "font": "GilroyMedium"
+        }
+    },
+    "selectroom_button_daxong": {
+        "x": 18,
+        "y": 18,
+        "nameAtlas": "eventmode",
+        "nameSprite": "button_daxong",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 16,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "selectroom_text_xemketqua": {
+        "x": 18,
+        "y": 0,
+        "style": {
+            "fontSize": 18,
+            "font": "GilroyMedium"
+        }
+    },
+    "queueroom_map_line_ngang": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Line_Map_01"
+    },
+    "queueroom_map_line_doc": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Line_Map_02"
+    },
+    "queueroom_map_circle": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Circle_Map"
+    },
+    "queueroom_map_circle_small": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Circle_Map_Small"
+    },
+    "queueroom_trophy_big": {
+        "x": 0,
+        "y": 80,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Trophy_Big"
+    },
+    "queueroom_txt_username": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 16
+        }
+    },
+    "queueroom_txt_title_event": {
+        "x": 35,
+        "y": 0,
+        "style": {
+            "fontSize": 26,
+            "font": "GilroyBold"
+        }
+    },
+    "queueroom_line_select_event": {
+        "x": 35,
+        "y": 51,
+        "nameAtlas": "eventmode",
+        "nameSprite": "line_select_event"
+    },
+    "queueroom_icon_line": {
+        "x": 22,
+        "y": 14,
+        "nameAtlas": "eventmode",
+        "nameSprite": "rank1"
+    },
+    "queueroom_icon_rank1": {
+        "x": 22,
+        "y": 14,
+        "nameAtlas": "eventmode",
+        "nameSprite": "rank1"
+    },
+    "queueroom_icon_rank2": {
+        "x": 22,
+        "y": 14,
+        "nameAtlas": "eventmode",
+        "nameSprite": "rank2"
+    },
+    "queueroom_icon_rank3": {
+        "x": 22,
+        "y": 14,
+        "nameAtlas": "eventmode",
+        "nameSprite": "rank3"
+    },
+    "queueroom_icon_rankn": {
+        "x": 22,
+        "y": 29,
+        "nameAtlas": "eventmode",
+        "nameSprite": "rankn"
+    },
+    "queueroom_icon_rankme": {
+        "x": 22,
+        "y": 29,
+        "nameAtlas": "eventmode",
+        "nameSprite": "rankme"
+    },
+    "queueroom_icon_maskdie": {
+        "x": 22,
+        "y": 29,
+        "nameAtlas": "eventmode",
+        "nameSprite": "maskdie"
+    },
+    "queueroom_txt_score": {
+        "x": 0,
+        "y": -6,
+        "style": {
+            "fontSize": 18,
+            "font": "GilroyBold",
+            "fill": "#ff8a49"
+        }
+    },
+    "item_ranking_avatar_top1": {
+        "x": 135,
+        "y": 19,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_top_1"
+    },
+    "item_ranking_avatar_top2": {
+        "x": 135,
+        "y": 19,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_top_2"
+    },
+    "item_ranking_avatar_top3": {
+        "x": 135,
+        "y": 19,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_top_3"
+    },
+    "item_ranking_avatar_top4": {
+        "x": 135,
+        "y": 24,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_top_4"
+    },
+    "item_ranking_text_top4": {
+        "x": 78,
+        "y": 45,
+        "style": {
+            "fontSize": 23
+        }
+    },
+    "item_ranking_text_top123": {
+        "x": 78,
+        "y": 60,
+        "style": {
+            "fontSize": 23,
+            "font": "GilroyBold"
+        }
+    },
+    "item_ranking_text_user_name123": {
+        "x": 221,
+        "y": 44,
+        "style": {
+            "fontSize": 23,
+            "font": "GilroyBold",
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle"
+        }
+    },
+    "item_ranking_text_score123": {
+        "x": 221,
+        "y": 71,
+        "style": {
+            "fontSize": 23,
+            "font": "GilroyBold",
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#ffa33a"
+        }
+    },
+    "item_ranking_text_user_name4": {
+        "x": 216,
+        "y": 43,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle"
+        }
+    },
+    "ranking_text_title": {
+        "x": 92,
+        "y": 20,
+        "style": {
+            "fontSize": 26,
+            "font": "GilroyBold",
+            "fill": "#ffa33a"
+        }
+    },
+    "item_ranking_text_score4": {
+        "x": 515,
+        "y": 35,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_score_top4",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "font": "GilroyBold",
+                "fill": "#ffa33a"
+            }
+        }
+    },
+    "item_ranking_line_space": {
+        "x": 35,
+        "y": 126,
+        "nameAtlas": "eventmode",
+        "nameSprite": "line_space_item"
+    },
+    "item_ranking_trophy_item": {
+        "x": 36,
+        "y": 57,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Trophy_4-10"
+    },
+    "ranking_bg_me": {
+        "x": 0,
+        "y": 1028,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_me"
+    },
+    "ranking_bg_title": {
+        "x": 0,
+        "y": 0,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+        "bot": 10,
+        "width": 640,
+        "height": 77,
+        "name": "ranking_bg_title",
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_title_rank"
+    },
+    "ranking_trophy410": {
+        "x": 35,
+        "y": 15,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Trophy_02"
+    },
+    "item_ranking_txt_error": {
+        "x": 0,
+        "y": 1060,
+        "style": {
+            "fontSize": 30
+        }
+    },
+    "queueroom_bg_button_play": {
+        "x": 35,
+        "y": 998,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Button_Choi"
+    },
+    "queueroom_count_user_map": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Users_Icon"
+    },
+    "queueroom_count_user_text": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 16,
+            "font": "GilroyBold"
+        }
+    },
+    "queueroom_button_play_icon_ticket": {
+        "x": 492,
+        "y": 35,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Ticket"
+    },
+    "queueroom_button_count_user": {
+        "x": 18,
+        "y": 19,
+        "left": 20,
+        "right": 20,
+        "top": 15,
+        "bot": 15,
+        "width": 83,
+        "height": 31,
+        "name": "queueroom_button_count_user",
+        "nameAtlas": "eventmode",
+        "nameSprite": "Tab",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 16,
+                "font": "GilroyBold",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle"
+            },
+            "paddingTop": 4,
+            "paddingLeft": 33
+        },
+        "icon": {
+            "x": 8,
+            "y": 6,
+            "nameAtlas": "eventmode",
+            "nameSprite": "User",
+            "align": "left"
+        }
+    },
+    "queueroom_bg_win_item": {
+        "x": 0,
+        "y": 0,
+        "left": 20,
+        "right": 20,
+        "top": 15,
+        "bot": 15,
+        "width": 83,
+        "height": 31,
+        "name": "queueroom_bg_win_item",
+        "nameAtlas": "eventmode",
+        "nameSprite": "Tab"
+    },
+    "queueroom_txt_win": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 16,
+            "font": "GilroyBold"
+        }
+    },
+    "queueroom_icon_win_diamond": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "GEM"
+    },
+    "queueroom_icon_win_mic": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "MIc"
+    },
+    "queueroom_icon_win_ticket": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Tickeet"
+    },
+    "queueroom_button_play_text_play": {
+        "x": 0,
+        "y": 32,
+        "style": {
+            "fontSize": 32,
+            "font": "GilroyBold"
+        }
+    },
+    "queueroom_button_play_count_ticket": {
+        "x": 394,
+        "y": 32,
+        "style": {
+            "fontSize": 28,
+            "font": "GilroyBold",
+            "align": "right",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle"
+        }
+    },
+    "playroom_text_number_question": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 23,
+            "font": "GilroyBold"
+        }
+    },
+    "playroom_loading_time_question": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "tween-time"
+    },
+    "queueroom_bg_chat": {
+        "x": 0,
+        "y": 537,
+        "nameAtlas": "eventmode",
+        "nameSprite": "bg_chat",
+        "left": 20,
+        "right": 20,
+        "top": 20,
+        "bot": 20,
+        "width": 640,
+        "height": 600,
+        "name": "queueroom_bg_chat"
+    },
+    "queueroom_text_chat": {
+        "x": 93,
+        "y": 5,
+        "style": {
+            "fontSize": 20,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 518,
+            "maxLines": 2
+        }
+    },
+    "queueroom_text_chat_time": {
+        "x": 93,
+        "y": 5,
+        "style": {
+            "fontSize": 20,
+            "align": "left",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 450,
+            "maxLines": 2,
+            "fill": "#6e6081"
+        }
+    },
+    "queueroom_button_showchat": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "btnShowAllChat"
+    },
+    "queueroom_button_input_chat": {
+        "x": 35,
+        "y": 910,
+        "nameAtlas": "eventmode",
+        "nameSprite": "input_text",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 22,
+                "fill": "#bfbcca",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle"
+            },
+            "paddingTop": 3,
+            "paddingLeft": 6
+        }
+    },
+    "queueroom_button_send_chat": {
+        "x": 533,
+        "y": 910,
+        "nameAtlas": "eventmode",
+        "nameSprite": "button_send"
+    },
+    "playroom_text_des_question": {
+        "x": 0,
+        "y": 27,
+        "style": {
+            "fontSize": 23
+        }
+    },
+    "popup_win_icon_trophy": {
+        "x": 70,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "Trophy_win"
+    },
+    "popup_win_text_ketthucsukien": {
+        "x": 0,
+        "y": 281,
+        "style": {
+            "fontSize": 23,
+            "fill": "#000000"
+        }
+    },
+    "popup_win_text_name": {
+        "x": 0,
+        "y": 311,
+        "style": {
+            "fontSize": 35,
+            "font": "GilroyBold",
+            "fill": "#000000"
+        }
+    },
+    "popup_win_text_chucmung": {
+        "x": 0,
+        "y": 382,
+        "style": {
+            "fontSize": 23,
+            "fill": "#000000"
+        }
+    },
+    "popup_win_text_stt": {
+        "x": 0,
+        "y": 412,
+        "style": {
+            "fontSize": 36,
+            "font": "GilroyBold",
+            "fill": "#ffab4f"
+        }
+    },
+    "popup_win_text_phanthuong": {
+        "x": 0,
+        "y": 474,
+        "style": {
+            "fontSize": 23,
+            "fill": "#000000"
+        }
+    },
+    "queueroom_icon_flag": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "eventmode",
+        "nameSprite": "isMeDie"
+    },
+    "count_playing_user": {
+        "x": 560,
+        "y": 35,
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 20,
+                "font": "GilroyMedium",
+                "boundsAlignH":"left"
+            },
+            "paddingLeft": 30,
+            "paddingTop": 3,
+            "width": 55,
+            "height":30
+        },
+        "icon": {
+            "x": 0,
+            "y": 2,
+            "nameAtlas": "eventmode",
+            "nameSprite": "count_user",
+            "align": "left"
+        }
+    }
+}

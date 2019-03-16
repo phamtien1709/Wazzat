@@ -1,0 +1,489 @@
+{
+    "header_bg": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "findOpponentSprites",
+        "nameSprite": "Header"
+    },
+    "header_bg_vip": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "findOpponentSprites",
+        "nameSprite": "Header"
+    },
+    "header_txt_content": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 24,
+            "font": "GilroyBold"
+        }
+    },
+    "header_button_back": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "findOpponentSprites",
+        "nameSprite": "Arrow"
+    },
+    "profile_txt_online": {
+        "x": 0,
+        "y": 18,
+        "style": {
+            "fontSize": 20
+        }
+    },
+    "profile_bg_avatar": {
+        "x": 240,
+        "y": 37,
+        "nameAtlas": "userprofile",
+        "nameSprite": "bg_khung_avatar"
+    },
+    "profile_bg_avatar_vip": {
+        "x": 200,
+        "y": 40,
+        "nameAtlas": "userprofile",
+        "nameSprite": "bg_ava_vip"
+    },
+    "profile_txt_username": {
+        "x": 0,
+        "y": 200,
+        "style": {
+            "fontSize": 26,
+            "font": "GilroyBold"
+        }
+    },
+    "profile_txt_level": {
+        "x": 0,
+        "y": 236,
+        "style": {
+            "fontSize": 20,
+            "font": "GilroyMedium",
+            "fill": "#ffa33a"
+        }
+    },
+    "profile_txt_warning_pending_them": {
+        "x": 0,
+        "y": 444,
+        "style": {
+            "fontSize": 20,
+            "font": "GilroyMedium"
+        }
+    },
+    "profile_txt_warning_pending_you": {
+        "x": 0,
+        "y": 462,
+        "style": {
+            "fontSize": 20,
+            "font": "GilroyMedium"
+        }
+    },
+    "profile_txt_description": {
+        "x": 0,
+        "y": 296,
+        "style": {
+            "fontSize": 21,
+            "wordWrap": true,
+            "wordWrapWidth": 500
+        }
+    },
+    "profile_txt_description_me": {
+        "x": 320,
+        "y": 345,
+        "style": {
+            "fontSize": 21,
+            "fill": "#7c7888",
+            "wordWrap": true,
+            "wordWrapWidth": 500
+        }
+    },
+    "profile_btn_ketban": {
+        "x": 127,
+        "y": 447,
+        "nameAtlas": "userprofile",
+        "nameSprite": "Button_ket_Ban",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 26,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "profile_exp_current_txt": {
+        "x": 320,
+        "y": 280,
+        "style": {
+            "fontSize": 18,
+            "font": "Gilroy",
+            "fill": "#7c7888"
+        }
+    },
+    "profile_current_level": {
+        "x": 195,
+        "y": 305,
+        "nameAtlas": "userprofile",
+        "nameSprite": "EXP_02"
+    },
+    "profile_require_level": {
+        "x": 195,
+        "y": 305,
+        "nameAtlas": "userprofile",
+        "nameSprite": "EXP_01"
+    },
+    "profile_btn_nhantin": {
+        "x": 533,
+        "y": 210,
+        "nameAtlas": "userprofile",
+        "nameSprite": "button_nhan_tin"
+    },
+    "profile_btn_thachdau": {
+        "x": 127,
+        "y": 358,
+        "nameAtlas": "userprofile",
+        "nameSprite": "Button_Thachdau",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 26,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "profile_btn_thachdau_friend": {
+        "x": 127,
+        "y": 358,
+        "nameAtlas": "userprofile",
+        "nameSprite": "Button_Thachdau",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 27,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "profile_btn_nhantin_friend": {
+        "x": 533,
+        "y": 210,
+        "nameAtlas": "userprofile",
+        "nameSprite": "button_nhan_tin",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 27,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "profile_btn_dongy_friend": {
+        "x": 157,
+        "y": 502,
+        "nameAtlas": "userprofile",
+        "nameSprite": "Button_Dong_Y",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "profile_btn_huybo_friend": {
+        "x": 323,
+        "y": 502,
+        "nameAtlas": "userprofile",
+        "nameSprite": "button_huy_ket_ban",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21,
+                "font": "GilroyBold"
+            }
+        }
+    },
+    "profile_btn_huy_ket_ban": {
+        "x": 438,
+        "y": 95,
+        "nameAtlas": "userprofile",
+        "nameSprite": "button_huy_ket_ban",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21
+            }
+        }
+    },
+    "profile_btn_view_more": {
+        "x": 557,
+        "y": 38,
+        "nameAtlas": "userprofile",
+        "nameSprite": "button_view_more"
+    },
+    "profile_btn_mic": {
+        "x": 138,
+        "y": 373,
+        "nameAtlas": "userprofile",
+        "nameSprite": "bg_money_user",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21,
+                "font": "GilroyMedium",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle"
+            },
+            "paddingTop": 3
+        },
+        "icon": {
+            "x": 0,
+            "y": 7,
+            "nameAtlas": "userprofile",
+            "nameSprite": "icon_mic",
+            "align": "left"
+        }
+    },
+    "profile_btn_diamond": {
+        "x": 280,
+        "y": 373,
+        "nameAtlas": "userprofile",
+        "nameSprite": "bg_money_user",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21,
+                "font": "GilroyMedium",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle"
+            },
+            "paddingTop": 3
+        },
+        "icon": {
+            "x": 0,
+            "y": 15,
+            "nameAtlas": "userprofile",
+            "nameSprite": "icon_diamond",
+            "align": "left"
+        }
+    },
+    "profile_btn_ticket": {
+        "x": 421,
+        "y": 373,
+        "nameAtlas": "userprofile",
+        "nameSprite": "bg_money_user",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 21,
+                "font": "GilroyMedium",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "middle"
+            },
+            "paddingTop": 3
+        },
+        "icon": {
+            "x": 0,
+            "y": 13,
+            "nameAtlas": "userprofile",
+            "nameSprite": "icon_ticket",
+            "align": "left"
+        }
+    },
+    "playlist_txt_playlist": {
+        "x": 34,
+        "y": 12,
+        "style": {
+            "fontSize": 26,
+            "font": "GilroyBold",
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle"
+        }
+    },
+    "playlist_txt_xemtatca": {
+        "x": 417,
+        "y": 18,
+        "style": {
+            "fontSize": 23,
+            "align": "right",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle"
+        }
+    },
+    "playlist_line": {
+        "x": 35,
+        "y": 65,
+        "nameAtlas": "userprofile",
+        "nameSprite": "line_playlist"
+    },
+    "playlist_line_select": {
+        "x": 35,
+        "y": 64,
+        "nameAtlas": "userprofile",
+        "nameSprite": "top_line_status"
+    },
+    "achievement_txt_name": {
+        "x": 0,
+        "y": 130,
+        "style": {
+            "fontSize": 18,
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "top",
+            "wordWrap": true,
+            "wordWrapWidth": 118,
+            "maxLines": 2
+        }
+    },
+    "playlist_check_online": {
+        "x": 106,
+        "y": 50,
+        "nameAtlas": "userprofile",
+        "nameSprite": "check_online"
+    },
+    "playlist_check_offline": {
+        "x": 106,
+        "y": 50,
+        "nameAtlas": "userprofile",
+        "nameSprite": "check_offline"
+    },
+    "maxscore_label_month": {
+        "x": 35,
+        "y": 101,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#92909D"
+        }
+    },
+    "maxscore_label_all": {
+        "x": 35,
+        "y": 153,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#92909D"
+        }
+    },
+    "maxscore_txt_all": {
+        "x": 352,
+        "y": 153,
+        "style": {
+            "fontSize": 23,
+            "align": "right",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle",
+            "fill": "#F99349"
+        }
+    },
+    "maxscore_txt_month": {
+        "x": 352,
+        "y": 101,
+        "style": {
+            "fontSize": 23,
+            "align": "right",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle",
+            "fill": "#F99349"
+        }
+    },
+    "short_profile": {
+        "popup": {
+            "x": 0,
+            "y": 0
+        },
+        "ava_fb": {
+            "x": 284,
+            "y": 0
+        },
+        "frame_ava": {
+            "x": 284,
+            "y": 0,
+            "nameSprite": "Khungava_02",
+            "nameAtlas": "mainMenuSprites"
+        },
+        "frame_ava_vip": {
+            "x": 284,
+            "y": 0,
+            "nameSprite": "Khungava",
+            "nameAtlas": "mainMenuSprites"
+        },
+        "frame_ava_vip_icon": {
+            "x": 0,
+            "y": 70,
+            "nameSprite": "VIP",
+            "nameAtlas": "mainMenuSprites"
+        },
+        "frame_ava_vip_laurel": {
+            "x": 0,
+            "y": 25,
+            "nameSprite": "Vong_Nguyet_Que",
+            "nameAtlas": "mainMenuSprites"
+        },
+        "line1": {
+            "x": 35,
+            "y": 187,
+            "nameSprite": "Line",
+            "nameAtlas": "friendRequestSprites"
+        },
+        "line2": {
+            "x": 35,
+            "y": 260,
+            "nameSprite": "Line",
+            "nameAtlas": "friendRequestSprites"
+        },
+        "line_gradient": {
+            "x": 284,
+            "y": 260,
+            "nameSprite": "Line_Gradient",
+            "nameAtlas": "friendRequestSprites"
+        },
+        "txt_most_playlist": {
+            "x": 284,
+            "y": 228,
+            "text": "Playlist chơi nhiều nhất",
+            "style": {
+                "fontSize": 27,
+                "fill": "#333333",
+                "font": "GilroyBold"
+            }
+        },
+        "playlist": {
+            "name_playlist": {
+                "x": 118,
+                "y": 50,
+                "text": "Playlist chơi nhiều nhất",
+                "style": {
+                    "fontSize": 21,
+                    "fill": "#333333",
+                    "font": "Gilroy",
+                    "wordWrap": true,
+                    "wordWrapWidth": 296,
+                    "align": "left"
+                }
+            },
+            "ava_playlist": {
+                "x": 35,
+                "y": 18,
+                "nameAtlas": "otherSprites",
+                "nameSprite": "Nhactre"
+            }
+        }
+    }
+}

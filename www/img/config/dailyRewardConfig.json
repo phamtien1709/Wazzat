@@ -1,0 +1,224 @@
+{
+    "popup": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "dailyRewardSprites",
+        "nameSprite": "Box_Daily"
+    },
+    "header": {
+        "tab_chonplaylist": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Header_BG"
+        },
+        "btn_back": {
+            "x": 77,
+            "y": 87,
+            "nameAtlas": "questAndAchieveSprites",
+            "nameSprite": "Back"
+        },
+        "txt_quest": {
+            "x": 540,
+            "y": 40,
+            "text": "NHIỆM VỤ",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 21
+            }
+        },
+        "tabGem": {
+            "x": 247,
+            "y": 29,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tabTicket": {
+            "x": 429,
+            "y": 29,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tabMic": {
+            "x": 68,
+            "y": 29,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Tainguyen"
+        },
+        "tab_quest": {
+            "x": 0,
+            "y": 171,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tab_Nhiemvu"
+        },
+        "gem": {
+            "x": 0,
+            "y": 13,
+            "nameSprite": "Header_Gem",
+            "nameAtlas": "dailyRewardSprites"
+        },
+        "ticket": {
+            "x": 0,
+            "y": 10,
+            "nameSprite": "Header_Ticket",
+            "nameAtlas": "dailyRewardSprites"
+        },
+        "micro": {
+            "x": 0,
+            "y": 9,
+            "nameSprite": "Header_Mic",
+            "nameAtlas": "dailyRewardSprites"
+        },
+        "txtResource": {
+            "x": 0,
+            "y": 12,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 20
+            }
+        }
+    },
+    "decorate": {
+        "box_gift": {
+            "x": 302,
+            "y": -17,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Gift"
+        },
+        "ribbon": {
+            "x": 0,
+            "y": 35,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Ruybang"
+        },
+        "btn_claim": {
+            "x": 155,
+            "y": 730,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Button_XemVIdeo"
+        },
+        "txt_header": {
+            "x": 302,
+            "y": 107,
+            "text": "PHẦN THƯỞNG HÀNG NGÀY",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#333333",
+                "align": "center",
+                "fontSize": 33
+            }
+        },
+        "txt_btn": {
+            "x": 0,
+            "y": 0,
+            "text": "NHẬN",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 35
+            }
+        },
+        "btn_watch_video_reward": {
+            "x": 450,
+            "y": 730,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Button_Tiep_Tuc",
+            "camera": {
+                "x": 49,
+                "y": 6,
+                "nameAtlas": "dailyRewardSprites",
+                "nameSprite": "Video"
+            },
+            "txt1": {
+                "x": -100,
+                "y": -25,
+                "text": "X2 PHẦN THƯỞNG",
+                "style": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "fontSize": 25
+                }
+            },
+            "txt2": {
+                "x": -70,
+                "y": 6,
+                "text": "Xem video",
+                "style": {
+                    "font": "GilroyMedium",
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "fontSize": 21
+                }
+            }
+        }
+    },
+    "daily_reward": {
+        "box": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Box_01"
+        },
+        "box_init": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Box_02"
+        },
+        "icon_rewarded": {
+            "x": 50,
+            "y": 53,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Tick"
+        },
+        "resource": {
+            "diamond": {
+                "x": 50,
+                "y": 6,
+                "nameAtlas": "dailyRewardSprites",
+                "nameSprite": "Gem"
+            },
+            "ticket": {
+                "x": 50,
+                "y": 6,
+                "nameAtlas": "dailyRewardSprites",
+                "nameSprite": "Ticket"
+            },
+            "spt_item": {
+                "x": 50,
+                "y": 3,
+                "nameAtlas": "dailyRewardSprites",
+                "nameSprite": "Mic"
+            }
+        },
+        "txt_day": {
+            "x": 50,
+            "y": 95,
+            "text": "Ngày ",
+            "style": {
+                "font": "GilroyMedium",
+                "fill": "#999999",
+                "align": "center",
+                "fontSize": 19
+            }
+        },
+        "txt_reward": {
+            "x": 50,
+            "y": 35,
+            "text": "",
+            "style": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 26
+            }
+        }
+    }
+}

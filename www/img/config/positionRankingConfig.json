@@ -1,0 +1,318 @@
+{
+    "users": [
+        {
+            "number_of_correct": 40,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/188032305317443/picture?type=square&width=200&height=200",
+                "user_name": "Pham Tien"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 10,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 5,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/188032305317443/picture?type=square&width=200&height=200",
+                "user_name": "Pham Tien"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 4,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 4,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 4,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        }
+    ],
+    "users2": [
+        {
+            "number_of_correct": 55,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/188032305317443/picture?type=square&width=200&height=200",
+                "user_name": "Pham Tien"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 40,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 35,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/188032305317443/picture?type=square&width=200&height=200",
+                "user_name": "Pham Tien"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 9,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 4,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        },
+        {
+            "number_of_correct": 4,
+            "playlist_id": 6,
+            "user_entity": {
+                "avatar": "https://graph.facebook.com/10209705672518051/picture?type=square&width=200&height=200",
+                "user_name": "Giap DQ"
+            },
+            "user_id": 1
+        }
+    ],
+    "header": {
+        "tab": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Header"
+        },
+        "back": {
+            "x": 45,
+            "y": 52,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Arrow"
+        },
+        "name": {
+            "x": 320,
+            "y": 29,
+            "text": "practiceMenuSprites",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 400,
+                "maxLines": 1,
+                "fontSize": 28
+            }
+        },
+        "line": {
+            "x": 0,
+            "y": 103,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Line_Menu"
+        },
+        "line_doc": {
+            "x": 320,
+            "y": 135,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Line_Menu_Doc"
+        }
+    },
+    "button_ranking_this_week": {
+        "x": 0,
+        "y": 103
+    },
+    "button_ranking_last_week": {
+        "x": 320,
+        "y": 103
+    },
+    "rank": {
+        "1": {
+            "x": 35,
+            "y": 35,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Medal_01"
+        },
+        "2": {
+            "x": 35,
+            "y": 35,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Medal_02"
+        },
+        "3": {
+            "x": 35,
+            "y": 35,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Medal_03"
+        },
+        "other": {
+            "x": 35,
+            "y": 35,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Trophy_Icon"
+        }
+    },
+    "circle_stroke": {
+        "x": 605,
+        "y": 31,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Circle_Level"
+    },
+    "diamond": {
+        "x": 430,
+        "y": 49,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Gem"
+    },
+    "txt_diamond": {
+        "x": 469,
+        "y": 51,
+        "text": "practiceMenuSprites",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 19
+        }
+    },
+    "ticket": {
+        "x": 539,
+        "y": 47,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Ticket"
+    },
+    "txt_ticket": {
+        "x": 583,
+        "y": 51,
+        "text": "practiceMenuSprites",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 19
+        }
+    },
+    "txt_timeCounter": {
+        "x": 132,
+        "y": 59,
+        "text": "HH:MM:SS",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#93909c",
+            "fontSize": 22
+        }
+    },
+    "tab4_10": {
+        "txt_rank": {
+            "x": 35,
+            "y": 27,
+            "text": "Xếp hạng",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 21
+            }
+        },
+        "icon": {
+            "x": 35,
+            "y": 59,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Icon_XepHang"
+        },
+        "number": {
+            "x": 78,
+            "y": 66,
+            "text": "4 - 10",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#807b8d",
+                "align": "center",
+                "fontSize": 21
+            }
+        },
+        "reward": {
+            "x": 605,
+            "y": 23,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "VE"
+        },
+        "line": {
+            "x": 35,
+            "y": 110,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Line_Tab4-10"
+        }
+    },
+    "line_under": {
+        "x": 35,
+        "y": 113,
+        "nameSprite": "Line",
+        "nameAtlas": "practiceMenuSprites"
+    },
+    "txt_rank_this_week": {
+        "x": 113,
+        "y": 27,
+        "text": "Tuần này",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 23
+        }
+    },
+    "txt_rank_last_week": {
+        "x": 106,
+        "y": 41,
+        "text": "Tuần trước",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "fontSize": 23
+        }
+    },
+    "clock": {
+        "x": 106,
+        "y": 62,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Time_Icon"
+    },
+    "help_btn": {
+        "x": 563,
+        "y": 20,
+        "nameAtlas": "ranking",
+        "nameSprite": "button_help"
+    }
+}

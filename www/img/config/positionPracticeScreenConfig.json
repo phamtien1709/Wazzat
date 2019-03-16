@@ -1,0 +1,140 @@
+{
+    "header": {
+        "tab_chonplaylist": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Tab_Header"
+        },
+        "btn_back": {
+            "x": 46,
+            "y": 52,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Arrow"
+        },
+        "txt_practice": {
+            "x": 320,
+            "y": 155,
+            "text": "Chọn một Playlist",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 30
+            }
+        },
+        "tabGem": {
+            "x": 142,
+            "y": 27,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Tab_Gem"
+        },
+        "tabHeart": {
+            "x": 331,
+            "y": 27,
+            "nameAtlas": "practiceMenuSprites",
+            "nameSprite": "Tab_Gem"
+        },
+        "gem": {
+            "x": 0,
+            "y": 12,
+            "nameSprite": "Gem",
+            "nameAtlas": "practiceMenuSprites"
+        },
+        "txtGem": {
+            "x": 0,
+            "y": 15,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 24
+            }
+        },
+        "heart": {
+            "x": 0,
+            "y": 12,
+            "nameSprite": "Heart_header",
+            "nameAtlas": "practiceMenuSprites"
+        },
+        "txtHeart": {
+            "x": 0,
+            "y": 15,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 24
+            }
+        }
+    },
+    "scrollTab": {},
+    "practice_line_scroll": {
+        "x": 0,
+        "y": -45,
+        "nameSprite": "Line",
+        "nameAtlas": "practiceMenuSprites"
+    },
+    "practice_box_price": {
+        "x": 0,
+        "y": 249,
+        "nameSprite": "Button_Mua",
+        "nameAtlas": "practiceMenuSprites"
+    },
+    "btn_choose": {
+        "btn": {
+            "x": 0,
+            "y": 249,
+            "nameSprite": "Button_Chon",
+            "nameAtlas": "practiceMenuSprites"
+        },
+        "txt": {
+            "x": 82,
+            "y": 16,
+            "text": "CHỌN",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 21
+            }
+        }
+    },
+    "practice_gem_box_price": {
+        "x": 0,
+        "y": 17,
+        "nameSprite": "Gem_Button_mua",
+        "nameAtlas": "practiceMenuSprites"
+    },
+    "practice_txt_price": {
+        "x": 0,
+        "y": 14,
+        "text": "",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 23
+        }
+    },
+    "avaPractice": {
+        "x": 320,
+        "y": 104
+    },
+    "nameFBPractice": {
+        "x": 320,
+        "y": 205,
+        "configs": {
+            "font": "Gilroy",
+            "fill": "white",
+            "fontSize": 23
+        }
+    },
+    "diamond": {
+        "x": 302,
+        "y": 317,
+        "nameSprite": "Gem_Button_mua",
+        "nameAtlas": "practiceMenuSprites"
+    }
+}

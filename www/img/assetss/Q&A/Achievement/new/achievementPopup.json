@@ -1,0 +1,495 @@
+{
+    "frames": {
+        "01_Gamethu_Chuyennghiep": {
+            "frame": {
+                "x": 2,
+                "y": 2,
+                "w": 164.5,
+                "h": 164.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 164.5,
+                "h": 164.5
+            },
+            "sourceSize": {
+                "w": 164.5,
+                "h": 164.5
+            }
+        },
+        "02_Gamethu_Thongthai": {
+            "frame": {
+                "x": 168.5,
+                "y": 2,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "03_Sieutritue": {
+            "frame": {
+                "x": 336,
+                "y": 2,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "04_Khongthe_Ngancan": {
+            "frame": {
+                "x": 503.5,
+                "y": 2,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "05_Khongtubo": {
+            "frame": {
+                "x": 671,
+                "y": 2,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "06_Chienbinh_Amnhac": {
+            "frame": {
+                "x": 838.5,
+                "y": 2,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "07_Nguoithachdau": {
+            "frame": {
+                "x": 2,
+                "y": 169.5,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "08_Khongdoithu": {
+            "frame": {
+                "x": 169.5,
+                "y": 169.5,
+                "w": 165.5,
+                "h": 165
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165
+            }
+        },
+        "09_Bacthay_Amnhac": {
+            "frame": {
+                "x": 337,
+                "y": 169.5,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "10_Nuhoang_Muasam": {
+            "frame": {
+                "x": 504.5,
+                "y": 169.5,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "11_Sieuhotro": {
+            "frame": {
+                "x": 672,
+                "y": 169.5,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "12_Toigiau": {
+            "frame": {
+                "x": 839.5,
+                "y": 169.5,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "13_Nguoithanthien": {
+            "frame": {
+                "x": 2,
+                "y": 337,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "14_Nguoixahoi": {
+            "frame": {
+                "x": 169.5,
+                "y": 337,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "15_Nhavodich": {
+            "frame": {
+                "x": 337,
+                "y": 337,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "16_Giaosuamnhac": {
+            "frame": {
+                "x": 504.5,
+                "y": 337,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 165.5,
+                "h": 165.5
+            },
+            "sourceSize": {
+                "w": 165.5,
+                "h": 165.5
+            }
+        },
+        "Button_Nhan": {
+            "frame": {
+                "x": 672,
+                "y": 337,
+                "w": 104,
+                "h": 90
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 104,
+                "h": 90
+            },
+            "sourceSize": {
+                "w": 104,
+                "h": 90
+            }
+        },
+        "Done": {
+            "frame": {
+                "x": 778,
+                "y": 337,
+                "w": 27.5,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 27.5,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 27.5,
+                "h": 20
+            }
+        },
+        "GEM_Header": {
+            "frame": {
+                "x": 807.5,
+                "y": 337,
+                "w": 27,
+                "h": 19.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 27,
+                "h": 19.5
+            },
+            "sourceSize": {
+                "w": 27,
+                "h": 19.5
+            }
+        },
+        "Mic": {
+            "frame": {
+                "x": 836.5,
+                "y": 337,
+                "w": 19,
+                "h": 26
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 19,
+                "h": 26
+            },
+            "sourceSize": {
+                "w": 19,
+                "h": 26
+            }
+        },
+        "Tab_Nhiemvu": {
+            "frame": {
+                "x": 2,
+                "y": 504.5,
+                "w": 540,
+                "h": 61.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 540,
+                "h": 61.5
+            },
+            "sourceSize": {
+                "w": 540,
+                "h": 61.5
+            }
+        },
+        "Tab_Tainguyen": {
+            "frame": {
+                "x": 544,
+                "y": 504.5,
+                "w": 122.5,
+                "h": 36.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 122.5,
+                "h": 36.5
+            },
+            "sourceSize": {
+                "w": 122.5,
+                "h": 36.5
+            }
+        },
+        "Ticket": {
+            "frame": {
+                "x": 668.5,
+                "y": 504.5,
+                "w": 28,
+                "h": 20
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 20
+            }
+        },
+        "medal_default": {
+            "frame": {
+                "x": 698.5,
+                "y": 504.5,
+                "w": 164.5,
+                "h": 164.5
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 164.5,
+                "h": 164.5
+            },
+            "sourceSize": {
+                "w": 164.5,
+                "h": 164.5
+            }
+        }
+    },
+    "meta": {
+        "app": "AdobeAnimate",
+        "version": "18.0.2.126",
+        "image": "achievementPopup",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1024,
+            "h": 1024
+        },
+        "scale": 0.5
+    }
+}

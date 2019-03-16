@@ -1,0 +1,255 @@
+﻿{
+	"frames": {
+		"Arrow": {
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 100
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 100
+			},
+			"sourceSize": {
+				"w": 100,
+				"h": 100
+			}
+		},
+		"BUtton_Gem": {
+			"frame": {
+				"x": 104,
+				"y": 0,
+				"w": 136,
+				"h": 59
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 136,
+				"h": 59
+			},
+			"sourceSize": {
+				"w": 136,
+				"h": 59
+			}
+		},
+		"Button_ThayDoiPlayList": {
+			"frame": {
+				"x": 244,
+				"y": 0,
+				"w": 570,
+				"h": 101
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 570,
+				"h": 101
+			},
+			"sourceSize": {
+				"w": 570,
+				"h": 101
+			}
+		},
+		"GEM_header": {
+			"frame": {
+				"x": 818,
+				"y": 0,
+				"w": 32,
+				"h": 23
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 32,
+				"h": 23
+			},
+			"sourceSize": {
+				"w": 32,
+				"h": 23
+			}
+		},
+		"Gem_Footer": {
+			"frame": {
+				"x": 854,
+				"y": 0,
+				"w": 40,
+				"h": 29
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 40,
+				"h": 29
+			},
+			"sourceSize": {
+				"w": 40,
+				"h": 29
+			}
+		},
+		"Header": {
+			"frame": {
+				"x": 0,
+				"y": 105,
+				"w": 640,
+				"h": 103
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 103
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 103
+			}
+		},
+		"Khung Ava": {
+			"frame": {
+				"x": 644,
+				"y": 105,
+				"w": 102,
+				"h": 102
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 102,
+				"h": 102
+			},
+			"sourceSize": {
+				"w": 102,
+				"h": 102
+			}
+		},
+		"Line": {
+			"frame": {
+				"x": 0,
+				"y": 212,
+				"w": 568,
+				"h": 1
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 568,
+				"h": 1
+			},
+			"sourceSize": {
+				"w": 568,
+				"h": 1
+			}
+		},
+		"Nhactre": {
+			"frame": {
+				"x": 572,
+				"y": 212,
+				"w": 172,
+				"h": 172
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 172,
+				"h": 172
+			},
+			"sourceSize": {
+				"w": 172,
+				"h": 172
+			}
+		},
+		"Tab_Gem": {
+			"frame": {
+				"x": 748,
+				"y": 212,
+				"w": 133,
+				"h": 43
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 133,
+				"h": 43
+			},
+			"sourceSize": {
+				"w": 133,
+				"h": 43
+			}
+		},
+		"Tab_Recent": {
+			"frame": {
+				"x": 0,
+				"y": 388,
+				"w": 640,
+				"h": 137
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 137
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 137
+			}
+		},
+		"Tab_Recent2": {
+			"frame": {
+				"x": 0,
+				"y": 529,
+				"w": 640,
+				"h": 139
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 640,
+				"h": 139
+			},
+			"sourceSize": {
+				"w": 640,
+				"h": 139
+			}
+		}
+	},
+	"meta": {
+		"app": "Adobe Animate",
+		"version": "18.0.2.126",
+		"image": "choosePlaylist",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1024,
+			"h": 1024
+		},
+		"scale": "1"
+	}
+}

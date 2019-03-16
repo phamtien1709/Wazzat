@@ -1,0 +1,194 @@
+{
+    "Arrow": {
+        "x": 46,
+        "y": 52,
+        "nameSprite": "Arrow",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "Button_Random": {
+        "x": 467,
+        "y": 1070,
+        "nameSprite": "Button_Random",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "Button_FB": {
+        "x": 35,
+        "y": 1070,
+        "nameSprite": "Button_FB",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "Icon_Button_FB": {
+        "x": 35,
+        "y": 0,
+        "nameSprite": "Icon_FB",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "txt_Button_FB": {
+        "x": 88,
+        "y": 0,
+        "text": "FACEBOOK",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 29
+        }
+    },
+    "Khung_Ava_To": {
+        "x": 540,
+        "y": 565,
+        "nameSprite": "Khung_Ava_To",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "Khung_Ava_nho": {
+        "x": 540,
+        "y": 277,
+        "nameSprite": "Khung_Ava_nho",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "Line_Gradient": {
+        "x": 540,
+        "y": 835,
+        "nameSprite": "Line_Gradient",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "Search_Icon": {
+        "x": 285,
+        "y": 51,
+        "nameSprite": "Search",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "Tab_chon_playlist": {
+        "x": 540,
+        "y": 565,
+        "nameSprite": "Tab_chon_playlist",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "txt_findGame": {
+        "x": 0,
+        "y": 50,
+        "text": "TÌM NGƯỜI CHƠI",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "white",
+            "fontSize": 30
+        }
+    },
+    "txt_famous_user": {
+        "x": 285,
+        "y": 38,
+        "text": "NGƯỜI CHƠI NỔI BẬT",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 25
+        }
+    },
+    "line_famous_user": {
+        "x": 0,
+        "y": 129,
+        "nameSprite": "Line_Gradient",
+        "nameAtlas": "findOpponentsSprites"
+    },
+    "txt_friend": {
+        "x": 35,
+        "y": 484,
+        "text": "Bạn bè",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "fontSize": 24
+        }
+    },
+    "line_friend": {
+        "x": 35,
+        "y": 528,
+        "nameSprite": "Line",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "line_friend_list": {
+        "x": 0,
+        "y": 106,
+        "nameSprite": "Line",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "line_under_showall": {
+        "x": 35,
+        "y": 525,
+        "nameSprite": "Line_Gradient",
+        "nameAtlas": "findOpponentSprites"
+    },
+    "txt_suggest_friend": {
+        "x": 0,
+        "y": 75,
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#ffffff",
+            "align": "center",
+            "wordWrap": true,
+            "wordWrapWidth": 110,
+            "maxLines": 1,
+            "fontSize": 22
+        }
+    },
+    "txt_friend_list": {
+        "x": 105,
+        "y": 40,
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#ffffff",
+            "align": "center",
+            "wordWrap": true,
+            "wordWrapWidth": 250,
+            "fontSize": 22
+        }
+    },
+    "btn_play_findGame": {
+        "x": 515,
+        "y": 51,
+        "nameAtlas": "otherSprites",
+        "nameSprite": "Button_Moi"
+    },
+    "txt_btn_play_findGame": {
+        "x": 0,
+        "y": 0,
+        "text": "CHƠI",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "fontSize": 22
+        }
+    },
+    "txt_show_all": {
+        "x": 605,
+        "y": 484,
+        "text": "Xem tất cả",
+        "configs": {
+            "font": "Gilroy",
+            "fill": "#93909d",
+            "fontSize": 22
+        }
+    },
+    "txt_random_user": {
+        "x": 0,
+        "y": 0,
+        "text": "TÌM NGẪU NHIÊN",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#ffffff",
+            "align": "center",
+            "fontSize": 29
+        }
+    },
+    "tab_header": {
+        "x": 35,
+        "y": 139,
+        "nameAtlas": "findOpponentSprites",
+        "nameSprite": "Tab_Noibat_01"
+    },
+    "bg_suggest_friend": {
+        "x": 0,
+        "y": 78,
+        "nameAtlas": "findOpponentSprites",
+        "nameSprite": "Tab_Noibat_02"
+    }
+}
