@@ -4,7 +4,9 @@
   "description": "My First Game HTML Canvas will be release to global as soon. If you like can try it in https://wazzat.vn. Welcome",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "run": "npm run phaser-list-view"
   },
   "repository": {
     "type": "git",
