@@ -321,6 +321,12 @@
         "nameSprite": "Khung_Ava_Thuong",
         "nameAtlas": "playSprites"
     },
+    "frame_ava_vip_left": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Ava_Opponents",
+        "nameAtlas": "vipSource"
+    },
     "frame_ava_right": {
         "x": 320,
         "y": 205,
@@ -330,7 +336,7 @@
     "frame_ava_vip_right": {
         "x": 320,
         "y": 205,
-        "nameSprite": "Ava_Vip",
+        "nameSprite": "Ava_Opponents",
         "nameAtlas": "vipSource"
     },
     "namePlaylist": {

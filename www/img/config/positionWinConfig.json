@@ -188,20 +188,20 @@
         "nameSprite": "Offline"
     },
     "dot_online_right_challen": {
-        "x": 575,
-        "y": 185,
+        "x": 590,
+        "y": 168,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_online_left_challen": {
-        "x": 90,
-        "y": 185,
+        "x": 110,
+        "y": 168,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_offline_left_challen": {
-        "x": 90,
-        "y": 185,
+        "x": 110,
+        "y": 168,
         "nameAtlas": "playSprites",
         "nameSprite": "Offline"
     },
