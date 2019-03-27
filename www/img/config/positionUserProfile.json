@@ -2,13 +2,13 @@
     "header_bg": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "findOpponentSprites",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Header"
     },
     "header_bg_vip": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "findOpponentSprites",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Header"
     },
     "header_txt_content": {
@@ -22,7 +22,7 @@
     "header_button_back": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "findOpponentSprites",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Arrow"
     },
     "profile_txt_online": {
@@ -42,7 +42,7 @@
         "x": 200,
         "y": 40,
         "nameAtlas": "userprofile",
-        "nameSprite": "bg_ava_vip"
+        "nameSprite": "Ava_Vip"
     },
     "profile_txt_username": {
         "x": 0,

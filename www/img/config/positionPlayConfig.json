@@ -34,13 +34,13 @@
     "diamond_remove_answer": {
         "x": 200,
         "y": 0,
-        "nameAtlas": "createroom",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Mic"
     },
     "mic_so_luong": {
         "x": 250,
         "y": 0,
-        "nameAtlas": "createroom",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Mic_Soluong"
     },
     "number_mic_so_luong": {
@@ -92,8 +92,8 @@
     "answer_tab": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "practiceMenuSprites",
-        "nameSprite": "Tab_01"
+        "nameAtlas": "playSprites",
+        "nameSprite": "Tab_Dapan_01"
     },
     "circleNormal": {
         "x": 197,
@@ -326,6 +326,12 @@
         "y": 205,
         "nameSprite": "Khung_Ava_Thuong",
         "nameAtlas": "playSprites"
+    },
+    "frame_ava_vip_right": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Ava_Vip",
+        "nameAtlas": "vipSource"
     },
     "namePlaylist": {
         "x": 320,

@@ -1,0 +1,164 @@
+{	
+	"sort_play_list_bg_top_menu": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "sort_play_list_bg_top_menu"
+	},
+	"sort_play_list_bg_back_top_menu": {
+		"x": 15,
+		"y": 17,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "sort_play_list_bg_icon_back"
+	},
+	"sort_play_list_bg_diamond_top_menu": {
+		"x": 221,
+		"y": 23,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "sort_play_list_bg_diamon",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 28,
+				"align": "center",
+				"boundsAlignH": "center",
+				"boundsAlignV": "middle",
+				"font": "GilroyBold"
+			},
+			"width": 130,
+			"paddingLeft": 12,
+			"paddingTop": 3
+		}
+	},
+	"detail_playlist_name": {
+		"x": 24,
+		"y": 326,
+		"style": {
+			"fontSize": 28,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle"
+		}
+	},
+	"detail_playlist_detail": {
+		"x": 59,
+		"y": 410,
+		"style": {
+			"fontSize": 26,
+			"align": "center",
+			"boundsAlignH": "center",
+			"boundsAlignV": "middle",
+			"wordWrap": true,
+			"wordWrapWidth": 533,
+			"fill": "#93909d"
+		}
+	},
+	"playlist_button_buy": {
+		"x": 3,
+		"y": 255,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "shop_bg_price_playlist",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 25,
+				"font": "GilroyBold"
+			},
+			"paddingTop": 12
+		},
+		"icon": {
+			"x": 124,
+			"y": 15,
+			"nameAtlas": "detailplaylist",
+			"nameSprite": "diamon",
+			"align": "right",
+			"width": 34,
+			"height": 24
+		},
+		"alignAll": "center"
+	},
+	"detail_button_kichhoat": {
+		"x": 238,
+		"y": 539,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "Button_Kichhoat",
+		"configText": {
+			"x": 0,
+			"y": 0,
+			"style": {
+				"fontSize": 21,
+				"align": "center",
+				"boundsAlignH": "center",
+				"boundsAlignV": "middle",
+				"font": "GilroyBold"
+			},
+			"width": 154,
+			"paddingTop": 3
+		}
+	},
+	"detail_playlist_lb_baihat": {
+		"x": 35,
+		"y": 657,
+		"style": {
+			"fontSize": 32,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "middle",
+			"font": "GilroyMedium"
+		}
+	},
+	"detail_playlist_lb_count_baihat": {
+		"x": 415,
+		"y": 660,
+		"style": {
+			"fontSize": 27,
+			"align": "right",
+			"boundsAlignH": "right",
+			"boundsAlignV": "middle",
+			"fill": "#93909d"
+		}
+	},
+	"detail_playlist_item_line": {
+		"x": 0,
+		"y": 0,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "line_space"
+	},
+	"detail_playlist_active_baihat": {
+		"x": 35,
+		"y": 706,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "sort_play_list_active_top_menu"
+	},
+	"detail_playlist_item_name_song": {
+		"x": 0,
+		"y": 7,
+		"style": {
+			"fontSize": 23,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "bottom",
+			"wordWrap": true,
+			"wordWrapWidth": 551
+		}
+	},
+	"detail_playlist_item_name_casi": {
+		"x": 0,
+		"y": 65,
+		"style": {
+			"fontSize": 18,
+			"align": "left",
+			"boundsAlignH": "left",
+			"boundsAlignV": "middle",
+			"fill": "#695782"
+		}
+	},
+	"detail_playlist_btn_detail_song": {
+		"x": 537,
+		"y": 45,
+		"nameAtlas": "detailplaylist",
+		"nameSprite": "detail_select_song"
+	}
+}

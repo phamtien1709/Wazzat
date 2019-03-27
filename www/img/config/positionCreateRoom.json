@@ -304,7 +304,7 @@
     "choose_playlist_itemplaylist_select": {
         "x": 470,
         "y": 38,
-        "nameAtlas": "createroom",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Button_Moi",
         "configText": {
             "x": 0,
@@ -512,29 +512,6 @@
             "wordWrapWidth": 360
         }
     },
-    "listfriend_txt_name": {
-        "x": 117,
-        "y": 48,
-        "style": {
-            "fontSize": 23,
-            "align": "left",
-            "boundsAlignH": "left",
-            "boundsAlignV": "middle",
-            "font": "GilroyMedium"
-        }
-    },
-    "listfriend_icon_online": {
-        "x": 87,
-        "y": 75,
-        "nameAtlas": "createroom",
-        "nameSprite": "Online"
-    },
-    "listfriend_icon_offline": {
-        "x": 87,
-        "y": 75,
-        "nameAtlas": "createroom",
-        "nameSprite": "Offline"
-    },
     "listfriend_txt_online": {
         "x": 245,
         "y": 140,
@@ -545,30 +522,6 @@
             "boundsAlignV": "middle",
             "fill": "#00cf42"
         }
-    },
-    "listfriend_btn_invite": {
-        "x": 485,
-        "y": 33,
-        "nameAtlas": "createroom",
-        "nameSprite": "Button_Moi",
-        "configText": {
-            "x": 0,
-            "y": 0,
-            "style": {
-                "fontSize": 23,
-                "align": "center",
-                "boundsAlignH": "center",
-                "boundsAlignV": "middle",
-                "font": "GilroyBold"
-            },
-            "width": 102
-        }
-    },
-    "listfriend_bg_line": {
-        "x": 35,
-        "y": 107,
-        "nameAtlas": "createroom",
-        "nameSprite": "Line"
     },
     "listfriend_btn_random": {
         "x": 35,
@@ -717,12 +670,6 @@
         "y": 0,
         "nameAtlas": "createroom",
         "nameSprite": "Light_Rotation"
-    },
-    "friend_invite_done": {
-        "x": 0,
-        "y": 0,
-        "nameAtlas": "createroom",
-        "nameSprite": "Done"
     },
     "quickplay_tab_btn_default": {
         "x": 0,
@@ -1039,7 +986,7 @@
     "icon_true_result": {
         "x": 37,
         "y": 44,
-        "nameAtlas": "createroom",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Done"
     },
     "icon_fail_result": {

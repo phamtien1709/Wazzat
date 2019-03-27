@@ -117,7 +117,7 @@
         "x": 35,
         "y": 100,
         "nameSprite": "Line",
-        "nameAtlas": "findOpponentSprites"
+        "nameAtlas": "defaultSource"
     },
     "btn_accept": {
         "x": 553,
@@ -216,8 +216,8 @@
     },
     "frame_ava_vip": {
         "x": 320,
-        "y": 119,
-        "nameSprite": "Frame_Vip",
+        "y": 122,
+        "nameSprite": "Ava_Vip",
         "nameAtlas": "mainMenuSprites"
     },
     "frame_ava_vip_icon": {
@@ -439,6 +439,12 @@
             "fontSize": 19
         }
     },
+    "frame_ava_small": {
+        "x": 37,
+        "y": 15,
+        "nameAtlas": "mainMenuSprites",
+        "nameSprite": "Ava_Nho"
+    },
     "mail": {
         "search_bg": {
             "x": 0,
@@ -450,7 +456,7 @@
             "x": 35,
             "y": 139,
             "nameSprite": "Line",
-            "nameAtlas": "findOpponentSprites"
+            "nameAtlas": "defaultSource"
         },
         "search_tab": {
             "x": 320,
@@ -471,13 +477,13 @@
             "nameSprite": "Ava_01"
         },
         "txt_search": {
-            "x": -237,
-            "y": 0,
-            "text": "Tìm kiếm...",
+            "x": 320,
+            "y": 30,
+            "text": "HỘP THƯ",
             "style": {
-                "font": "Gilroy",
-                "fill": "#93909d",
-                "fontSize": 22
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "fontSize": 32
             }
         },
         "tab_active": {
@@ -657,7 +663,7 @@
             "y": 20
         },
         "txt_mess_time": {
-            "x": 480,
+            "x": 450,
             "y": 26,
             "text": "",
             "style": {

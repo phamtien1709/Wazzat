@@ -432,7 +432,7 @@
     "bg_tab_menu_select_item": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "shop",
+        "nameAtlas": "defaultSource",
         "nameSprite": "bg_tab_menu_select_item",
         "configText": {
             "x": 0,
@@ -446,7 +446,7 @@
     "sort_play_list_bg_search_menu": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "shop",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Search_tab"
     },
     "btn_logout": {

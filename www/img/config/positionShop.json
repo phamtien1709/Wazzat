@@ -584,12 +584,6 @@
 		"nameAtlas": "shop",
 		"nameSprite": "TNHeart_Active"
 	},
-	"tn_tab_icon_heart_active": {
-		"x": 0,
-		"y": 0,
-		"nameAtlas": "shop",
-		"nameSprite": "TNHeart_Active"
-	},
 	"tn_item_bg": {
 		"x": 0,
 		"y": 20,

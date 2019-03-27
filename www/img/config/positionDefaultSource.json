@@ -22,5 +22,145 @@
     	"y":0,
     	"nameAtlas" : "defaultSource",
         "nameSprite" : "CurrentLevelActive1"
+    },
+    "bg_answer_question": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Tab_Cautraloi",
+        "left": 14.5,
+        "right": 14.5,
+        "top": 50,
+        "bot": 50,
+        "width": 570,
+        "height": 103,
+        "name": "Tab_Cautraloi"
+    },
+    "bg_answer_question_nochoose": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Tab_CautraLoi_noChoose",
+        "left": 14.5,
+        "right": 14.5,
+        "top": 50,
+        "bot": 50,
+        "width": 570,
+        "height": 103,
+        "name": "Tab_CautraLoi_noChoose"
+    },
+    "text_answer_question": {
+        "x": 0,
+        "y": 0,
+        "style": {
+            "fontSize": 28,
+            "fill": "black",
+            "wordWrap": true,
+            "wordWrapWidth": 560,
+            "font": "GilroyMedium"
+        }
+    },
+    "playlist_button_buy": {
+        "x": 3,
+        "y": 255,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "shop_bg_price_playlist",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 25,
+                "font": "GilroyBold"
+            },
+            "paddingTop": 12
+        },
+        "icon": {
+            "x": 124,
+            "y": 15,
+            "nameAtlas": "defaultSource",
+            "nameSprite": "diamon",
+            "align": "right",
+            "width": 34,
+            "height": 24
+        },
+        "alignAll": "center"
+    },
+    "playlist_text_warning": {
+        "x": 0,
+        "y": 260,
+        "style": {
+            "fontSize": 20,
+            "font": "GilroyMedium",
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "fill": "#ffa33a"
+        }
+    },
+    "gennes_text_name_playlist": {
+        "x": 0,
+        "y": 178,
+        "style": {
+            "fontSize": 21,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "top",
+            "wordWrap": true,
+            "wordWrapWidth": 166,
+            "maxLines": 2
+        }
+    },
+    "listfriend_txt_name": {
+        "x": 117,
+        "y": 48,
+        "style": {
+            "fontSize": 23,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "font": "GilroyMedium"
+        }
+    },
+    "listfriend_btn_invite": {
+        "x": 485,
+        "y": 33,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Button_Moi",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 23,
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "middle",
+                "font": "GilroyBold"
+            },
+            "width": 102
+        }
+    },
+    "friend_invite_done": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Done"
+    },
+    "listfriend_icon_online": {
+        "x": 87,
+        "y": 75,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Online"
+    },
+    "listfriend_icon_offline": {
+        "x": 87,
+        "y": 75,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Offline"
+    },
+    "listfriend_bg_line": {
+        "x": 35,
+        "y": 107,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Line"
     }
 }

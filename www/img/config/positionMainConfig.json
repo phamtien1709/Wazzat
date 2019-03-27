@@ -48,7 +48,7 @@
     },
     "txt_chonplaylist": {
         "x": -55,
-        "y": 45,
+        "y": 50,
         "text": "CHỌN 1 PLAYLIST",
         "configs": {
             "font": "GilroyBold",
@@ -66,7 +66,7 @@
         "x": 300,
         "y": 25,
         "nameSprite": "Tab_Tainguyen",
-        "nameAtlas": "practiceMenuSprites"
+        "nameAtlas": "dailyRewardSprites"
     },
     "gem_playlist": {
         "x": 0,

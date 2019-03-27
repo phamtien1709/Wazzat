@@ -70,6 +70,12 @@
             }
         }
     },
+    "answer_tab": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Tab_Dapan_01"
+    },
     "scrollTab": {},
     "practice_line_scroll": {
         "x": 0,

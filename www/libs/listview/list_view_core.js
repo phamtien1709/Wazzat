@@ -13,6 +13,7 @@ export default class ListViewCore {
     this.game = game;
     this.parent = parent;
     this.bounds = bounds;
+    this.idx = 0;
 
     this.o = this.options = Object.assign({}, defaultOptions, options);
 
@@ -34,7 +35,8 @@ export default class ListViewCore {
     this.grp.position.set(bounds.x, bounds.y);
 
     this.events = {
-      onAdded: new Phaser.Signal()
+      onAdded: new Phaser.Signal(),
+      changeIndex: new Phaser.Signal()
     };
 
     this.position = 0;
@@ -110,7 +112,6 @@ export default class ListViewCore {
    * @note This does not reset the position of the ListView.
    */
   removeAll() {
-    LogConsole.log("removeAll-listview");
     if (this.grp !== null) {
       while (this.grp.children.length > 0) {
         let item = this.grp.children[0];
@@ -138,14 +139,16 @@ export default class ListViewCore {
         this.grp[this.p.xy] <
         this.bounds[this.p.xy]
       ) {
-        child.kill();
+        child.visible = false;
       } else if (
         child[this.p.xy] + this.grp[this.p.xy] >
         this.bounds[this.p.xy] + this.bounds[this.p.wh]
       ) {
-        child.kill();
+        child.visible = false;
       } else {
-        child.revive();
+        child.visible = true;
+        this.idx = i;
+        this.events.changeIndex.dispatch();
         clickables.push(child);
       }
     }
@@ -153,6 +156,9 @@ export default class ListViewCore {
     this.scroller.registerClickables(clickables);
   }
 
+  getIdx() {
+    return this.idx;
+  }
 
   getPositionByItemIndex(index) {
     return -this.items[index][this.p.xy];

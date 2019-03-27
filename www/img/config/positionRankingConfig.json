@@ -312,7 +312,7 @@
     "help_btn": {
         "x": 563,
         "y": 20,
-        "nameAtlas": "ranking",
+        "nameAtlas": "defaultSource",
         "nameSprite": "button_help"
     }
 }

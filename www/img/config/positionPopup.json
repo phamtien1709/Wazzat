@@ -92,13 +92,13 @@
             },
             "paddingTop": 28
         },
-        "icon":{
+        "icon": {
             "x": 0,
             "y": 25,
             "nameAtlas": "popup",
             "nameSprite": "Icon_Fb"
         },
-        "alignAll":"center"
+        "alignAll": "center"
     },
     "popup_confirm_text_content": {
         "x": 12,
@@ -232,7 +232,7 @@
             "width": 34,
             "height": 24
         },
-        "alignAll":"center"
+        "alignAll": "center"
     },
     "popup_chat_onlinemode_line": {
         "x": 0,
@@ -522,23 +522,23 @@
             }
         }
     },
-    "bad_connection_label_thongbao":{
+    "bad_connection_label_thongbao": {
         "x": 0,
-        "y": 350,       
+        "y": 350,
         "style": {
             "fontSize": 28,
             "fill": "#000000",
-            "font":"GilroyBold"
+            "font": "GilroyBold"
         }
     },
-    "bad_connection_label_confirm":{
+    "bad_connection_label_confirm": {
         "x": 0,
-        "y": 390,       
+        "y": 390,
         "style": {
             "fontSize": 22,
             "fill": "#333333",
-            "font":"GilroyBold",
-            "wordWrap":true,
+            "font": "GilroyBold",
+            "wordWrap": true,
             "wordWrapWidth": 550
         }
     },
@@ -557,7 +557,7 @@
             "x": 0,
             "y": 0,
             "style": {
-                "fontSize": 32,               
+                "fontSize": 32,
                 "font": "GilroyBold"
             },
             "paddingTop": 12
@@ -572,7 +572,7 @@
             "x": 0,
             "y": 0,
             "style": {
-                "fontSize": 32,               
+                "fontSize": 32,
                 "font": "GilroyBold"
             },
             "paddingTop": 12
@@ -588,20 +588,20 @@
         "x": 0,
         "y": 510,
         "style": {
-            "fontSize": 28,               
+            "fontSize": 28,
             "font": "GilroyMedium",
-            "fill":"#333333"
+            "fill": "#333333"
         }
     },
     "popup_suggets_rating_lb2": {
         "x": 0,
         "y": 35,
         "style": {
-            "fontSize": 42,               
+            "fontSize": 42,
             "font": "GilroyBold",
-            "wordWrap":true,
-            "wordWrapWidth":400,
-            "align":"center"
+            "wordWrap": true,
+            "wordWrapWidth": 400,
+            "align": "center"
         }
     },
     "popup_bg_lixi": {
@@ -620,9 +620,9 @@
         "x": 65,
         "y": 540,
         "style": {
-            "fontSize": 36,               
+            "fontSize": 36,
             "font": "GilroyBold",
-            "fill":"#fadbc6",
+            "fill": "#fadbc6",
             "align": "center",
             "boundsAlignH": "center",
             "boundsAlignV": "middle"
@@ -632,9 +632,9 @@
         "x": 217,
         "y": 540,
         "style": {
-            "fontSize": 36,               
+            "fontSize": 36,
             "font": "GilroyBold",
-            "fill":"#fadbc6",
+            "fill": "#fadbc6",
             "align": "center",
             "boundsAlignH": "center",
             "boundsAlignV": "middle"
@@ -644,12 +644,43 @@
         "x": 370,
         "y": 540,
         "style": {
-            "fontSize": 36,               
+            "fontSize": 36,
             "font": "GilroyBold",
-            "fill":"#fadbc6",
+            "fill": "#fadbc6",
             "align": "center",
             "boundsAlignH": "center",
             "boundsAlignV": "middle"
         }
+    },
+    "ranking_bg_help": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "popup",
+        "nameSprite": "Box_Popup",
+        "left": 47,
+        "right": 56,
+        "top": 44.4,
+        "bot": 48.5,
+        "width": 108,
+        "height": 93,
+        "name": "ranking_bg_help"
+    },
+    "ranking_text_help": {
+        "x": 0,
+        "y": 26,
+        "style": {
+            "fontSize": 30,
+            "font": "GilroyMedium",
+            "fill": "#000000",
+            "align": "left",
+            "wordWrap": true,
+            "wordWrapWidth": 500
+        }
+    },
+    "header_button_help": {
+        "x": 563,
+        "y": 20,
+        "nameAtlas": "popup",
+        "nameSprite": "button_help"
     }
 }

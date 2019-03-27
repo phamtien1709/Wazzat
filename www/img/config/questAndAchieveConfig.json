@@ -587,8 +587,8 @@
         "medal": {
             "x": 35,
             "y": 35,
-            "nameAtlas": "achievementSprites",
-            "nameSprite": "Medal_Default"
+            "nameAtlas": "defaultSource",
+            "nameSprite": "medal_default"
         },
         "title": {
             "x": 143,
@@ -709,7 +709,7 @@
         "medal_popup": {
             "x": 285,
             "y": 0,
-            "nameAtlas": "achievemenNewtSprites",
+            "nameAtlas": "defaultSource",
             "nameSprite": "medal_default"
         },
         "txt_phan_thuonng": {
@@ -728,6 +728,6 @@
         "x": 35,
         "y": 105,
         "nameSprite": "Line",
-        "nameAtlas": "findOpponentSprites"
+        "nameAtlas": "defaultSource"
     }
 }

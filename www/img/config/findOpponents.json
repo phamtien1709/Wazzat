@@ -3,7 +3,7 @@
         "x": 46,
         "y": 52,
         "nameSprite": "Arrow",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "Button_Random": {
         "x": 467,
@@ -37,31 +37,31 @@
         "x": 540,
         "y": 565,
         "nameSprite": "Khung_Ava_To",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "Khung_Ava_nho": {
         "x": 540,
         "y": 277,
         "nameSprite": "Khung_Ava_nho",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "Line_Gradient": {
         "x": 540,
         "y": 835,
         "nameSprite": "Line_Gradient",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "Search_Icon": {
         "x": 285,
         "y": 51,
         "nameSprite": "Search",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "Tab_chon_playlist": {
         "x": 540,
         "y": 565,
         "nameSprite": "Tab_chon_playlist",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "txt_findGame": {
         "x": 0,
@@ -87,7 +87,7 @@
         "x": 0,
         "y": 129,
         "nameSprite": "Line_Gradient",
-        "nameAtlas": "findOpponentsSprites"
+        "nameAtlas": "findOpponentSprites"
     },
     "txt_friend": {
         "x": 35,

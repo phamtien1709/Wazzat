@@ -368,7 +368,7 @@
     "btn_fb_share": {
         "x": 152,
         "y": 265,
-        "nameAtlas": "playSprites",
+        "nameAtlas": "practiceMenuSprites",
         "nameSprite": "btn_share"
     },
     "btn_watch_video_reward": {
@@ -464,24 +464,46 @@
     },
     "txtNotEnoughHeart": {
         "x": 285,
-        "y": 100,
-        "text": "KHÔNG ĐỦ TIM",
+        "y": 223,
+        "text": "Bạn đã hết Tim",
         "configs": {
             "font": "GilroyBold",
             "fill": "#333333",
             "align": "center",
-            "fontSize": 31
+            "fontSize": 38
+        }
+    },
+    "txtNotEnoughTicket": {
+        "x": 285,
+        "y": 223,
+        "text": "Bạn đã hết Ticket",
+        "configs": {
+            "font": "GilroyBold",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 38
         }
     },
     "txtQuestNotEnoughHeart": {
         "x": 285,
-        "y": 170,
-        "text": "Bạn có muốn mua thêm tim không?",
+        "y": 270,
+        "text": "Xem video để nhận Tim miễn phí",
         "configs": {
             "font": "GilroyMedium",
             "fill": "#333333",
             "align": "center",
-            "fontSize": 25
+            "fontSize": 27
+        }
+    },
+    "txtQuestNotEnoughTicket": {
+        "x": 285,
+        "y": 270,
+        "text": "Xem video để nhận Ticket miễn phí",
+        "configs": {
+            "font": "GilroyMedium",
+            "fill": "#333333",
+            "align": "center",
+            "fontSize": 27
         }
     }
 }

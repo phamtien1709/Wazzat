@@ -2,7 +2,7 @@
     "button": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "playSprites",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Tab_Dapan_01"
     },
     "steps": {
@@ -14,7 +14,7 @@
     "play_script_btn_skip": {
         "x": 320,
         "y": 1080,
-        "nameAtlas": "playSprites",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Button_SKip",
         "text": {
             "x": 0,
@@ -30,7 +30,7 @@
     "play_script_hand": {
         "x": 0,
         "y": 0,
-        "nameAtlas": "playSprites",
+        "nameAtlas": "defaultSource",
         "nameSprite": "Hand"
     },
     "btnClaimReward": {
@@ -59,7 +59,7 @@
         "x": 320,
         "y": 900,
         "nameSprite": "btn_yellow",
-        "nameAtlas": "playSprites"
+        "nameAtlas": "defaultSource"
     },
     "btn_back": {
         "x": 46,

@@ -77,11 +77,23 @@
         "nameSprite": "Khung_Ava_Thuong",
         "nameAtlas": "playSprites"
     },
+    "frame_ava_vip_right": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Ava_Results",
+        "nameAtlas": "vipSource"
+    },
     "frame_ava_left": {
         "x": 320,
         "y": 205,
         "nameSprite": "Khung_Ava_Thuong",
         "nameAtlas": "playSprites"
+    },
+    "frame_ava_vip_left": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Ava_Results",
+        "nameAtlas": "vipSource"
     },
     "nameFB": {
         "x": 500,
@@ -158,20 +170,20 @@
         }
     },
     "dot_online_right": {
-        "x": 575,
-        "y": 269,
+        "x": 590,
+        "y": 235,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_online_left": {
-        "x": 95,
-        "y": 269,
+        "x": 110,
+        "y": 235,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_offline_left": {
-        "x": 95,
-        "y": 269,
+        "x": 110,
+        "y": 235,
         "nameAtlas": "playSprites",
         "nameSprite": "Offline"
     },
@@ -200,10 +212,27 @@
         "nameSprite": "Shadow"
     },
     "share": {
-        "x": 320,
+        "x": 435,
         "y": 422,
         "nameAtlas": "playSprites",
         "nameSprite": "btn_share_curve"
+    },
+    "last_week": {
+        "x": 203,
+        "y": 422,
+        "nameAtlas": "playSprites",
+        "nameSprite": "Ketquatrongtuan",
+        "txt": {
+            "x": 0,
+            "y": 0,
+            "text": "KQ tuần trước",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "white",
+                "align": "center",
+                "fontSize": 23
+            }
+        }
     },
     "btn_gem_exp": {
         "tab": {
@@ -245,6 +274,174 @@
                 "align": "center",
                 "fontSize": 17
             }
+        }
+    },
+    "edit_message": {
+        "btn": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "playSprites",
+            "nameSprite": "Edit"
+        },
+        "txt": {
+            "x": 320,
+            "y": 335,
+            "text": "",
+            "configs": {
+                "font": "Gilroy",
+                "fill": "#ffa33a",
+                "align": "center",
+                "fontSize": 19
+            }
+        }
+    },
+    "header": {
+        "tab": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "mailSprites",
+            "nameSprite": "Header"
+        },
+        "back": {
+            "x": 0,
+            "y": 0,
+            "nameAtlas": "playlistSprites",
+            "nameSprite": "Arrow"
+        },
+        "txt": {
+            "x": 320,
+            "y": 35,
+            "text": "KẾT QUẢ TUẦN TRƯỚC",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 30
+            }
+        }
+    },
+    "last_week_screen": {
+        "txt_score": {
+            "x": 320,
+            "y": 547,
+            "text": "Tỷ số",
+            "configs": {
+                "font": "GilroyMedium",
+                "fill": "#7b778b",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "box_score": {
+            "x": 320,
+            "y": 626,
+            "nameAtlas": "playSprites",
+            "nameSprite": "Tab_Tiso"
+        },
+        "vs": {
+            "x": 320,
+            "y": 797,
+            "nameSprite": "VS_Circle",
+            "nameAtlas": "playSprites"
+        },
+        "txt_vs": {
+            "x": 0,
+            "y": 3,
+            "text": "VS",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "white",
+                "fontSize": 20
+            }
+        },
+        "btn_share": {
+            "x": 320,
+            "y": 1060,
+            "nameSprite": "Share_02",
+            "nameAtlas": "playSprites",
+            "txt": {
+                "x": -23,
+                "y": 0,
+                "text": "CHIA SẺ",
+                "configs": {
+                    "font": "GilroyBold",
+                    "fill": "#ffffff",
+                    "align": "center",
+                    "fontSize": 28
+                }
+            }
+        },
+        "score_point": {
+            "x": 0,
+            "y": 3,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 29
+            }
+        },
+        "user_name": {
+            "x": 60,
+            "y": 134,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "level_title": {
+            "x": 60,
+            "y": 166,
+            "text": "",
+            "configs": {
+                "font": "GilroyMedium",
+                "fill": "#ffa33a",
+                "align": "center",
+                "fontSize": 20
+            }
+        },
+        "user_name_win": {
+            "x": 75,
+            "y": 185,
+            "text": "",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 26
+            }
+        },
+        "level_title_win": {
+            "x": 75,
+            "y": 220,
+            "text": "",
+            "configs": {
+                "font": "GilroyMedium",
+                "fill": "#ffa33a",
+                "align": "center",
+                "fontSize": 20
+            }
+        },
+        "txt_who_win": {
+            "x": 320,
+            "y": 151,
+            "text": "Người chiến thắng",
+            "configs": {
+                "font": "GilroyBold",
+                "fill": "#ffffff",
+                "align": "center",
+                "fontSize": 35
+            }
+        },
+        "deuce": {
+            "x": 320,
+            "y": 317,
+            "nameSprite": "Hoa",
+            "nameAtlas": "playSprites"
         }
     }
 }

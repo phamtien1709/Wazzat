@@ -6,18 +6,6 @@
         "nameSprite": "Box_Daily"
     },
     "header": {
-        "tab_chonplaylist": {
-            "x": 0,
-            "y": 0,
-            "nameAtlas": "questAndAchieveSprites",
-            "nameSprite": "Header_BG"
-        },
-        "btn_back": {
-            "x": 77,
-            "y": 87,
-            "nameAtlas": "questAndAchieveSprites",
-            "nameSprite": "Back"
-        },
         "txt_quest": {
             "x": 540,
             "y": 40,
