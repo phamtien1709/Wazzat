@@ -216,8 +216,8 @@
     },
     "frame_ava_vip": {
         "x": 320,
-        "y": 122,
-        "nameSprite": "Ava_Vip",
+        "y": 119,
+        "nameSprite": "Frame_Vip",
         "nameAtlas": "mainMenuSprites"
     },
     "frame_ava_vip_icon": {
@@ -438,12 +438,6 @@
             "align": "center",
             "fontSize": 19
         }
-    },
-    "frame_ava_small": {
-        "x": 37,
-        "y": 15,
-        "nameAtlas": "mainMenuSprites",
-        "nameSprite": "Ava_Nho"
     },
     "mail": {
         "search_bg": {
