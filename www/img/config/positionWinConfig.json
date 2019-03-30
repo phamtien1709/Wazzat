@@ -77,11 +77,23 @@
         "nameSprite": "Khung_Ava_Thuong",
         "nameAtlas": "playSprites"
     },
+    "frame_ava_vip_right": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Ava_Results",
+        "nameAtlas": "vipSource"
+    },
     "frame_ava_left": {
         "x": 320,
         "y": 205,
         "nameSprite": "Khung_Ava_Thuong",
         "nameAtlas": "playSprites"
+    },
+    "frame_ava_vip_left": {
+        "x": 320,
+        "y": 205,
+        "nameSprite": "Ava_Results",
+        "nameAtlas": "vipSource"
     },
     "nameFB": {
         "x": 500,
@@ -158,38 +170,38 @@
         }
     },
     "dot_online_right": {
-        "x": 575,
-        "y": 269,
+        "x": 590,
+        "y": 235,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_online_left": {
-        "x": 95,
-        "y": 269,
+        "x": 110,
+        "y": 235,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_offline_left": {
-        "x": 95,
-        "y": 269,
+        "x": 110,
+        "y": 235,
         "nameAtlas": "playSprites",
         "nameSprite": "Offline"
     },
     "dot_online_right_challen": {
-        "x": 575,
-        "y": 185,
+        "x": 590,
+        "y": 168,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_online_left_challen": {
-        "x": 90,
-        "y": 185,
+        "x": 110,
+        "y": 168,
         "nameAtlas": "playSprites",
         "nameSprite": "Online"
     },
     "dot_offline_left_challen": {
-        "x": 90,
-        "y": 185,
+        "x": 110,
+        "y": 168,
         "nameAtlas": "playSprites",
         "nameSprite": "Offline"
     },

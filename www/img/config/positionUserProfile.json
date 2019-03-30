@@ -42,7 +42,7 @@
         "x": 200,
         "y": 40,
         "nameAtlas": "userprofile",
-        "nameSprite": "bg_ava_vip"
+        "nameSprite": "Ava_Vip"
     },
     "profile_txt_username": {
         "x": 0,

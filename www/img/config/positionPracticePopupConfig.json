@@ -359,6 +359,12 @@
         "nameAtlas": "practiceMenuSprites",
         "nameSprite": "Button_Tiep_Tuc_Long"
     },
+    "btn_continue_reward_vip": {
+        "x": 419,
+        "y": 265,
+        "nameAtlas": "practiceMenuSprites",
+        "nameSprite": "Button_XemVIdeo"
+    },
     "btn_continue_reward56": {
         "x": 419,
         "y": 335,

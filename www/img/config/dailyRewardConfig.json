@@ -90,6 +90,12 @@
             "nameAtlas": "dailyRewardSprites",
             "nameSprite": "Button_XemVIdeo"
         },
+        "btn_claim_vip": {
+            "x": 300,
+            "y": 730,
+            "nameAtlas": "dailyRewardSprites",
+            "nameSprite": "Button_XemVIdeo"
+        },
         "txt_header": {
             "x": 302,
             "y": 107,

@@ -1,27 +1,27 @@
 {
-	"gennes_current_level_deactive":{
-    	"x":0,
-    	"y":0,
-    	"nameAtlas" : "defaultSource",
-        "nameSprite" : "CurrentLevelDeactive"
+    "gennes_current_level_deactive": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "CurrentLevelDeactive"
     },
-    "gennes_current_level_active":{
-    	"x":0,
-    	"y":0,
-    	"nameAtlas" : "defaultSource",
-        "nameSprite" : "CurrentLevelActive"
+    "gennes_current_level_active": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "CurrentLevelActive"
     },
-    "gennes_current_level_deactive1":{
-    	"x":0,
-    	"y":0,
-    	"nameAtlas" : "defaultSource",
-        "nameSprite" : "CurrentLevelDeactive1"
+    "gennes_current_level_deactive1": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "CurrentLevelDeactive1"
     },
-    "gennes_current_level_active1":{
-    	"x":0,
-    	"y":0,
-    	"nameAtlas" : "defaultSource",
-        "nameSprite" : "CurrentLevelActive1"
+    "gennes_current_level_active1": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "CurrentLevelActive1"
     },
     "bg_answer_question": {
         "x": 0,
@@ -146,14 +146,14 @@
         "nameSprite": "Done"
     },
     "listfriend_icon_online": {
-        "x": 87,
-        "y": 75,
+        "x": 94,
+        "y": 60,
         "nameAtlas": "defaultSource",
         "nameSprite": "Online"
     },
     "listfriend_icon_offline": {
-        "x": 87,
-        "y": 75,
+        "x": 94,
+        "y": 60,
         "nameAtlas": "defaultSource",
         "nameSprite": "Offline"
     },

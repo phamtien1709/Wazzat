@@ -761,7 +761,7 @@
         "y": 310,
         "style": {
             "fontSize": 27,
-            "fill":"#7B7788"
+            "fill": "#7B7788"
         }
     },
     "text_question_playroom": {
@@ -1093,7 +1093,7 @@
             "x": 0,
             "y": 0,
             "style": {
-                "fontSize": 26,               
+                "fontSize": 26,
                 "font": "GilroyBold"
             },
             "paddingTop": 16
@@ -1110,33 +1110,33 @@
         "x": 0,
         "y": 168,
         "style": {
-            "fontSize": 30,           
+            "fontSize": 30,
             "font": "GilroyBold"
         }
     },
-    "chat_icon_bg":{
+    "chat_icon_bg": {
         "x": 0,
-        "y" : 0,        
-        "nameAtlas" : "IconChatOnlineMode",
-        "nameSprite" : "BG_Icon"
+        "y": 0,
+        "nameAtlas": "IconChatOnlineMode",
+        "nameSprite": "BG_Icon"
     },
-    "chat_icon_btn_close":{
+    "chat_icon_btn_close": {
         "x": 468,
-        "y" : 320,        
-        "nameAtlas" : "IconChatOnlineMode",
-        "nameSprite" : "X"
+        "y": 320,
+        "nameAtlas": "IconChatOnlineMode",
+        "nameSprite": "X"
     },
-    "friend_detail_room_bg":{
+    "friend_detail_room_bg": {
         "x": 0,
-        "y" : 0,        
-        "nameAtlas" : "createroom",
-        "nameSprite" : "Tab_Phong_Choi"
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Tab_Phong_Choi"
     },
-    "friend_detail_room_icon_count":{
+    "friend_detail_room_icon_count": {
         "x": 527,
-        "y" : 21,        
-        "nameAtlas" : "createroom",
-        "nameSprite" : "Icon_Users"
+        "y": 21,
+        "nameAtlas": "createroom",
+        "nameSprite": "Icon_Users"
     },
     "friend_detail_room_id": {
         "x": 40,
@@ -1154,9 +1154,9 @@
     },
     "chat_waitting_icon_chat": {
         "x": 524,
-        "y": 913,           
-        "nameAtlas" : "createroom",
-        "nameSprite" : "Chat_Icon"
+        "y": 913,
+        "nameAtlas": "createroom",
+        "nameSprite": "Chat_Icon"
     },
     "chat_waitting_text_chat": {
         "x": 9,
@@ -1164,10 +1164,22 @@
         "style": {
             "fontSize": 22,
             "wordWrapWidth": 240,
-            "wordWrap":true,
+            "wordWrap": true,
             "maxLines": 3,
-            "fill":"#333333",
-            "align":"left"
+            "fill": "#333333",
+            "align": "left"
+        }
+    },
+    "chat_waitting_text_chat_vip": {
+        "x": 9,
+        "y": 9,
+        "style": {
+            "fontSize": 22,
+            "wordWrapWidth": 240,
+            "wordWrap": true,
+            "maxLines": 3,
+            "fill": "#ffffff",
+            "align": "left"
         }
     },
     "chat_waitting_bg_chat": {
@@ -1183,23 +1195,48 @@
         "height": 67,
         "name": "chat_waitting_bg_chat"
     },
+    "chat_waitting_bg_chat_vip": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Box_Chat_Vip",
+        "left": 25,
+        "right": 25,
+        "top": 18,
+        "bot": 18,
+        "width": 240,
+        "height": 67,
+        "name": "chat_waitting_bg_chat"
+    },
     "chat_waitting_icon_arrow": {
         "x": 0,
-        "y": 0,           
-        "nameAtlas" : "createroom",
-        "nameSprite" : "Arrow"
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Arrow"
+    },
+    "chat_waitting_icon_arrow_vip": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Triangle_Chat_Vip"
     },
     "chat_waitting_friend_chat_bg": {
         "x": 0,
-        "y": 0,           
-        "nameAtlas" : "createroom",
-        "nameSprite" : "Chat_Noti"
+        "y": 0,
+        "nameAtlas": "createroom",
+        "nameSprite": "Chat_Noti"
+    },
+    "chat_waitting_friend_chat_bg_vip": {
+        "x": 0,
+        "y": 0,
+        "nameAtlas": "defaultSource",
+        "nameSprite": "Chat_Noti_Vip"
     },
     "chat_waitting_friend_chat_close": {
         "x": 595,
-        "y": 37,           
-        "nameAtlas" : "createroom",
-        "nameSprite" : "X"
+        "y": 37,
+        "nameAtlas": "createroom",
+        "nameSprite": "X"
     },
     "chat_waitting_friend_chat_text": {
         "x": 100,
@@ -1207,13 +1244,24 @@
         "style": {
             "fontSize": 22,
             "wordWrapWidth": 415,
-            "wordWrap":true,
+            "wordWrap": true,
             "maxLines": 3,
-            "fill":"#333333",
-            "align":"left"
+            "fill": "#333333",
+            "align": "left"
         }
-    }
-    ,
+    },
+    "chat_waitting_friend_chat_text_vip": {
+        "x": 100,
+        "y": 0,
+        "style": {
+            "fontSize": 22,
+            "wordWrapWidth": 415,
+            "wordWrap": true,
+            "maxLines": 3,
+            "fill": "#ffffff",
+            "align": "left"
+        }
+    },
     "button_share": {
         "x": 454,
         "y": 200,
