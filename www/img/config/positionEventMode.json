@@ -393,7 +393,7 @@
     },
     "item_ranking_line_space": {
         "x": 35,
-        "y": 126,
+        "y": 136,
         "nameAtlas": "eventmode",
         "nameSprite": "line_space_item"
     },
@@ -581,7 +581,7 @@
     },
     "queueroom_text_chat": {
         "x": 93,
-        "y": 5,
+        "y": 15,
         "style": {
             "fontSize": 20,
             "align": "left",
@@ -594,7 +594,50 @@
     },
     "queueroom_text_chat_time": {
         "x": 93,
-        "y": 5,
+        "y": 15,
+        "style": {
+            "fontSize": 20,
+            "align": "left",
+            "boundsAlignH": "right",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 450,
+            "maxLines": 2,
+            "fill": "#6e6081"
+        }
+    },
+    "queueroom_text_chat_vip": {
+        "x": 93,
+        "y": 9,
+        "style": {
+            "fontSize": 20,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 518,
+            "maxLines": 2,
+            "fill": "#ffffff"
+        }
+    },
+    "queueroom_text_chat_vip_str": {
+        "x": 93,
+        "y": 9,
+        "style": {
+            "fontSize": 20,
+            "align": "left",
+            "boundsAlignH": "left",
+            "boundsAlignV": "middle",
+            "wordWrap": true,
+            "wordWrapWidth": 518,
+            "maxLines": 2,
+            "font": "GilroyBold",
+            "fill": "#ffa33a"
+        }
+    },
+    "queueroom_text_chat_time_vip": {
+        "x": 93,
+        "y": 9,
         "style": {
             "fontSize": 20,
             "align": "left",
@@ -707,12 +750,12 @@
             "style": {
                 "fontSize": 20,
                 "font": "GilroyMedium",
-                "boundsAlignH":"left"
+                "boundsAlignH": "left"
             },
             "paddingLeft": 30,
             "paddingTop": 3,
             "width": 55,
-            "height":30
+            "height": 30
         },
         "icon": {
             "x": 0,
