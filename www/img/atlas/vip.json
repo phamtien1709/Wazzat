@@ -300,9 +300,29 @@
 				"h": 23
 			}
 		},
-		"Triangle_Chat_Vip": {
+		"Lable_Vip": {
 			"frame": {
 				"x": 595,
+				"y": 381,
+				"w": 66,
+				"h": 28
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 66,
+				"h": 28
+			},
+			"sourceSize": {
+				"w": 66,
+				"h": 28
+			}
+		},
+		"Triangle_Chat_Vip": {
+			"frame": {
+				"x": 664,
 				"y": 381,
 				"w": 20,
 				"h": 14

@@ -152,7 +152,6 @@ export default class ListViewCore {
         clickables.push(child);
       }
     }
-
     this.scroller.registerClickables(clickables);
   }
 

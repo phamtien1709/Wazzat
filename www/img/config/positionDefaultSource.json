@@ -85,6 +85,22 @@
         },
         "alignAll": "center"
     },
+    "playlist_button_buy_vip": {
+        "x": 3,
+        "y": 255,
+        "nameAtlas": "shop",
+        "nameSprite": "shop_bg_price_playlist",
+        "configText": {
+            "x": 0,
+            "y": 0,
+            "style": {
+                "fontSize": 25,
+                "font": "GilroyBold"
+            },
+            "paddingTop": 0
+        },
+        "alignAll": "center"
+    },
     "playlist_text_warning": {
         "x": 0,
         "y": 260,

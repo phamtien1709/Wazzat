@@ -120,14 +120,14 @@
             }
         },
         "online_icon": {
-            "x": 80,
-            "y": 75,
+            "x": 97,
+            "y": 50,
             "nameAtlas": "friendRequestSprites",
             "nameSprite": "Online"
         },
         "offline_icon": {
-            "x": 80,
-            "y": 75,
+            "x": 97,
+            "y": 50,
             "nameAtlas": "friendRequestSprites",
             "nameSprite": "Offline"
         },
