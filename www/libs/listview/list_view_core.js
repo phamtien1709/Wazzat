@@ -96,9 +96,16 @@ export default class ListViewCore {
     LogConsole.log("destroy-listview");
     if (this.events != null) {
       this.events.onAdded.dispose();
+      this.events.changeIndex.dispose();
       this.events = null;
     }
     if (this.grp !== null) {
+      while (this.grp.children.length > 0) {
+        let item = this.grp.children[0];
+        this.remove(item);
+        item.destroy();
+        item = null;
+      }
       this.grp.destroy();
       this.grp = null;
     }
@@ -203,6 +210,7 @@ export default class ListViewCore {
       .beginFill(0xff0000)
       .drawRect(bounds.x, bounds.y, bounds.width, bounds.height);
     mask.alpha = 0;
+    this.bounds.height = bounds.height;
     return mask;
   }
 }
