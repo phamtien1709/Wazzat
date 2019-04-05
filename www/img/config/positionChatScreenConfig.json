@@ -6,5 +6,29 @@
             "nameSprite": "",
             "nameAtlas": ""
         }
+    },
+    "txt_vip_1": {
+        "x": 320,
+        "y": 720,
+        "text": "Chúc mừng bạn đã trở thành",
+        "configs": {
+            "font": "30px GilroyBold",
+            "fill": "white",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fontWeight": 400
+        }
+    },
+    "txt_vip_2": {
+        "x": 320,
+        "y": 760,
+        "text": "Thành Viên Vip",
+        "configs": {
+            "font": "30px GilroyBold",
+            "fill": "#ffac4e",
+            "boundsAlignH": "center",
+            "boundsAlignV": "middle",
+            "fontWeight": 400
+        }
     }
 }

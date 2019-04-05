@@ -359,6 +359,26 @@
 				"w": 640,
 				"h": 74
 			}
+		},
+		"shop_bg_price_playlist": {
+			"frame": {
+				"x": 646,
+				"y": 546,
+				"w": 166,
+				"h": 53
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 166,
+				"h": 53
+			},
+			"sourceSize": {
+				"w": 166,
+				"h": 53
+			}
 		}
 	},
 	"meta": {

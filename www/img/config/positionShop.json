@@ -111,7 +111,7 @@
 	"playlist_button_buy": {
 		"x": 3,
 		"y": 255,
-		"nameAtlas": "shop",
+		"nameAtlas": "defaultSource",
 		"nameSprite": "shop_bg_price_playlist",
 		"configText": {
 			"x": 0,
@@ -136,7 +136,7 @@
 	"playlist_button_buy_vip": {
 		"x": 3,
 		"y": 255,
-		"nameAtlas": "shop",
+		"nameAtlas": "defaultSource",
 		"nameSprite": "shop_bg_price_playlist",
 		"configText": {
 			"x": 0,
