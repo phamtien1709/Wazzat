@@ -220,9 +220,29 @@
 				"h": 94
 			}
 		},
-		"Ava_Vip": {
+		"Ava_Stroke": {
 			"frame": {
 				"x": 146,
+				"y": 381,
+				"w": 200,
+				"h": 200
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 200,
+				"h": 200
+			},
+			"sourceSize": {
+				"w": 200,
+				"h": 200
+			}
+		},
+		"Ava_Vip": {
+			"frame": {
+				"x": 349,
 				"y": 381,
 				"w": 240,
 				"h": 162
@@ -242,7 +262,7 @@
 		},
 		"BG_Emoticon_Chat_Hint": {
 			"frame": {
-				"x": 389,
+				"x": 592,
 				"y": 381,
 				"w": 89,
 				"h": 89
@@ -260,9 +280,49 @@
 				"h": 89
 			}
 		},
+		"Box_Chat_01": {
+			"frame": {
+				"x": 684,
+				"y": 381,
+				"w": 58,
+				"h": 58
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 58,
+				"h": 58
+			},
+			"sourceSize": {
+				"w": 58,
+				"h": 58
+			}
+		},
+		"Box_Chat_02": {
+			"frame": {
+				"x": 745,
+				"y": 381,
+				"w": 20,
+				"h": 14
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 20,
+				"h": 14
+			},
+			"sourceSize": {
+				"w": 20,
+				"h": 14
+			}
+		},
 		"Box_Chat_Vip": {
 			"frame": {
-				"x": 481,
+				"x": 768,
 				"y": 381,
 				"w": 58,
 				"h": 58
@@ -282,7 +342,7 @@
 		},
 		"Label_VIP": {
 			"frame": {
-				"x": 542,
+				"x": 829,
 				"y": 381,
 				"w": 50,
 				"h": 23
@@ -302,7 +362,7 @@
 		},
 		"Lable_Vip": {
 			"frame": {
-				"x": 595,
+				"x": 882,
 				"y": 381,
 				"w": 66,
 				"h": 28
@@ -322,7 +382,7 @@
 		},
 		"Triangle_Chat_Vip": {
 			"frame": {
-				"x": 664,
+				"x": 951,
 				"y": 381,
 				"w": 20,
 				"h": 14
@@ -343,7 +403,7 @@
 		"Vip_BG": {
 			"frame": {
 				"x": 3,
-				"y": 546,
+				"y": 584,
 				"w": 640,
 				"h": 74
 			},
@@ -363,7 +423,7 @@
 		"shop_bg_price_playlist": {
 			"frame": {
 				"x": 646,
-				"y": 546,
+				"y": 584,
 				"w": 166,
 				"h": 53
 			},

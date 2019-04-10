@@ -9,6 +9,16 @@
             "align": "center"
         }
     },
+    "txt_limit_vip": {
+        "x": 320,
+        "y": 260,
+        "text": "Bạn chỉ có tối đa 150 lượt thách đấu",
+        "style": {
+            "fontSize": 25,
+            "font": "GilroyMedium",
+            "align": "center"
+        }
+    },
     "txt_want": {
         "x": 0,
         "y": 75,
@@ -35,11 +45,27 @@
             }
         }
     },
+    "btn_delete_vip": {
+        "x": 320,
+        "y": 604,
+        "nameAtlas": "limitTurn",
+        "nameSprite": "Remove",
+        "txt": {
+            "x": 0,
+            "y": 150,
+            "text": "XÓA LƯỢT\nTHÁCH ĐẤU",
+            "style": {
+                "fontSize": 22,
+                "font": "GilroyMedium",
+                "align": "center"
+            }
+        }
+    },
     "btn_vip": {
         "x": 456,
         "y": 604,
         "nameAtlas": "limitTurn",
-        "nameSprite": "Vip_02",
+        "nameSprite": "Vip_01",
         "txt": {
             "x": 0,
             "y": 150,
