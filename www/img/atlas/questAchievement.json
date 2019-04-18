@@ -700,6 +700,26 @@
 				"h": 102
 			}
 		},
+		"Tab_Menu_Quest": {
+			"frame": {
+				"x": 646,
+				"y": 1084,
+				"w": 215,
+				"h": 102
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 215,
+				"h": 102
+			},
+			"sourceSize": {
+				"w": 215,
+				"h": 102
+			}
+		},
 		"Tab_Nhiemvu": {
 			"frame": {
 				"x": 3,
