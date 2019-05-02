@@ -100,10 +100,50 @@
 				"h": 110
 			}
 		},
-		"Without_Facebook": {
+		"With_Facebook_en": {
 			"frame": {
 				"x": 3,
 				"y": 758,
+				"w": 516,
+				"h": 110
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 516,
+				"h": 110
+			},
+			"sourceSize": {
+				"w": 516,
+				"h": 110
+			}
+		},
+		"Without_Facebook": {
+			"frame": {
+				"x": 3,
+				"y": 871,
+				"w": 516,
+				"h": 110
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 516,
+				"h": 110
+			},
+			"sourceSize": {
+				"w": 516,
+				"h": 110
+			}
+		},
+		"Without_Facebook_en": {
+			"frame": {
+				"x": 3,
+				"y": 984,
 				"w": 516,
 				"h": 110
 			},
@@ -128,7 +168,7 @@
 		"format": "RGBA8888",
 		"size": {
 			"w": 1024,
-			"h": 1024
+			"h": 2048
 		},
 		"scale": "1"
 	}

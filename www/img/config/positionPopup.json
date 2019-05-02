@@ -659,8 +659,8 @@
         "nameSprite": "Box_Popup",
         "left": 47,
         "right": 56,
-        "top": 44.4,
-        "bot": 48.5,
+        "top": 48,
+        "bot": 48,
         "width": 108,
         "height": 93,
         "name": "ranking_bg_help"

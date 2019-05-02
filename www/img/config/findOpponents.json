@@ -125,7 +125,7 @@
             "fill": "#ffffff",
             "align": "center",
             "wordWrap": true,
-            "wordWrapWidth": 110,
+            "wordWrapWidth": 160,
             "maxLines": 1,
             "fontSize": 22
         }

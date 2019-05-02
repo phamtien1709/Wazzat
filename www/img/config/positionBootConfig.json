@@ -5,10 +5,22 @@
         "nameSprite": "With_Facebook",
         "nameAtlas": "loadingSprites"
     },
+    "btn_fb_en": {
+        "x": 320,
+        "y": 420,
+        "nameSprite": "With_Facebook_en",
+        "nameAtlas": "loadingSprites"
+    },
     "btn_play_now": {
         "x": 320,
         "y": 550,
         "nameSprite": "Without_Facebook",
+        "nameAtlas": "loadingSprites"
+    },
+    "btn_play_now_en": {
+        "x": 320,
+        "y": 550,
+        "nameSprite": "Without_Facebook_en",
         "nameAtlas": "loadingSprites"
     },
     "bg_load": {

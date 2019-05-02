@@ -32,7 +32,7 @@
         }
     },
     "diamond_remove_answer": {
-        "x": 200,
+        "x": 215,
         "y": 0,
         "nameAtlas": "defaultSource",
         "nameSprite": "Mic"

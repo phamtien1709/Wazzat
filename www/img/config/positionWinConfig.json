@@ -217,6 +217,12 @@
         "nameAtlas": "playSprites",
         "nameSprite": "btn_share_curve"
     },
+    "share_en": {
+        "x": 435,
+        "y": 422,
+        "nameAtlas": "playSprites",
+        "nameSprite": "btn_share_curve_en"
+    },
     "last_week": {
         "x": 203,
         "y": 422,
@@ -441,6 +447,12 @@
             "x": 320,
             "y": 317,
             "nameSprite": "Hoa",
+            "nameAtlas": "playSprites"
+        },
+        "deuce_en": {
+            "x": 320,
+            "y": 317,
+            "nameSprite": "Hoa_en",
             "nameAtlas": "playSprites"
         }
     }
