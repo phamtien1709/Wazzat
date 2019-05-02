@@ -1,0 +1,49 @@
+export default class ShopCommand {
+    static get SHOP_PLAYLIST_LOAD_REQUEST() {
+        return 'SHOP_PLAYLIST_LOAD_REQUEST';
+    }
+    static get SHOP_PLAYLIST_LOAD_RESPONSE() {
+        return 'SHOP_PLAYLIST_LOAD_RESPONSE';
+    }
+    static get SHOP_BUY_PLAYLIST_REQUEST() {
+        return 'SHOP_BUY_PLAYLIST_REQUEST';
+    }
+    static get SHOP_BUY_PLAYLIST_RESPONSE() {
+        return 'SHOP_BUY_PLAYLIST_RESPONSE';
+    }
+    static get PLAYLIST_DETAIL_REQUEST() {
+        return 'PLAYLIST_DETAIL_REQUEST';
+    }
+    static get PLAYLIST_DETAIL_RESPONSE() {
+        return 'PLAYLIST_DETAIL_RESPONSE';
+    }
+    static get PLAYLIST_CHANGE_ACTIVE_REQUEST() {
+        return 'PLAYLIST_CHANGE_ACTIVE_REQUEST';
+    }
+    static get PLAYLIST_CHANGE_ACTIVE_RESPONSE() {
+        return 'PLAYLIST_CHANGE_ACTIVE_RESPONSE';
+    }
+
+    static get RESOURCE_PACKAGE_LOAD_REQUEST() {
+        return "RESOURCE_PACKAGE_LOAD_REQUEST"
+    }
+    static get RESOURCE_PACKAGE_LOAD_RESPONSE() {
+        return "RESOURCE_PACKAGE_LOAD_RESPONSE"
+    }
+
+    static get RESOURCE_BUY_SUPPORT_ITEM_REQUEST() {
+        return "RESOURCE_BUY_SUPPORT_ITEM_REQUEST"
+    }
+    static get RESOURCE_BUY_SUPPORT_ITEM_RESPONSE() {
+        return "RESOURCE_BUY_SUPPORT_ITEM_RESPONSE"
+    }
+    static get RESOURCE_PACKAGE_WATCHED_ADS_CLAIM_REQUEST() {
+        return "RESOURCE_PACKAGE_WATCHED_ADS_CLAIM_REQUEST"
+    }
+    static get RESOURCE_PACKAGE_WATCHED_ADS_CLAIM_RESPONSE() {
+        return "RESOURCE_PACKAGE_WATCHED_ADS_CLAIM_RESPONSE"
+    }
+
+
+
+}
