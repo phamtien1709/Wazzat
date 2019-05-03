@@ -283,7 +283,11 @@ export default class BottomNavigationModule extends BaseGroup {
     }
 
     ajaxCountMessage() {
-        this.onCountMessageCallback(AjaxMessages.instance().countMessage(MainData.instance().dataMessagesLocal.dataMessages, MainData.instance().systemMessagesLocal.dataMessages));
+        if (MainData.instance().dataMessagesLocal !== null) {
+            if (MainData.instance().systemMessagesLocal !== null) {
+                this.onCountMessageCallback(AjaxMessages.instance().countMessage(MainData.instance().dataMessagesLocal.dataMessages, MainData.instance().systemMessagesLocal.dataMessages));
+            }
+        }
     }
 
     onCountMessageCallback(count) {

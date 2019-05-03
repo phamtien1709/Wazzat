@@ -397,8 +397,8 @@ export default class DoneSoloMode extends BaseGroup {
             this.popup.addChild(this.btnWatching);
             //
             // if (MainData.instance().platform !== "web") {
-            this.btnWatching.inputEnabled = false;
-            this.btnWatching.alpha = 0.5;
+            // this.btnWatching.inputEnabled = false;
+            // this.btnWatching.alpha = 0.5;
             // }
         }
     }

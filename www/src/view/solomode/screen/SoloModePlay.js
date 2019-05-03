@@ -354,33 +354,6 @@ export default class SoloModePlay extends BaseGroup {
         //
     }
 
-    // addCorrectLOL() {
-    //     if (this.textHint === undefined) {
-    //         this.textHint = null;
-    //     }
-    //     if (this.textHint !== null) {
-    //         this.textHint.destroy();
-    //         this.textHint = null;
-    //         this.textHint = new Phaser.Text(game, 100, 100, this.questions[this.countQuiz].correctAnswer, {
-    //             "font": "30px GilroyBold",
-    //             "fill": "white",
-    //             "boundsAlignH": "center",
-    //             "boundsAlignV": "middle",
-    //             "fontWeight": 400
-    //         })
-    //         this.bg.addChild(this.textHint);
-    //     } else {
-    //         this.textHint = new Phaser.Text(game, 100, 100, this.questions[this.countQuiz].correctAnswer, {
-    //             "font": "30px GilroyBold",
-    //             "fill": "white",
-    //             "boundsAlignH": "center",
-    //             "boundsAlignV": "middle",
-    //             "fontWeight": 400
-    //         })
-    //         this.bg.addChild(this.textHint);
-    //     }
-    // }
-
     removeAnswerGroup() {
         if (this.groupAnswer !== null) {
             this.removeChild(this.groupAnswer);
@@ -849,6 +822,8 @@ export default class SoloModePlay extends BaseGroup {
     destroy() {
         this.removeEventExtension();
         this.loadAudioSource.remove();
+        this.tweenSpriteTime.stop();
+        game.tweens.removeFrom(this.spriteTime);
         ControllSound.instance().removeAllSound();
         while (this.children.length > 0) {
             let item = this.children[0];

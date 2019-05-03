@@ -77,7 +77,7 @@ export default class DailyRewardPopupChild extends Phaser.Sprite {
             this.btnClaim.addChild(txtBtn);
             this.popup.addChild(this.btnClaim);
         } else {
-            this.btnClaim = new ButtonBase(this.dailyRewardConfig.decorate.btn_claim_vip, this.onClickClaim, this);
+            this.btnClaim = new ButtonBase(this.dailyRewardConfig.decorate.btn_claim, this.onClickClaim, this);
             this.btnClaim.anchor.set(0.5);
             let txtBtn = new TextBase(this.dailyRewardConfig.decorate.txt_btn, Language.instance().getData(189));
             txtBtn.anchor.set(0.5);
@@ -123,7 +123,7 @@ export default class DailyRewardPopupChild extends Phaser.Sprite {
             this.popup.addChild(this.btnWatch);
             //
             // if (MainData.instance().platform === "ios") {
-            this.btnWatch.kill();
+            // this.btnWatch.kill();
             // this.btnWatch.alpha = 0.75;
             // this.btnWatch.tint = 0x8c8c89;
             // }

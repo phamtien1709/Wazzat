@@ -32,7 +32,7 @@ export default class ControllLoading extends Phaser.Group {
         MainData.instance().isShowLoading = true;
 
         this.removeShowResult();
-        this.idShowResult = game.time.events.add(Phaser.Timer.SECOND * 30, this.hideLoading, this);
+        this.idShowResult = game.time.events.add(Phaser.Timer.SECOND * 20, this.hideLoading, this);
 
     }
 
@@ -61,6 +61,9 @@ export default class ControllLoading extends Phaser.Group {
             item.destroy();
             item = null;
         }
+
+        this.bg = null;
+        this.loading = null;
     }
 
 }

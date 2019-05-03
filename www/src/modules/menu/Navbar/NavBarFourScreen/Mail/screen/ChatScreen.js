@@ -4,7 +4,6 @@ import SpriteScale9Base from "../../../../../../view/component/SpriteScale9Base.
 import TextBase from "../../../../../../view/component/TextBase.js";
 import YourChat from "../items/YourChat.js";
 import TheirChat from "../items/TheirChat.js";
-import AjaxServerMail from "../../../../../../common/AjaxServerMail.js";
 import ButtonBase from "../../../../../../view/component/ButtonBase.js";
 import ControllSoundFx from "../../../../../../controller/ControllSoundFx.js";
 import SocketController from "../../../../../../controller/SocketController.js";
@@ -388,7 +387,6 @@ export default class ChatScreen extends BaseGroup {
     }
 
     onChangeHeightKeyboard(keyboardHeight) {
-        //
         this.listMessageOld = [];
         this.heightDefault = keyboardHeight + 35;
         this.addScrollListChat();
@@ -397,7 +395,7 @@ export default class ChatScreen extends BaseGroup {
 
     destroy() {
         this.removeEventExtension();
-        this.keyboardClose();
+        KeyBoard.instance().hide();
         EventGame.instance().event.backChat.dispatch();
         if (this.listView !== null) {
             this.listView.removeAll();
@@ -405,14 +403,16 @@ export default class ChatScreen extends BaseGroup {
             this.listView = null;
         }
         game.time.events.remove(this.timeCounting);
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
-        }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }

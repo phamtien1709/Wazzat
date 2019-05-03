@@ -329,7 +329,9 @@ export default class Reward extends BaseGroup {
     }
 
     animationUpdateCircle() {
-        this.iconCircle.angle += 3;
+        if (this.iconCircle !== null) {
+            this.iconCircle.angle += 3;
+        }
     }
 
     addAnimGem() {
@@ -471,8 +473,8 @@ export default class Reward extends BaseGroup {
             this.popup.addChild(this.btnWatching);
             //
             // if (MainData.instance().platform === "ios") {
-            this.btnWatching.inputEnabled = false;
-            this.btnWatching.alpha = 0.5;
+            // this.btnWatching.inputEnabled = false;
+            // this.btnWatching.alpha = 0.5;
             // }
         }
     }

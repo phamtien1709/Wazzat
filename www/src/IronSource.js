@@ -2,6 +2,7 @@ import FaceBookCheckingTools from "./FaceBookCheckingTools.js";
 import ControllLoading from "./view/ControllLoading.js";
 import SocketController from "./controller/SocketController.js";
 import ControllScreenDialog from "./view/ControllScreenDialog.js";
+import MainData from "./model/MainData.js";
 export default class IronSource {
     constructor() {
         this.countPlayTurnBase = 0;
@@ -17,6 +18,8 @@ export default class IronSource {
         this.ktLoadAdsReward = false;
         this.ktRewardWin = false;
         this.ktHideBanner = false;
+        this.ktCallInter = false;
+        this.ktCallReward = false;
         this.event = {
             rewardedVideoAvailabilityChanged: new Phaser.Signal(),
             rewardedVideoRewardReceived: new Phaser.Signal(),
@@ -65,30 +68,43 @@ export default class IronSource {
     }
 
     callPrepareInterstitial() {
-        let interstitialAdUnit = "ca-app-pub-4906074177432504/1649035673";
-        AdMob.prepareInterstitial({
-            license: "dungdt@gmail.com/da56af6429df2d6171acc976a9bb88e1",
-            adId: interstitialAdUnit,
-            autoShow: false
-        });
+        if (this.ktCallInter === false) {
+            this.ktCallInter = true;
+            let interstitialAdUnit = "ca-app-pub-4020852115305939/4910497782";
+            if (MainData.instance().platform === "ios") {
+                interstitialAdUnit = "ca-app-pub-4020852115305939/9316646656";
+            }
+            AdMob.prepareInterstitial({
+                license: "dungdt@gmail.com/da56af6429df2d6171acc976a9bb88e1",
+                adId: interstitialAdUnit,
+                autoShow: false
+            });
+        }
     }
 
     callPrepareRewardVideoAd() {
-        let rewardedVideoAdUnit = "ca-app-pub-3940256099942544/5224354917"//"ca-app-pub-4020852115305939/1141028765";
-        AdMob.prepareRewardVideoAd({
-            license: "dungdt@gmail.com/da56af6429df2d6171acc976a9bb88e1",
-            adId: rewardedVideoAdUnit,
-            autoShow: false
-        })
+        if (this.ktCallReward === false) {
+            this.ktCallReward = true;
+            let rewardedVideoAdUnit = "ca-app-pub-4020852115305939/1141028765";
+            if (MainData.instance().platform === "ios") {
+                rewardedVideoAdUnit = "ca-app-pub-4020852115305939/1486134386";
+            }
+            AdMob.prepareRewardVideoAd({
+                license: "dungdt@gmail.com/da56af6429df2d6171acc976a9bb88e1",
+                adId: rewardedVideoAdUnit,
+                autoShow: false
+            })
+        }
     }
 
     onAdFailLoad(data) {
         console.log("onAdFailLoad-------------");
         console.log(data);
+
         if (data.adType === "interstitial") {
-            this.callPrepareInterstitial();
+            this.ktCallInter = false;
         } else if (data.adType === "rewardvideo") {
-            this.callPrepareRewardVideoAd();
+            this.ktCallReward = false;
         }
     }
 
@@ -97,8 +113,10 @@ export default class IronSource {
         console.log(data);
         if (data.adType === "interstitial") {
             this.ktLoadAds = true;
+            this.ktCallInter = false;
         } else if (data.adType === "rewardvideo") {
             this.ktLoadAdsReward = true;
+            this.ktCallReward = false;
         }
     }
 
@@ -406,8 +424,9 @@ export default class IronSource {
                 ControllLoading.instance().showLoading();
                 AdMob.showRewardVideoAd();
             } else {
-                ControllScreenDialog.instance().addDialog("Chưa có video");
+                ControllScreenDialog.instance().addDialog(Language.instance().getData("144"));
                 this.event.rewardedVideoFailed.dispatch();
+                this.callPrepareRewardVideoAd();
                 ControllLoading.instance().hideLoading();
             }
         }
@@ -423,6 +442,7 @@ export default class IronSource {
                     ControllLoading.instance().showLoading();
                     AdMob.showInterstitial();
                 } else {
+                    this.callPrepareInterstitial();
                     this.event.interstitialFailedToLoad.dispatch();
                 }
             }

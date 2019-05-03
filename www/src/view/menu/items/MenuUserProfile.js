@@ -143,44 +143,46 @@ export default class MenuUserProfile extends BaseGroup {
     }
 
     onLoad() {
-        // this.loader.onLoadComplete.remove(this.onLoad, this);
-        if (this.maskAva == null) {
-            this.maskAva = new Phaser.Graphics(game, 0, 0);
-        }
-        this.maskAva.clear();
-        this.maskAva.drawCircle(0, 0, 148 * window.GameConfig.RESIZE);
-        this.maskAva.anchor.set(0.5);
-        //
-        this.avaBox = new Phaser.Sprite(game, this.positionMenuConfig.ava_fb.x * window.GameConfig.RESIZE, this.positionMenuConfig.ava_fb.y * window.GameConfig.RESIZE, null);
-        this.addChild(this.avaBox);
-        if (this.ava !== null) {
-            this.removeChild(this.ava);
-            this.ava.destroy();
-            this.ava = null;
-        }
-        //
-        if (game.cache.checkImageKey('ava_fb') == true) {
-            this.ava = new Phaser.Button(game, 0 * window.GameConfig.RESIZE, 0 * window.GameConfig.RESIZE, 'ava_fb');
-        } else {
-            this.ava = new Phaser.Button(game, 0 * window.GameConfig.RESIZE, 0 * window.GameConfig.RESIZE, 'songDetailSprites', () => { }, this, null, 'ava-default');
-        }
-        this.ava.anchor.set(0.5);
-        this.ava.width = 148;
-        this.ava.height = 148;
-        //
-        this.ava.mask = this.maskAva;
-        this.avaBox.addChild(this.maskAva);
-        this.avaBox.addChild(this.ava);
-        this.addChild(this.frameAvatar);
-        this.ava.events.onInputUp.add(() => {
-            ControllLoading.instance().showLoading();
-            ControllScreenDialog.instance().addUserProfile(this.user_id);
-        });
-        //
-        if (MainData.instance().isScrollChange == true) {
-            this.scrollChange();
-        } else {
-            this.scrollDefault();
+        if (this.positionMenuConfig !== null) {
+            // this.loader.onLoadComplete.remove(this.onLoad, this);
+            if (this.maskAva == null) {
+                this.maskAva = new Phaser.Graphics(game, 0, 0);
+            }
+            this.maskAva.clear();
+            this.maskAva.drawCircle(0, 0, 148 * window.GameConfig.RESIZE);
+            this.maskAva.anchor.set(0.5);
+            //
+            this.avaBox = new Phaser.Sprite(game, this.positionMenuConfig.ava_fb.x * window.GameConfig.RESIZE, this.positionMenuConfig.ava_fb.y * window.GameConfig.RESIZE, null);
+            this.addChild(this.avaBox);
+            if (this.ava !== null) {
+                this.removeChild(this.ava);
+                this.ava.destroy();
+                this.ava = null;
+            }
+            //
+            if (game.cache.checkImageKey('ava_fb') == true) {
+                this.ava = new Phaser.Button(game, 0 * window.GameConfig.RESIZE, 0 * window.GameConfig.RESIZE, 'ava_fb');
+            } else {
+                this.ava = new Phaser.Button(game, 0 * window.GameConfig.RESIZE, 0 * window.GameConfig.RESIZE, 'songDetailSprites', () => { }, this, null, 'ava-default');
+            }
+            this.ava.anchor.set(0.5);
+            this.ava.width = 148;
+            this.ava.height = 148;
+            //
+            this.ava.mask = this.maskAva;
+            this.avaBox.addChild(this.maskAva);
+            this.avaBox.addChild(this.ava);
+            this.addChild(this.frameAvatar);
+            this.ava.events.onInputUp.add(() => {
+                ControllLoading.instance().showLoading();
+                ControllScreenDialog.instance().addUserProfile(this.user_id);
+            });
+            //
+            if (MainData.instance().isScrollChange == true) {
+                this.scrollChange();
+            } else {
+                this.scrollDefault();
+            }
         }
     }
 

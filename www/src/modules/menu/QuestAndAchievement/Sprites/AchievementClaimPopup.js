@@ -1,6 +1,4 @@
-// import PopupDialogWithCloseItem from "../../../../view/popup/item/PopupDialogWithCloseItem.js";
 import PopupBg from "../../../../view/popup/item/PopupBg.js";
-import SpriteBase from "../../../../view/component/SpriteBase.js";
 import TextBase from "../../../../view/component/TextBase.js";
 import ControllSoundFx from "../../../../controller/ControllSoundFx.js";
 import FaceBookCheckingTools from "../../../../FaceBookCheckingTools.js";

@@ -96,7 +96,7 @@ export default class ShopTNItem extends BaseView {
 
     rewardedVideoFailed() {
         ControllLoading.instance().hideLoading();
-        ControllScreenDialog.instance().addDialog(Language.instance().getData("144"));
+        //ControllScreenDialog.instance().addDialog(Language.instance().getData("144"));
     }
 
     rewardedVideoRewardReceived() {

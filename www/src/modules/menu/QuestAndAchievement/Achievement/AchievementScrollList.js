@@ -46,8 +46,8 @@ export default class AchievementScrollList extends BaseGroup {
 
     claimReward(achievement) {
         this.listView.destroy();
-        this.destroy();
         this.event.claimReward.dispatch(achievement);
+        this.destroy();
     }
 
     sendLoadAchievementRequest() {

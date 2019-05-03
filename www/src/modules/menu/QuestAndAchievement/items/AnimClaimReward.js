@@ -432,7 +432,9 @@ export default class AnimClaimReward extends BaseGroup {
                 });
             }, i * 100);
             setTimeout(() => {
-                this.event.tweenDoneAll.dispatch();
+                if (this.event !== null) {
+                    this.event.tweenDoneAll.dispatch();
+                }
                 EventGame.instance().event.tweenAllClaimDailyQuestDone.dispatch();
             }, this.arrParentGems.length * 300);
         }

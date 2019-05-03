@@ -144,16 +144,20 @@ export default class MailSystemScreen extends BaseGroup {
 
     destroy() {
         this.removeEventExtension();
-        this.listView.removeAll();
-        this.listView.destroy();
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
+        if (this.listView !== null) {
+            this.listView.removeAll();
+            this.listView.destroy();
         }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }

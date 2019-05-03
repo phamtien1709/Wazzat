@@ -153,7 +153,6 @@ export default class QuestClaimPopup extends BaseGroup {
 
     onExtensionResponse(evtParams) {
         if (evtParams.cmd == DataCommand.PLAY_SCRIPT_DONE_ALL_RESPONSE) {
-            // console.log(evtParams.params.getDump());
             if (evtParams.params.getUtfString('status') == "OK") {
                 MainData.instance().playScript.playing_guide = PlayScriptScreen.DONE_ALL;
                 this.destroy();
@@ -171,14 +170,16 @@ export default class QuestClaimPopup extends BaseGroup {
 
     destroy() {
         this.removeEventExtension();
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
-        }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }
