@@ -126,7 +126,6 @@ export default class TurnBasePlayBeChallenge extends BaseGroup {
     loadAfter() {
         var arrSongs = [];
         for (let i = 0; i < 5; i++) {
-            // console.log(this.questions[i]);
             arrSongs.push(this.questions[i].songEntity.fileUrl);
         }
         ControllSound.instance().loadSoundArray(arrSongs);

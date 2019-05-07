@@ -49,7 +49,11 @@ export default class AllFriendShowListFriend extends BaseGroup {
     }
 
     setData(friendsList) {
-        this.friendsList = friendsList;
+        let friends = [];
+        for (let friend in friendsList) {
+            friends.push(friendsList[friend]);
+        }
+        this.friendsList = friends;
         this.afterInit();
     }
     chooseBack() {
@@ -72,6 +76,7 @@ export default class AllFriendShowListFriend extends BaseGroup {
         ava.addBtnPlay(this.findOpponentConfig.btn_play_findGame);
         ava.signalInputAva.add(() => {
             ControllScreenDialog.instance().addUserProfile(friend.id);
+            this.chooseBack();
             this.destroy();
         }, this)
         this.listView.add(ava);
@@ -84,8 +89,10 @@ export default class AllFriendShowListFriend extends BaseGroup {
 
     destroy() {
         EventGame.instance().event.backButton.remove(this.chooseBack, this);
-        this.listView.removeAll();
-        this.listView.destroy();
+        if (this.listView !== null) {
+            this.listView.removeAll();
+            this.listView.destroy();
+        }
         while (this.children.length > 0) {
             let item = this.children[0];
             this.removeChild(item);

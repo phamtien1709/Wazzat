@@ -92,6 +92,7 @@ export default class DataUser {
         this.ktLoadPlaylist = false;
         this.ktLoadRandomOpponent = false;
         this.ktloadMainQuestComplete = false;
+        this.ktLoadFriend = false;
 
         this.ktLoadingEventList = false;
     }

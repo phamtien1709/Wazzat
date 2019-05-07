@@ -36,16 +36,16 @@ export default class TurnBasePlay extends BaseGroup {
     }
 
     setData(questions, opponent, user_playlist_mapping, opponent_playlist_mapping, playlist, opponentAnswerLogs) {
-        this.questions = questions;
-        this.opponent = opponent;
-        this.user_playlist_mapping = user_playlist_mapping;
-        this.opponent_playlist_mapping = opponent_playlist_mapping;
-        this.playlist = playlist;
+        this.questions = { ...questions };
+        this.opponent = { ...opponent };
+        this.user_playlist_mapping = { ...user_playlist_mapping };
+        this.opponent_playlist_mapping = { ...opponent_playlist_mapping };
+        this.playlist = { ...playlist };
         if (this.type == "BECHALLENGED") {
-            this.opponentAnswerLogs = opponentAnswerLogs;
+            this.opponentAnswerLogs = { ...opponentAnswerLogs };
         }
         if (this.type == "TUTORIAL") {
-            this.opponentAnswerLogs = opponentAnswerLogs;
+            this.opponentAnswerLogs = { ...opponentAnswerLogs };
         }
     }
 
@@ -145,7 +145,7 @@ export default class TurnBasePlay extends BaseGroup {
         }
     }
     onCompleteChallenge(result) {
-        this.result = result;
+        this.result = { ...result };
         this.handledJSONResultToSfsResultChallengeMode(result, (challengeGameResult) => {
             // LogConsole.log(challengeGameResult.getDump());
             ControllLoading.instance().showLoading();
@@ -177,7 +177,7 @@ export default class TurnBasePlay extends BaseGroup {
         }
     }
     onCompleteBeChallenged(result) {
-        this.result = result;
+        this.result = { ...result };
         this.handledJSONResultToSfsResultBeChallengedMode(result, (beChallengeGameResult) => {
             ControllLoading.instance().showLoading();
             this.sendGameFinishRequest(DataCommand.BECHALLENGED_GAME_FINISH_REQUEST, beChallengeGameResult);
@@ -240,9 +240,9 @@ export default class TurnBasePlay extends BaseGroup {
     }
 
     switchToScreenWin(type) {
+        this.addScreenWin(type);
         this.removeScreenChallenge();
         this.removeScreenBeChallenged();
-        this.addScreenWin(type);
     }
 
     addScreenHistory() {

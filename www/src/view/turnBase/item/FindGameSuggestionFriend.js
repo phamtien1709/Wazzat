@@ -70,8 +70,6 @@ export default class FindGameSuggestionFriend extends BaseGroup {
     }
 
     createSuggestionFriend(index, friend) {
-        console.log('console.logfriendfriend');
-        console.log(friend);
         let theirTurns = MainData.instance().menuOpponentsResponse.filter(ele => ele.status == "THEIR_TURN");
         let turnFriend = theirTurns.filter(ele => ele.opponentEntity.id === friend.id);
         // console.log(turnFriend);

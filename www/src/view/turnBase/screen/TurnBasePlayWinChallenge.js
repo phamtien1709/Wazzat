@@ -49,7 +49,12 @@ export default class TurnBasePlayWinChallenge extends BaseGroup {
         this.challengeGames = [];
         this.doneGames = [];
         this.waitingGames = [];
-        this.gamesList = MainData.instance().menuOpponentsResponse;
+        let gameLists = []
+        let menuOpponentsResponse = { ...MainData.instance().menuOpponentsResponse }
+        for (let res in menuOpponentsResponse) {
+            gameLists.push(menuOpponentsResponse[res])
+        }
+        this.gamesList = gameLists;
         this.filterResponseGames();
         //
         this.listGame = this.checkHasGames();

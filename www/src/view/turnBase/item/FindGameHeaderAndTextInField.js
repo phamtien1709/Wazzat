@@ -67,7 +67,6 @@ export default class FindGameHeaderAndTextInField extends BaseGroup {
     }
 
     onBack() {
-        //console.log('HERE HERE HERE');
         if (this.onClickShowAll == false) {
             ControllSoundFx.instance().playSound(ControllSoundFx.buttonclick);
             this.event.onBack.dispatch();
@@ -102,16 +101,15 @@ export default class FindGameHeaderAndTextInField extends BaseGroup {
     addShowAllFriend() {
         this.removeShowAllFriend();
         this.showAllFriend = new AllFriendShowListFriend();
-        this.showAllFriend.setData(this.friends);
+        this.showAllFriend.setData({ ...this.friends });
         this.showAllFriend.event.challengeGame.add((value) => {
-            // console.log('FHDFHDSF')
             this.onClickShowAll = false;
             this.event.challengeGame.dispatch(value);
             this.showAllFriend.destroy();
         }, this);
         this.showAllFriend.event.back.add(() => {
             this.onClickShowAll = false;
-            this.showAllFriend.destroy();
+            this.removeShowAllFriend();
         });
         ControllScreenDialog.instance().addChild(this.showAllFriend);
     }

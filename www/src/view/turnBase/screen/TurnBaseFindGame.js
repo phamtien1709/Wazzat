@@ -86,9 +86,7 @@ export default class TurnBaseFindGame extends BaseGroup {
             //
             this.sendTurnBaseFindOpponentRequest();
         } else {
-            this.handleParamsOnFindOpponentsResponse(1, () => {
-
-            });
+            this.sendTurnBaseFindOpponentRequest();
         }
     }
 
@@ -150,7 +148,6 @@ export default class TurnBaseFindGame extends BaseGroup {
 
     loadListFriendComplete() {
         MainData.instance().friendLists = DataUser.instance().listFriend.getFriends();
-
         for (let i = 0; i < MainData.instance().friendLists.length; i++) {
             for (let j = 0; j < MainData.instance().menuOpponentsResponse.length; j++) {
                 if (MainData.instance().friendLists[i].id == MainData.instance().menuOpponentsResponse[j].opponentEntity.id) {

@@ -48,7 +48,12 @@ export default class MenuScrollList extends BaseGroup {
                 // LogConsole.log(params.getDump());
                 let opponents = params.getSFSArray('opponents');
                 Common.handleArrMainMenuLoad(opponents, this.menuResponseGames, () => {
-                    MainData.instance().menuOpponentsResponse = this.menuResponseGames;
+                    let menuResponses = { ...this.menuResponseGames };
+                    let arrMenuResponses = [];
+                    for (let res in menuResponses) {
+                        arrMenuResponses.push(menuResponses[res]);
+                    }
+                    MainData.instance().menuOpponentsResponse = arrMenuResponses;
                     this.filterResponseGames();
                 });
                 this.init_quests_count = params.getInt('init_quests_count');
