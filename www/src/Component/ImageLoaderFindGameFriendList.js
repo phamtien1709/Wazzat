@@ -33,7 +33,7 @@ export default class ImageLoaderFindGameFriendList extends BaseGroup {
 
     clickAva() {
         this.signalInputAva.dispatch();
-        ControllScreenDialog.instance().addUserProfile(this.oppEnt.id);
+        // ControllScreenDialog.instance().addUserProfile(this.oppEnt.id);
     }
 
     addBtnPlay(configs) {

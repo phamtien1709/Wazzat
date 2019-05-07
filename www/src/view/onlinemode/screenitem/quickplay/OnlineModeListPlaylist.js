@@ -238,7 +238,6 @@ export default class OnlineModeListPlaylist extends BaseView {
         this.removeDelayBuild();
         this.listPlayerlist.removeAll();
         this.listPlayerlist.destroy();
-        this.removeAllItem();
         IronSource.instance().hideBanner();
         super.destroy();
     }

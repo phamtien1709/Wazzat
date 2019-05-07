@@ -82,7 +82,6 @@ export default class MenuUserProfile extends BaseGroup {
             this.user_name = SocketController.instance().dataMySeft.user_name;
             this.nameFB.setText(this.user_name);
         }
-        // LogConsole.log('fsdfdfs');
     }
 
     static get UPDATE_AVA() {
@@ -224,7 +223,9 @@ export default class MenuUserProfile extends BaseGroup {
         SocketController.instance().events.onUserVarsUpdate.add(() => {
             if (this.txt_heart !== null) {
                 if (SocketController.instance().dataMySeft.heart !== parseInt(this.txt_heart.text)) {
-                    this.txt_heart.setText(`${SocketController.instance().dataMySeft.heart}${this.positionMenuConfig.txt_heart.text}`);
+                    if (this.positionMenuConfig !== null) {
+                        this.txt_heart.setText(`${SocketController.instance().dataMySeft.heart}${this.positionMenuConfig.txt_heart.text}`);
+                    }
                 }
             }
         }, this);
@@ -398,14 +399,16 @@ export default class MenuUserProfile extends BaseGroup {
         this.removeEventExtension();
         ControllLoadCacheUrl.instance().resetLoad();
         game.time.events.remove(this.timeClaimHourReward);
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
-        }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }

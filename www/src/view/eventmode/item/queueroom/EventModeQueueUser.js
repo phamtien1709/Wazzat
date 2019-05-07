@@ -100,7 +100,6 @@ export default class EventModeQueueUser extends BaseView {
                     this.iconVip.scale.set(0.6)
                     this.addChild(this.iconVip);
                 } else {
-                    console.log('FFFF')
                     this.iconVip.visible = true;
                 }
             } else {

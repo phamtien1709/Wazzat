@@ -226,7 +226,7 @@ export default class EventModeQueueMap extends BaseView {
     }
 
     beginTween() {
-        LogConsole.log("beginTween ----------------------------");
+        //LogConsole.log("beginTween ----------------------------");
 
 
         this.arrMap[this.idxTween].setLine();
@@ -240,7 +240,7 @@ export default class EventModeQueueMap extends BaseView {
             }
         }
 
-        LogConsole.log("this.idxLine : " + this.idxLine);
+        // LogConsole.log("this.idxLine : " + this.idxLine);
 
         let idxHide = this.idxTween - 2;
         if (idxHide < 0) {
@@ -260,7 +260,7 @@ export default class EventModeQueueMap extends BaseView {
     }
 
     onCompleteTweenMap() {
-        LogConsole.log("onCompleteTweenMap" + this.idxLine);
+        //LogConsole.log("onCompleteTweenMap" + this.idxLine);
 
 
 
@@ -349,7 +349,7 @@ export default class EventModeQueueMap extends BaseView {
 
 
     buildArrUser() {
-        LogConsole.log("buildArrUser----------");
+        // LogConsole.log("buildArrUser----------");
         /*
         this.arrUser = [];
         for (let i = 0; i < 1; i++) {
@@ -373,9 +373,9 @@ export default class EventModeQueueMap extends BaseView {
         let endLocal = 6 + 6 * (this.idxLine + 1);
         let beginLocal = 6 + 6 * (this.idxLine - 2) - 1;
 
-        LogConsole.log("beginLocal : " + beginLocal);
-        LogConsole.log("endLocal : " + endLocal);
-        LogConsole.log(this.arrUser);
+        //LogConsole.log("beginLocal : " + beginLocal);
+        //LogConsole.log("endLocal : " + endLocal);
+        //LogConsole.log(this.arrUser);
 
         for (let id in this.objUser) {
             let item = this.objUser[id];
@@ -386,6 +386,9 @@ export default class EventModeQueueMap extends BaseView {
                 item = null;
                 delete this.objUser[id];
             }
+
+            item = null;
+            dataCheck = null;
         }
         let objCountLocal = {};
         let question_obj_user = 0;
@@ -396,14 +399,14 @@ export default class EventModeQueueMap extends BaseView {
                 question_obj_user = this.objUser[this.arrUser[i].user_id].getData().question_index;
                 let question_index_to = this.arrUser[i].question_index;
 
-                LogConsole.log("user_id : " + this.arrUser[i].user_id);
-                LogConsole.log("question_obj_user : " + question_obj_user);
-                LogConsole.log("question_index_to : " + question_index_to);
+                //LogConsole.log("user_id : " + this.arrUser[i].user_id);
+                // LogConsole.log("question_obj_user : " + question_obj_user);
+                //LogConsole.log("question_index_to : " + question_index_to);
 
                 if (question_obj_user < question_index_to) {
                     item = this.objUser[this.arrUser[i].user_id];
                     let lengthQuestion = question_index_to - question_obj_user;
-                    LogConsole.log("lengthQuestion : " + lengthQuestion);
+                    // LogConsole.log("lengthQuestion : " + lengthQuestion);
                     for (let j = 0; j < lengthQuestion; j++) {
                         let time = (2000 / lengthQuestion);
                         game.time.events.add(time * j, this.buildLocalTween, this, item, question_obj_user + j + 1, time);
@@ -420,7 +423,7 @@ export default class EventModeQueueMap extends BaseView {
                         item.setNameTop();
                     }
 
-                    LogConsole.log("this.arrUser[i].is_dead : " + this.arrUser[i].is_dead);
+                    // LogConsole.log("this.arrUser[i].is_dead : " + this.arrUser[i].is_dead);
                     if (this.arrUser[i].is_dead === 1) {
                         item.setTopAvatarDie();
                     }
@@ -485,6 +488,8 @@ export default class EventModeQueueMap extends BaseView {
             }
         }
 
+        item = null;
+
         if (objCountLocal[this.meUser.getData().question_index]) {
             objCountLocal[this.meUser.getData().question_index] += 1;
         } else {
@@ -503,10 +508,10 @@ export default class EventModeQueueMap extends BaseView {
             objCountLocal[i] = 99;
         }*/
 
-        LogConsole.log(objCountLocal);
+        // LogConsole.log(objCountLocal);
 
         for (let q_index in objCountLocal) {
-            LogConsole.log("q_index : " + q_index);
+            // LogConsole.log("q_index : " + q_index);
             let ktShow = true;
             if (this.idxLine < 2) {
                 if (q_index > 17) {
@@ -523,7 +528,7 @@ export default class EventModeQueueMap extends BaseView {
                 }
             }
 
-            LogConsole.log("ktShow : " + ktShow);
+            //  LogConsole.log("ktShow : " + ktShow);
 
             if (ktShow && objCountLocal[q_index] > 1) {
                 let objLocal = this.getLocalObject(q_index);
@@ -537,7 +542,7 @@ export default class EventModeQueueMap extends BaseView {
                     vc: 0
                 }*/
 
-                LogConsole.log("objLocal[q_index] : " + objCountLocal[q_index]);
+                //  LogConsole.log("objLocal[q_index] : " + objCountLocal[q_index]);
                 countItem.x = objLocal.x;
                 countItem.y = objLocal.y;
 
@@ -601,8 +606,23 @@ export default class EventModeQueueMap extends BaseView {
     }
 
     destroy() {
-        game.tweens.removeAll();
         this.removeEvent();
+
+        if (this.layoutMap !== null) {
+            if (this.layoutMap.children) {
+                while (this.layoutMap.children.length > 0) {
+                    let item = this.layoutMap.children[0];
+                    if (item !== null) {
+                        game.tweens.removeFrom(item);
+                        this.layoutMap.removeChild(item);
+                        item.destroy();
+                        item = {};
+                        item = null;
+                    }
+                }
+            }
+        }
+
         this.removeAllItem();
         super.destroy();
     }

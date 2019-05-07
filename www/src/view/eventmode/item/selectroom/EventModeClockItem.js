@@ -104,7 +104,7 @@ export default class EventModeClockItem extends BaseView {
             this.event.complete.dispatch();
         }
 
-        LogConsole.log("this.ktPlayTween : " + this.ktPlayTween + " this.ktRed : " + this.ktRed);
+        //LogConsole.log("this.ktPlayTween : " + this.ktPlayTween + " this.ktRed : " + this.ktRed);
 
         if (this.ktPlayTween === true) {
             if (this.ktRed === false) {

@@ -145,29 +145,42 @@ export default class BaseView extends Phaser.Group {
         this.removeAllItem();
         super.destroy();
 
-        let typeData = "";
-        for (let str in this) {
-            if (this[str] !== null && this[str] !== undefined) {
-                typeData = this[str].constructor.name;
-                if (typeData !== "Function"
-                ) {
-                    game.tweens.removeFrom(this[str]);
-                    this[str] = null;
+        if (this !== null) {
+            let typeData = "";
+            for (let str in this) {
+                if (this[str] !== null && this[str] !== undefined) {
+                    typeData = this[str].constructor.name;
+                    // console.log("typeData : " + typeData);
+                    if (typeData === "Array" || typeData === "Object"
+                    ) {
+                        try {
+                            game.tweens.removeFrom(this[str]);
+                        } catch (err) {
+                            console.log(err);
+                        }
+                        if (typeData === "Array") {
+                            this[str].length = 0;
+                        } else {
+                            this[str] = null;
+                        }
+                    }
                 }
             }
+            typeData = null;
         }
-        typeData = null;
     }
 
     removeAllItem() {
-        if (this.children) {
-            while (this.children.length > 0) {
-                let item = this.children[0];
-                if (item !== null) {
-                    this.removeChild(item);
-                    item.destroy();
-                    item = {};
-                    item = null;
+        if (this !== null) {
+            if (this.children) {
+                while (this.children.length > 0) {
+                    let item = this.children[0];
+                    if (item !== null) {
+                        this.removeChild(item);
+                        item.destroy();
+                        item = {};
+                        item = null;
+                    }
                 }
             }
         }

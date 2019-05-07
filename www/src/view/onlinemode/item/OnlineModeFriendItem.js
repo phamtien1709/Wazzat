@@ -123,4 +123,8 @@ export default class OnlineModeFriendItem extends BaseView {
         this.event.invite.dispatch(this.data);
     }
 
+    destroy() {
+        super.destroy();
+    }
+
 }

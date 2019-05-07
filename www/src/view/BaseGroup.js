@@ -12,10 +12,14 @@ export default class BaseGroup extends Phaser.Group {
     for (let str in this) {
       if (this[str] !== null && this[str] !== undefined) {
         typeData = this[str].constructor.name;
-        if (typeData !== "Function"
+        if (typeData === "Array" || typeData === "Object"
         ) {
           game.tweens.removeFrom(this[str]);
-          this[str] = null;
+          if (typeData === "Array") {
+            this[str].length = 0;
+          } else {
+            this[str] = null;
+          }
         }
       }
     }
@@ -23,7 +27,7 @@ export default class BaseGroup extends Phaser.Group {
   }
 
   removeAllItem() {
-    if (this.children) {
+    if (this.children !== null) {
       while (this.children.length > 0) {
         let item = this.children[0];
         if (item !== null) {

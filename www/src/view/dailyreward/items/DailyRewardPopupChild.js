@@ -134,11 +134,11 @@ export default class DailyRewardPopupChild extends Phaser.Sprite {
         if (MainData.instance().platform == "web") {
 
         } else {
-            IronSource.instance().showRewardVideoX2Daily();
             this.btnClaim.inputEnabled = false;
             if (this.btnWatch) {
                 this.btnWatch.inputEnabled = false;
             }
+            IronSource.instance().showRewardVideoX2Daily();
         }
     }
 
@@ -216,7 +216,7 @@ export default class DailyRewardPopupChild extends Phaser.Sprite {
     removeEventExtension() {
         IronSource.instance().event.rewardedVideoRewardReceived.remove(this.rewardedVideoRewardReceived, this);
         IronSource.instance().event.rewardedVideoFailed.remove(this.rewardedVideoFailed, this)
-        IronSource.instance().event.rewardedVideoClosed.add(this.rewardedVideoClosed, this);
+        IronSource.instance().event.rewardedVideoClosed.remove(this.rewardedVideoClosed, this);
 
     }
 
@@ -230,7 +230,7 @@ export default class DailyRewardPopupChild extends Phaser.Sprite {
     }
 
     rewardedVideoFailed() {
-        ControllDialog.instance().addDialog('No ads to show');
+        console.log('Co vao day ko?');
         this.btnClaim.inputEnabled = true;
         if (this.btnWatch) {
             this.btnWatch.inputEnabled = true;

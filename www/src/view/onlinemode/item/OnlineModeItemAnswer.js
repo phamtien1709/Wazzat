@@ -1,9 +1,9 @@
 import MainData from "../../../model/MainData.js";
-import SpriteScale9Base from "../../component/SpriteScale9Base.js";
 import TextBase from "../../component/TextBase.js";
 import AvatarPlayer from "../../base/AvatarPlayer.js";
 import SocketController from "../../../controller/SocketController.js";
 import ControllSoundFx from "../../../controller/ControllSoundFx.js";
+import SpriteBase from "../../component/SpriteBase.js";
 
 
 export default class OnlineModeItemAnswer extends Phaser.Button {
@@ -19,10 +19,10 @@ export default class OnlineModeItemAnswer extends Phaser.Button {
         this.positionOnlineMode = MainData.instance().positionDefaultSource;
 
         this.noChoose = false;
-        this.bg = new SpriteScale9Base(this.positionOnlineMode.bg_answer_question);
+        this.bg = new SpriteBase(this.positionOnlineMode.bg_answer_question);
         this.addChild(this.bg);
 
-        this.bgNoChoose = new SpriteScale9Base(this.positionOnlineMode.bg_answer_question_nochoose);
+        this.bgNoChoose = new SpriteBase(this.positionOnlineMode.bg_answer_question_nochoose);
         this.bgNoChoose.visible = false;
         this.addChild(this.bgNoChoose);
 
@@ -135,5 +135,9 @@ export default class OnlineModeItemAnswer extends Phaser.Button {
         game.add.tween(this).to({
             x: -this.width - 100
         }, 300, Phaser.Easing.Power1, true, 100 * idx);
+    }
+
+    destroy() {
+        super.destroy();
     }
 }

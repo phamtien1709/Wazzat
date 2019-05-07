@@ -3,6 +3,7 @@ import ControllLoading from "./view/ControllLoading.js";
 import SocketController from "./controller/SocketController.js";
 import ControllScreenDialog from "./view/ControllScreenDialog.js";
 import MainData from "./model/MainData.js";
+import Language from "./model/Language.js";
 export default class IronSource {
     constructor() {
         this.countPlayTurnBase = 0;

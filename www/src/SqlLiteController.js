@@ -910,7 +910,7 @@ export default class SqlLiteController {
             + ", id integer primary key"
             + ", zone text"
             + ")"
-            , [], (tx, results) => { console.log('success') }, (err) => { console.log('err') });
+            , [], (tx, results) => { }, (err) => { console.log('err') });
     }
 
     createTableSystemMessages(tx) {
@@ -1006,7 +1006,7 @@ export default class SqlLiteController {
                 //On Success
                 (tx, result) => {
                     // alert('Updated successfully');
-                    console.log("Updated users successfully");
+                    // console.log("Updated users successfully");
                 },
                 //On Error
                 (error) => { console.log('error user') });
@@ -1064,7 +1064,7 @@ export default class SqlLiteController {
             tx.executeSql(executeQuery, [mess.is_read, mess.created, mess.from, mess.id, mess.user_id, mess.to, mess.state, mess.message, mess.updated, mess.zone],
                 //On Success
                 (tx, result) => {
-                    console.log("Updated successfully");
+                    // console.log("Updated successfully");
                 },
                 //On Error
                 (error) => { alert('Something went Wrong'); console.log(error) });

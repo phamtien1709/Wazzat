@@ -531,7 +531,7 @@ export default class ControllScreenDialog extends Phaser.Group {
     addDailyRewardPopup(quest) {
         this.removeDailyRewardPopup();
         this.dailyRewardPopup = new QuestDailyClaimPopup(quest);
-        this.dailyRewardPopup.eventInput.claim.add(this.dailyRewardPopupClaim, this);
+        // this.dailyRewardPopup.eventInput.claim.add(this.dailyRewardPopupClaim, this);
         this.addChild(this.dailyRewardPopup);
         // this.dailyRewardPopup.makeTweenPopup();
     }

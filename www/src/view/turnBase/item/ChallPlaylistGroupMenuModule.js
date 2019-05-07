@@ -131,8 +131,8 @@ export default class ChallPlaylistGroupMenuModule extends BaseGroup {
         this.tab_chonplaylist.addChild(arrow_chonplaylist);
         arrow_chonplaylist.events.onInputDown.add(() => {
             ControllSoundFx.instance().playSound(ControllSoundFx.buttonclick);
-            this.destroyAll();
             this.event.backScreen.dispatch();
+            this.destroyAll();
         });
     }
 
@@ -245,25 +245,29 @@ export default class ChallPlaylistGroupMenuModule extends BaseGroup {
 
     removeAllChild() {
         // SocketController.instance().removeEventExtension(this.onExtensionResponse, this);
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
         }
     }
 
     destroy() {
         this.listView.removeAll();
         this.listView.destroy();
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
-        }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }

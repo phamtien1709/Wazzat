@@ -14,6 +14,7 @@ export default class AnimClaimReward extends BaseGroup {
         this.finishPoint = finishPoint;
         this.definedPosition();
         this.afterInit();
+        this.ktDestroy = false;
     }
 
     definedPosition() {
@@ -377,7 +378,9 @@ export default class AnimClaimReward extends BaseGroup {
 
             }, this)
             tweenText.onComplete.add(() => {
-                this.event.tweenIconPls.dispatch();
+                if (this.ktDestroy === false) {
+                    this.event.tweenIconPls.dispatch();
+                }
             }, this);
             this.addIconMoveCurve();
         }, this);
@@ -432,7 +435,7 @@ export default class AnimClaimReward extends BaseGroup {
                 });
             }, i * 100);
             setTimeout(() => {
-                if (this.event !== null) {
+                if (this.ktDestroy === false) {
                     this.event.tweenDoneAll.dispatch();
                 }
                 EventGame.instance().event.tweenAllClaimDailyQuestDone.dispatch();
@@ -440,6 +443,7 @@ export default class AnimClaimReward extends BaseGroup {
         }
     }
     destroy() {
+        this.ktDestroy = true;
         while (this.children.length > 0) {
             let item = this.children[0];
             this.removeChild(item);

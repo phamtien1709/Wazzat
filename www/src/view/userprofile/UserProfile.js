@@ -36,7 +36,7 @@ export default class UserProfile extends BaseLoadAsset {
             back: new Phaser.Signal()
         }
 
-        LogConsole.log("user_id : " + user_id);
+        LogConsole.log("user_id GGG : " + user_id);
 
         this.screenIdx = screenIdx;
         this.user_id = user_id;

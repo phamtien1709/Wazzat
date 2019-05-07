@@ -79,4 +79,8 @@ export default class OnlineModeItemGenres extends Phaser.Button {
         super.onInputDownHandler();
         ControllSoundFx.instance().playSound(ControllSoundFx.buttonclick);
     }
+
+    destroy() {
+        super.destroy();
+    }
 }

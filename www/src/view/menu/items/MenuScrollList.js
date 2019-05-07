@@ -587,11 +587,13 @@ export default class MenuScrollList extends BaseGroup {
         }
         this.configHeightOfRowTab = 106 * window.GameConfig.RESIZE;
         this.countHandleGetMainMenuResponse = 0;
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
         }
     }
 

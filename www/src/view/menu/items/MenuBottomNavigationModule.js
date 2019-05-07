@@ -329,14 +329,16 @@ export default class BottomNavigationModule extends BaseGroup {
         this.removeEventExtension();
         // game.time.removeAll();
         // game.time.events.remove(this.timeAjaxCount);
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
-        }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }

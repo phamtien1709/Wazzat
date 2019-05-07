@@ -215,24 +215,32 @@ export default class ShopScreen extends BaseView {
 
     chooseItem(item) {
         if (this.genres === -1) {
-            this.itemGenresActive.deactive();
-            this.itemGenresActive = item;
-            this.itemGenresActive.active();
-            this.genres = item.getData().id;
+            if (this.genres === item.getData().id) {
+            } else {
+                this.itemGenresActive.deactive();
+                this.itemGenresActive = item;
+                this.itemGenresActive.active();
+                this.genres = item.getData().id;
+                this.listGenres.tweenToItem(item.idx, 0.5);
+                this.buildDataList();
+            }
         } else {
             if (this.genres === item.getData().id) {
                 item.deactive();
                 this.genres = -1;
-                this.itemGenresActive = null;
+                this.itemGenresActive = this.listGenres.grp.children[0];
+                this.itemGenresActive.active();
+                this.listGenres.tweenToItem(0, 0.5);
             } else {
                 this.itemGenresActive.deactive();
                 item.active();
                 this.genres = item.getData().id;
                 this.itemGenresActive = item;
+
+                this.listGenres.tweenToItem(item.idx, 0.5);
             }
+            this.buildDataList();
         }
-        this.listGenres.tweenToItem(item.idx, 0.5);
-        this.buildDataList();
     }
 
     searchData(dataString) {
@@ -455,6 +463,7 @@ export default class ShopScreen extends BaseView {
     }
 
     destroy() {
+
         this.removeEvent();
         this.scroll.destroy();
         this.removeDelayBuild();
@@ -466,8 +475,10 @@ export default class ShopScreen extends BaseView {
         this.listGenres.destroy();
         this.removeAllItem();
         this.parentGenres.destroy();
+
         ControllLoadCacheUrl.instance().resetLoad();
 
+        ControllScreenDialog.instance().removeAnimClaimReward();
         ControllScreenDialog.instance().removePlaylistDetail();
         ControllScreenDialog.instance().removePopupBuy();
         ControllScreenDialog.instance().removePopupMoney();

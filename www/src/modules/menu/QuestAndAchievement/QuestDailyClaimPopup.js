@@ -233,21 +233,21 @@ export default class QuestDailyClaimPopup extends BaseGroup {
 
     updateVariableResource(quest) {
         if (quest.reward_type == "DIAMOND") {
-            let tweenVariable = game.add.tween(this.txtGem).to({ text: SocketController.instance().socket.mySelf.getVariable('diamond').value }, 300, "Linear", false);
+            let tweenVariable = game.add.tween(this.txtGem).to({ text: SocketController.instance().dataMySeft.diamond }, 300, "Linear", false);
             tweenVariable.start();
             tweenVariable.onUpdateCallback(() => {
                 // LogConsole.log('vao');
                 this.txtGem.text = parseInt(this.txtGem.text);
             }, this);
         } else if (quest.reward_type == "TICKET") {
-            let tweenVariable = game.add.tween(this.txtTicket).to({ text: SocketController.instance().socket.mySelf.getVariable('ticket').value }, 300, "Linear", false);
+            let tweenVariable = game.add.tween(this.txtTicket).to({ text: SocketController.instance().dataMySeft.ticket }, 300, "Linear", false);
             tweenVariable.start();
             tweenVariable.onUpdateCallback(() => {
                 // LogConsole.log('vao');
                 this.txtTicket.text = parseInt(this.txtTicket.text);
             }, this);
         } else if (quest.reward_type == "SUPPORT_ITEM") {
-            let tweenVariable = game.add.tween(this.txtMic).to({ text: SocketController.instance().socket.mySelf.getVariable('support_item').value }, 300, "Linear", false);
+            let tweenVariable = game.add.tween(this.txtMic).to({ text: SocketController.instance().dataMySeft.support_item }, 300, "Linear", false);
             tweenVariable.start();
             tweenVariable.onUpdateCallback(() => {
                 // LogConsole.log('vao');
@@ -261,7 +261,7 @@ export default class QuestDailyClaimPopup extends BaseGroup {
         let tween = game.add.tween(this.popup).to({ y: -430 * window.GameConfig.RESIZE }, 400, Phaser.Easing.Linear.Out, false);
         tween.start();
         tween.onComplete.add(() => {
-            this.eventInput.claim.dispatch();
+            // this.eventInput.claim.dispatch();
             this.destroy();
         }, this);
     }
@@ -283,14 +283,16 @@ export default class QuestDailyClaimPopup extends BaseGroup {
 
     destroy() {
         game.time.events.remove(this.timeUpdateRs);
-        while (this.children.length > 0) {
-            let item = this.children[0];
-            this.removeChild(item);
-            item.destroy();
-            item = null;
-        }
-        if (this.parent) {
-            this.parent.removeChild(this);
+        if (this.children !== null) {
+            while (this.children.length > 0) {
+                let item = this.children[0];
+                this.removeChild(item);
+                item.destroy();
+                item = null;
+            }
+            if (this.parent) {
+                this.parent.removeChild(this);
+            }
         }
         super.destroy();
     }

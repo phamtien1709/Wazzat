@@ -153,4 +153,8 @@ export default class OnlineModeChoosePlaylistItem extends BaseView {
     get height() {
         return 145 * MainData.instance().scale;
     }
+
+    destroy() {
+        super.destroy();
+    }
 }

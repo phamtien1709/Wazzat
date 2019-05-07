@@ -102,7 +102,6 @@ export default class OnlineModeChooseBetScreen extends BaseView {
             let item = new OnlineModeChooseBetItem();
             item.event.choose_bet.add(this.chooseBet, this);
             item.setData(this.arrBet[i], i);
-
             this.listBet.add(item);
         }
 
@@ -124,10 +123,8 @@ export default class OnlineModeChooseBetScreen extends BaseView {
 
     destroy() {
         this.removeEvent();
-
         this.listBet.removeAll();
         this.listBet.destroy();
-
         IronSource.instance().hideBanner();
         super.destroy();
     }

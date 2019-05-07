@@ -40,8 +40,8 @@ export default class ShopVipDetails extends BaseView {
         objConfig.name = "bg_detail_vip";
         objConfig.nameAtlas = "shop";
         objConfig.nameSprite = "bg_detail_vip";
-        objConfig.left = 284.5;
-        objConfig.right = 284.5;
+        objConfig.left = 284;
+        objConfig.right = 284;
         objConfig.top = 310;
         objConfig.bot = 30;
         objConfig.width = 569;
@@ -135,5 +135,15 @@ export default class ShopVipDetails extends BaseView {
             }
 
         }
+    }
+
+    destroy() {
+        if (this.listVip !== null) {
+            this.listVip.removeAll();
+            this.listVip.destroy();
+            this.listVip = null;
+        }
+
+        super.destroy();
     }
 }

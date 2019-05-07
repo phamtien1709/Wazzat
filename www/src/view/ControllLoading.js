@@ -49,8 +49,8 @@ export default class ControllLoading extends Phaser.Group {
 
     hideLoading() {
         MainData.instance().isShowLoading = false;
-        this.removeShowResult();
         this.removeAllItem();
+        this.removeShowResult();
     }
 
 

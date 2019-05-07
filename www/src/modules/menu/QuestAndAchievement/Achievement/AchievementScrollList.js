@@ -91,9 +91,9 @@ export default class AchievementScrollList extends BaseGroup {
     sortAchievement(callback) {
         MainData.instance().achievements.sort((a) => {
             if (a.achievement_log.state == "INIT") {
-                return -1
+                return -1;
             } else {
-                return 0
+                return 0;
             }
         })
         callback();

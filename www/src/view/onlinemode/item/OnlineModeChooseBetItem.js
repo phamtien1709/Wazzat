@@ -66,4 +66,8 @@ export default class OnlineModeChooseBetItem extends BaseView {
             x: 0
         }, 200, Phaser.Easing.Power1, true, 100 + 50 * (idx + 1));
     }
+
+    destroy() {
+        super.destroy();
+    }
 }

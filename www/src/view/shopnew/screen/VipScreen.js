@@ -205,12 +205,12 @@ export default class VipScreen extends BaseView {
         this.vipDetail.event.close.add(this.removeDetailVip, this);
         this.vipDetail.x = (game.width - this.vipDetail.width) / 2;
         this.vipDetail.y = (game.height - this.vipDetail.height) / 2;
-        ControllDialog.instance().addChild(this.vipDetail);
+        ControllScreenDialog.instance().addChild(this.vipDetail);
     }
 
     removeDetailVip() {
         if (this.vipDetail !== null) {
-            ControllDialog.instance().removeChild(this.vipDetail);
+            ControllScreenDialog.instance().removeChild(this.vipDetail);
             this.vipDetail.destroy();
             this.vipDetail = null;
         }
@@ -223,6 +223,7 @@ export default class VipScreen extends BaseView {
 
 
     destroy() {
+        ControllScreenDialog.instance().removeAnimClaimReward();
         this.listVip.removeAll();
         this.listVip.destroy();
         this.removeDetailVip();

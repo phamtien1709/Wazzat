@@ -419,7 +419,7 @@ export default class BuyDiamondScreen extends BaseLoadAsset {
     }
 
     destroy() {
-
+        ControllScreenDialog.instance().removeAnimClaimReward();
         this.arrResource = [
             {
                 type: "spritesheet",

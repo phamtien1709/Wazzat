@@ -7,7 +7,6 @@ import AnimClaimReward from "../../../menu/QuestAndAchievement/items/AnimClaimRe
 import IronSource from "../../../../IronSource.js";
 import DataCommand from "../../../../common/DataCommand.js";
 import MainData from "../../../../model/MainData.js";
-import ControllDialog from "../../../../view/ControllDialog.js";
 import SpriteScale9Base from "../../../../view/component/SpriteScale9Base.js";
 import FacebookAction from "../../../../common/FacebookAction.js";
 import Language from "../../../../model/Language.js";

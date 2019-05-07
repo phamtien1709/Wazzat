@@ -205,6 +205,7 @@ export default class HelpScreen extends BaseLoadAsset {
     }
 
     destroy() {
+        ControllScreenDialog.instance().removeAnimClaimReward();
         this.scroll.viewList = [];
         this.removeEvent();
         this.scroll.destroy();
