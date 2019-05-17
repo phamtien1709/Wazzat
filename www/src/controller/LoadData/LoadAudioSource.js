@@ -36,5 +36,4 @@ export default class LoadAudioSource {
     remove() {
         ControllSound.instance().event.loadComplete.remove(this.loadComplete, this);
     }
-
 }

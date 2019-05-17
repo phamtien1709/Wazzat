@@ -26,7 +26,6 @@ export default class PracticePopupPlaylistSprite extends BaseGroup {
         this.signalBuyPlaylist = new Phaser.Signal();
         this.signalGetRanking = new Phaser.Signal();
         this.index = index;
-        this.id = Math.random() * 10;
         this.addEvent();
     }
 

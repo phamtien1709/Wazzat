@@ -686,11 +686,30 @@ export default class SoloModePlay extends BaseGroup {
     }
 
     setData(questions, archived, rewards, playlist, highest_number_of_correct) {
-        this.questions = questions;
-        this.archived = archived;
-        this.rewards = rewards;
-        this.playlist = playlist;
-        this.highest_number_of_correct = highest_number_of_correct;
+        let questionsO = { ...questions };
+        let questionsOA = [];
+        let archivedO = { ...archived };
+        let playlistO = { ...playlist };
+        let rewardsO = { ...rewards };
+        let rewardsOA = [];
+        let highest_number_of_correctO = { ...highest_number_of_correct };
+        //
+        for (let ques in questionsO) {
+            questionsOA.push(questionsO[ques]);
+        }
+        this.questions = questionsOA;
+        //
+        this.archived = archivedO;
+        //
+        for (let rew in rewardsO) {
+            rewardsOA.push(rewardsO[rew]);
+        }
+        this.rewards = rewardsOA;
+        //
+        this.playlist = playlistO;
+        //
+        this.highest_number_of_correct = highest_number_of_correctO;
+        //
     }
     resetQuestion() {
         if (this.countQuiz < this.questions.length) {

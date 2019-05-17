@@ -30,7 +30,7 @@ window.GameConfig.STEP_TUTORIAL = {
     step7: false
 }
 window.VersionClient = "1.0.8";
-//
+// 
 window.linkResource = "https://yan.gamezoka.com/ws/api/resource";
 // window.linkResource = "https://ws.gamezoka.com/api/resource";
 // window.linkResource = "https://yan.gamezoka.com/ws-global/api/resource";

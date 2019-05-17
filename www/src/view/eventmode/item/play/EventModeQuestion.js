@@ -7,7 +7,6 @@ import SendEventModeUserSelectAnswer from "../../../../model/eventmode/server/se
 import EventModeTimeQuestion from "./EventModeTimeQuestion.js";
 import MainData from "../../../../model/MainData.js";
 import ControllSound from "../../../../controller/ControllSound.js";
-import ListView from "../../../../../libs/listview/list_view.js";
 import ControllSoundFx from "../../../../controller/ControllSoundFx.js";
 import Language from "../../../../model/Language.js";
 
@@ -35,19 +34,8 @@ export default class EventModeQuestion extends BaseView {
         this.txtDes.setTextBounds(0, 0, game.width, 30 * MainData.instance().scale);
         this.addChild(this.txtDes);
 
-        let parentAnswer = new Phaser.Group(game, 0, 0, null);
-        this.listAnswer = new ListView(game, parentAnswer, new Phaser.Rectangle(0, 0, game.width, 500 * MainData.instance().scale), {
-            direction: 'y',
-            padding: 15 * MainData.instance().scale,
-            searchForClicks: true
-        });
-
-        parentAnswer.y = 89 * MainData.instance().scale;
-        this.addChild(parentAnswer);
-
+        let beginY = 89;
         this.arrAnswer = [];
-        this.listAnswer.removeAll();
-        this.listAnswer.reset();
 
         LogConsole.log("answr----------------------------------");
         for (let i = 0; i < 4; i++) {
@@ -55,9 +43,11 @@ export default class EventModeQuestion extends BaseView {
             txtAnswer.inputEnabled = false;
             let constX = (game.width - txtAnswer.width) / 2;
             txtAnswer.x = constX;
+            txtAnswer.y = beginY;
             txtAnswer.setConstX(constX);
             txtAnswer.visible = false;
             this.arrAnswer.push(txtAnswer);
+            beginY += txtAnswer.height + 15;
         }
         LogConsole.log("end----------------------------------");
         this.loadingQuestion = new EventModeTimeQuestion();
@@ -109,7 +99,7 @@ export default class EventModeQuestion extends BaseView {
         for (let i = 0; i < this.arrAnswer.length; i++) {
             this.arrAnswer[i].visible = true;
             this.arrAnswer[i].inputEnabled = true;
-            this.listAnswer.add(this.arrAnswer[i]);
+            this.addChild(this.arrAnswer[i]);
         }
     }
 

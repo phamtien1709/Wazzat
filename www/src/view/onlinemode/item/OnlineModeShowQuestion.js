@@ -235,29 +235,20 @@ export default class OnlineModeShowQuestion extends BaseView {
         this.txtQuestion.y = 0;
         this.addChild(this.txtQuestion);
 
-
-        let parentAnswer = new Phaser.Group(game, 0, 0, null);
-        this.listAnswer = new ListView(game, parentAnswer, new Phaser.Rectangle(0, 0, game.width, 500 * MainData.instance().scale), {
-            direction: 'y',
-            padding: 15 * MainData.instance().scale,
-            searchForClicks: true
-        });
-
-        parentAnswer.x = 0;
-        parentAnswer.y = 75 * MainData.instance().scale;
-        this.addChild(parentAnswer);
-
         this.arrAnswer = [];
-        this.listAnswer.removeAll();
-        this.listAnswer.reset();
+
+        let beginY = 75 * MainData.instance().scale;
 
         for (let i = 0; i < 4; i++) {
             let txtAnswer = new OnlineModeItemAnswer(this.chooseAnswer, this);
             let constX = (game.width - txtAnswer.width) / 2;
             txtAnswer.x = constX;
+            txtAnswer.y = beginY;
             txtAnswer.setConstX(constX);
-            this.listAnswer.add(txtAnswer);
+            this.addChild(txtAnswer);
+
             this.arrAnswer.push(txtAnswer);
+            beginY += txtAnswer.height + 15;
         }
 
         this.clock = new Clock();
@@ -465,9 +456,6 @@ export default class OnlineModeShowQuestion extends BaseView {
         this.eventChooseAnswer.dispose();
 
         this.txtQuestion.destroy();
-
-        this.listAnswer.removeAll();
-        this.listAnswer.destroy();
         this.clock.destroy();
         if (this.tween !== null) {
             this.tween.stop();
